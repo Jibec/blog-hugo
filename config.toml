@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "Démonstration d’Hugo avec mon Blog"
+theme = "slim"
+
+[[menu.main]]
+  name = "À propos"
+  identifier = "contact"
+  url = "/contact/a_propos/"
+
+[[menu.main]]
+  name = "Me suivre via RSS"
+  identifier = "rss"
+  url = "/index.xml"
+
+[[menu.main]]
+  name = "Mes articles"
+  identifier = "articles"
+  url = "/articles/"

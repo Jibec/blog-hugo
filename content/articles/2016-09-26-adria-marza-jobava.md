@@ -1,0 +1,26 @@
+---
+title: 'Rencontre avec Adrian/Jobava'
+date: '2016-09-26'
+type: 'post'
+categories: ['Régionalisation']
+tags: ['fedora-fr', 'traduction', 'planet-libre']
+author: 'Jean-Baptiste Holcroft'
+---
+
+Poursuivant mon objectif de connaître la communauté des traducteurs, j’ai eu l’occasion de rencontrer le coordinateur de la traduction de Fedora en roumain lors d’un déplacement à Bucarest.
+
+Jobava (Adrian) est originaire de Iași (prononciation : i-a-ch) et est plus particulièrement impliqué dans la communauté Mozilla en tant que volontaire, pour laquelle il se déplace pour diverses occasions, notamment à Paris, Berlin, Ljubljana, etc. Vous pouvez parcourir [son blog](https://medium.com/@Jobava) qui en parle un peu au milieu d’autres sujets souvent reliés au monde du logiciel libre.
+
+Son blog est écrit en anglais, cependant ma conviction est la suivante : chacun d’entre nous devrait faire l’effort d’écrire dans sa langue dont nous sommes tous ambassadeurs et qu’un petit article écrit en roumain de temps en temps serait bénéfique à sa langue. Amis francophones, vous devrez également faire de même !
+
+Je lui ai présenté mon projet concernant la traduction concernant l’approche de la langue d’une façon transversale, via des outils qui ne sont pas structurés par projet mais par plate-forme, lançant des tests et éclairant l’évolution sur l’ensemble d’une distribution Linux : [ma proposition sur une approche globale](https://fedoraproject.org/wiki/User:Jibecfed/Localization_proposal-Help_languages).
+
+Au détour de nombreux échanges sur les langues et leurs évolutions, nous avons abordés quelques outils, notamment la plate-forme [transvision](http://transvision.mozfr.org) que je souhaiterais implémenter sur l’ensemble de Fedora 25. Pensez à utiliser le menu du haut, c’est une collection d’outils et non pas un seul service ! Lui-même ne connaissait pas ce menu d’un outil pourtant conçu par la communauté (française) Mozilla. Leur plate-forme de traduction est également intéressante à parcourir, car elle est utilisée tant par LibreOffice que Mozilla : [Pootle](http://pootle.translatehouse.org).
+
+Apparemment, je ne suis pas le seul à avoir ce type d’idées de vue globale, car en plus des outils qui sont cités dans ma proposition, il m’a fait découvrir un outil de consolidation des traductions dans le logiciel libre : [Amagama](https://amagama-live.translatehouse.org).
+
+Le travail que j’ai réalisé pour faire un état des lieux de la [traduction des AppData](https://jibecfed.fedorapeople.org/l10n/appdata-fr/) l’a aussi bien intéressé, peut-être lancerons-nous une instance pour la langue roumaine un jour ? Mais la façon de traduire le logiciel libre est-elle vraiment adaptée à ce type de défis ?
+
+Dans tous les cas, la découverte de l’outil de qualité syntaxique, orthographique et grammaticale [Pology](http://pology.nedohodnik.net) lui a beaucoup plut, surtout quand il a vu que ces tests sont déjà lancés fréquemment par [Robert Antoni Buj Gelonch](https://rbuj.fedorapeople.org)
+
+J’ai beaucoup apprécié cette rencontre qui m’a permis de partager nos problématiques communes et ce qui nous motive profondément : contribuer à notre modeste échelle à une société meilleure.
