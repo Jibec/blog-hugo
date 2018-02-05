@@ -7,7 +7,7 @@ tags: ['fedora-fr', 'traduction', 'planet-libre']
 author: 'Jean-Baptiste Holcroft'
 ---
 
-Si vous utilisez Nextcloud via l’auto-hébergement tel [YunoHost](yunohost.org) ou l’un des [fournisseurs proposés par nextcloud.com](https://nextcloud.com/providers/), vous serez intéressés de savoir que depuis le 23 novembre 2016, soit le lendemain de la sortie Fedora 25, le client de synchronisation de fichier Nextcloud est arrivé sur Fedora.
+Si vous utilisez Nextcloud via l’auto-hébergement tel [YunoHost](https://yunohost.org) ou l’un des [fournisseurs proposés par nextcloud.com](https://nextcloud.com/providers/), vous serez intéressés de savoir que depuis le 23 novembre 2016, soit le lendemain de la sortie Fedora 25, le client de synchronisation de fichier Nextcloud est arrivé sur Fedora.
 
 On peut voir quelques informations dans la base de données des [paquets Fedora](https://admin.fedoraproject.org/pkgdb/package/rpms/nextcloud-client/). Et comme Fedora 26 est sortie hier... C’est le moment !
 

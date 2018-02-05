@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+    <div class="container">
+    {{ partial "header.html" . }}
+    <div class="content">
+       <h1 id="title"><a href="{{ "/" | relLangURL }}">Go Home</a></h1>
+        <p>404 !</p>
+          </div>
+  <script src="{{ .Site.BaseURL }}js/slim.js"></script>
+</body>
+
+</html>
+</body>

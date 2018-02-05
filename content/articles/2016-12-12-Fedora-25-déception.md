@@ -17,8 +17,8 @@ mon ordinateur portable avec dnf system-update, c’est la migration ligne de co
 Gnome Logiciels m’a correctement signalé que Fedora 25 était disponible et que je pouvais cliquer sur un bouton pour migrer. Si l’information sur la disponibilité de Fedora était en français, l’explication pour la mise à jour était en anglais, tout comme la description des logiciels. Tout le reste était écrit en anglais pour passer à l’étape suivante, les explications, etc. Un lien était donné vers le Fedora magazine, qui évidemment est en anglais et la documentation qu’on ne peut pas toujours traduire faute de capacité à faire de l’équipe de documentation (ou même d’être sûr qu’on traduit le bon contenu).
 Après un long téléchargement de plusieurs Gio, l’écran se grise pour poser la fatidique question ultime : c’est votre dernière possibilité avant de faire demi-tour, on y va ? Eh bien, ce texte est aussi en anglais !
 
-![Messages de GNOME Software en anglais]({filename}/images/2016-11-25-Textes-Gnome-Logiciels.png)
-![Message de validation en anglais]({filename}/images/2016-11-25-Message-validation-ultime.png)
+{{< figure src="/images/2016-11-25-Textes-Gnome-Logiciels.png" title="Messages de GNOME Software en anglais" >}}
+{{< figure src="/images/2016-11-25-Message-validation-ultime.png" title="Message de validation en anglais" >}}
 
 ### Avec DNF
 

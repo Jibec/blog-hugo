@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Lang }}">
 
 <head>
   {{ partial "head.html" . }}
@@ -17,7 +17,7 @@
 		  {{ if .Params.tags }}
 			<span class="post-tags">
 		  	{{ range .Params.tags }}
-			          #<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+			          #<a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;
 		  	{{ end }}
 		    </span>
 		  {{ end }}

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}">
 
 <head>
   {{ partial "head.html" . }}
 </head>
 
-<body>
+<body>...
   <div class="container">
     {{ partial "header.html" . }}
     <div class="content">
       <div class="post">
         <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          {{ partial "i18nlist.html" . }}
         <div class="post-content">
           {{ .Content }}
         </div>

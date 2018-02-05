@@ -1,19 +1,51 @@
 baseURL = "http://example.org/"
 languageCode = "fr"
-title = "Démonstration d’Hugo avec mon Blog"
+DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 theme = "slim"
+enableMissingTranslationPlaceholders = true
 
-[[menu.main]]
-  name = "À propos"
-  identifier = "contact"
-  url = "/contact/a_propos/"
+[permalinks]
+  articles = "/articles/:year/:month/:day/:title"
+  contact = "/contact/:title"
 
-[[menu.main]]
-  name = "Me suivre via RSS"
-  identifier = "rss"
-  url = "/index.xml"
+[languages]
+[languages.fr]
+title = "Démonstration d’Hugo avec mon Blog"
+languageName = "Français"
+weight = 1
 
-[[menu.main]]
-  name = "Mes articles"
-  identifier = "articles"
-  url = "/articles/"
+[[languages.fr.menu.main]]
+name = "À propos"
+identifier = "contact"
+url = "/contact/a_propos/"
+
+[[languages.fr.menu.main]]
+name = "Me suivre via RSS"
+identifier = "rss"
+url = "/index.xml"
+
+[[languages.fr.menu.main]]
+name = "Mes articles"
+identifier = "articles"
+url = "/articles/"
+
+[languages.en]
+title = "Hugo's POC with my Blog"
+languageName = "English"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "About"
+identifier = "contact"
+url = "/contact/a_propos/"
+
+[[languages.en.menu.main]]
+name = "Follow me with RSS"
+identifier = "rss"
+url = "/index.xml"
+
+[[languages.en.menu.main]]
+name = "My articles"
+identifier = "articles"
+url = "/articles/"
