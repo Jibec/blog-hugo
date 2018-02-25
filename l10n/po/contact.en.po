@@ -1,0 +1,120 @@
+# Copyright (C) 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-02-06 23:48+0100\n"
+"PO-Revision-Date: 2018-02-06 23:42+0100\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:1
+#, no-wrap
+msgid "---\n"
+msgstr "---\n"
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:3
+#, fuzzy, no-wrap
+#| msgid ""
+#| "title: 'À propos et contact'\n"
+#| "type: 'post'\n"
+#| "---\n"
+msgid ""
+"title: 'À propos et contact'\n"
+"---\n"
+msgstr ""
+"title: 'About and contact'\n"
+"type: 'post'\n"
+"---\n"
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:6
+msgid ""
+"Je suis un utilisateur de Linux depuis le début des années 2000. J’ai "
+"longtemps cherché comment aider, c’est désormais via la traduction que je "
+"contribue."
+msgstr ""
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:8
+msgid "### La traduction"
+msgstr "### Translation"
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:11
+msgid ""
+"Je suis coordinateur des traductions de [Fedora](https://getfedora.org) : "
+"[mon profil](https://fedoraproject.org/wiki/User :Jibecfed)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:11
+msgid ""
+"J’aide également la coordination globale des traductions de [YunoHost]"
+"(https://yunohost.org) : [la page d’organisation de l’équipe](https://github."
+"com/YunoHost/project-organization#composition-des-groupes)"
+msgstr ""
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:13
+msgid "### Me contacter"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:18
+msgid ""
+"J’utilise IRC quasi exclusivement pour des réunions organisées par avance. "
+"Ne m’y cherchez pas, car je n’ai pas la possibilité d’y accéder quand je "
+"suis au travail, que je ne peux pas l’utiliser sur mon téléphone et qu’en "
+"cas de coupure, je ne peux pas récupérer l’historique récent de la "
+"discussion."
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:18
+msgid "Je suis joignable sur XMPP à l’adresse prénom@nomdefamille.fr"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:18
+msgid ""
+"Par courriel, vous pouvez également utiliser l’adresse prénom@nomdefamille.fr"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:18
+msgid ""
+"Via mastodon, actuellement je suis chez [@jibec chez Mamot](https://mamot.fr/"
+"@jibec) et j’était avant chez Zaclys : [@jibec chez Zaclys](https://mastodon."
+"zaclys.com/@jibec)."
+msgstr ""
+
+#. type: Plain text
+#: content/contact/a_propos.fr.md:20
+msgid "### Quelques comptes"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:22
+msgid ""
+"Fedora : [Badges](https://badges.fedoraproject.org/user/jibecfed), [Pagure]"
+"(https://pagure.io/user/jibecfed),"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content/contact/a_propos.fr.md:22
+msgid ""
+"autre : [GitHub](https://github.com/Jibec/), [Weblate](https://hosted."
+"weblate.org/user/jibec/), [Transifex](https://www.transifex.com/user/profile/"
+"jibec/)."
+msgstr ""

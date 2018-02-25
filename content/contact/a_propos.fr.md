@@ -1,6 +1,5 @@
 ---
 title: 'À propos et contact'
-type: 'post'
 ---
 
 Je suis un utilisateur de Linux depuis le début des années 2000. J’ai longtemps cherché comment aider, c’est désormais via la traduction que je contribue.

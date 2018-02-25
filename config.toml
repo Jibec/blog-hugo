@@ -18,7 +18,7 @@ weight = 1
 [[languages.fr.menu.main]]
 name = "À propos"
 identifier = "contact"
-url = "/contact/a_propos/"
+url = "/contact/à-propos-et-contact/"
 
 [[languages.fr.menu.main]]
 name = "Me suivre via RSS"
@@ -38,7 +38,7 @@ weight = 2
 [[languages.en.menu.main]]
 name = "About"
 identifier = "contact"
-url = "/contact/a_propos/"
+url = "/contact/about-and-contact/"
 
 [[languages.en.menu.main]]
 name = "Follow me with RSS"
