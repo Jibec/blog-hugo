@@ -36,7 +36,7 @@ weight = 20
 [[languages.en.menu.main]]
   name = "About"
   identifier = "contact"
-  url = "/contact/about/"
+  url = "/contact/a_propos/"
 
 [[languages.en.menu.main]]
   name = "RSS feed"
