@@ -9,6 +9,7 @@ enableMissingTranslationPlaceholders = true
 [languages.fr]
 title = "Démonstration d’Hugo avec mon Blog"
 contentDir = "content/fr"
+LanguageName = "Français"
 weight = 10
 
 [[languages.fr.menu.main]]
@@ -17,7 +18,7 @@ weight = 10
   url = "/contact/a_propos/"
 
 [[languages.fr.menu.main]]
-  name = "Me suivre via RSS"
+  name = "Flux RSS"
   identifier = "rss"
   url = "/index.xml"
 
@@ -29,6 +30,7 @@ weight = 10
 [languages.en]
 title = "Hugo's POC with my Blog"
 contentDir = "content/en"
+LanguageName = "English"
 weight = 20
 
 [[languages.en.menu.main]]
@@ -37,7 +39,7 @@ weight = 20
   url = "/contact/about/"
 
 [[languages.en.menu.main]]
-  name = "Follow me with RSS"
+  name = "RSS feed"
   identifier = "rss"
   url = "/index.xml"
 

@@ -212,7 +212,7 @@ button,
   font-size: 0.8rem;
   margin-top: 1rem;
   padding: 0;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 0.2s;
           transition: all 0.2s; }
 

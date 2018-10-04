@@ -11,5 +11,14 @@
       {{end}}
 	  <li class="spacer">&ac;</li>
     </ul>
+    {{ if .IsTranslated }}
+    <ul>
+        {{ range .Translations }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        </li>
+        {{ end}}
+    </ul>
+    {{ end }}
   </div>
 </div>
