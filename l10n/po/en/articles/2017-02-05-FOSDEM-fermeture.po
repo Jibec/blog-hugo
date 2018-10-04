@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:8
+#, no-wrap
+msgid ""
+"title: 'Fin du FOSDEM à Bruxelles - merci !'\n"
+"date: '2017-02-05'\n"
+"type: 'post'\n"
+"categories: ['Événements']\n"
+"tags: ['fedora-fr', 'FOSDEM', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:11
+msgid ""
+"Pour mon premier [FOSDEM](https://fosdem.org/2017/), je suis très heureux de "
+"cette édition, d’abords parce que c’est un évènement majeur du logiciel "
+"libre européen auquel je souhaite assister depuis 10 ans, mais surtout par "
+"les rencontres et conférences auxquelles j’ai pu assister. Merci aux "
+"organisateurs et aux nombreux contributeurs !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:13
+msgid "## Beaucoup de discussions sur les traductions"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:15
+msgid ""
+"Ce fut l’occasion pour moi d’aller plus loin dans mon projet de communauté "
+"des traducteurs francophones :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:17
+msgid ""
+"j’ai rencontré trois contributeurs de [Linux From "
+"Scratch](http://www.linuxfromscratch.org), dont l’ancien président de "
+"traduc.org que j’aimerais relancer,"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:18
+msgid ""
+"de discuter traduction avec le [Fedora CAIC "
+"(Bex)](http://www.winglemeyer.org/ramblings/2017/01/26/FCAIC-in-the-house-2/) "
+"sur la nécessité d’une coordination des traductions et l’avancement de son "
+"projet de refonte du projet de documentation,"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:19
+msgid ""
+"d’aborder la pauvreté de la communauté [KDE](http://l10n.kde.org/) "
+"concernant son outillage de la traduction, qui me rend triste pour les "
+"nombreux outils KDE dont l’un d’entre eux que j’utilise : l’outil de "
+"traduction [Lokalize](https://userbase.kde.org/Lokalize) qui est bien "
+"meilleur que [Poedit](https://poedit.net),"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:20
+msgid ""
+"de discuter outillage avec les développeurs de "
+"[Pootle](http://pootle.translatehouse.org),"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:21
+msgid ""
+"d’aborder la nécessité d’un analyseur statisque fournissant des corrélations "
+"entre les mots source/cible afin de détecter des incohérences."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:23
+msgid "### Un projet plus concrêt"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:25
+msgid ""
+"En discutant sur ma vision concernant [mon projet d’animation des "
+"traducteurs "
+"francophones](https://jibecfed.fedorapeople.org/blog/jaimerais-relancer-traducorg.html), "
+"je pense maintenant pouvoir résumer le cœur du projet :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:27
+msgid ""
+"une communauté de pratiques, partageant sur l’actualité de traduction, des "
+"outils à disposition et des démarches en cours. Pouvant lancer des "
+"traductions ou des projets plus techniques selon l’appétence de ses équipes."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:29
+msgid ""
+"J’aimerais voir parler de retours d’expériences de traducteurs par rapport à "
+"leurs travaux, de coordinateurs par rapport à leurs outillages et de "
+"développeurs dans leur difficultés. C’est principalement une plateforme "
+"d’échange que je propose, se faisant le relais de l’actualité et des bonnes "
+"pratiques, pouvant s’emparer de problèmes pour les résoudre si les "
+"ressources sont présentes pour les animer."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:31
+msgid ""
+"Peut-être qu’on arrivera également à faire échanger la communauté du "
+"logiciel libre avec les traducteurs professionnels, Red Hat nous a produit "
+"un document de bonnes pratiques concernant les applications, mais nous "
+"pouvons aller beaucoup plus loin en sollicitant des experts linguistiques "
+"pour nous aider à aborder de la bonne façon la traduction de termes "
+"problématiques, dans la chasse aux incohérences classiques, etc."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:33
+msgid ""
+"On a discuté assez longtemps sur l’opportunité de faire une plateforme de "
+"traduction centrale et portant le projet. Mais je crains que nous n’ayons "
+"pas les ressources nécessaires pour gérer ce type d’outillage, mais surtout "
+"que les logiciels comme ceux-ci devraient proposer par défaut de "
+"l’hébergement de projets libres ([Weblate](http://hosted.weblate.org), "
+"[Zanata](http://fedora.zanata.org) et "
+"[Transifex](http://www.transifex.net/projects/) le font)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:35
+msgid "## Beaucoup de décentralisation"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:37
+msgid ""
+"J’ai assisté à plusieurs conférences sur la décentralisation d’internet, la "
+"file d’attente avant chaque conférence a mené à refuser l’entrée à de "
+"nombreux visiteurs, faute de pouvoir respecter les normes de sécurité en "
+"vigueur. J’ai raté la conférence [YunoHost](http://yunohost.org) qui a "
+"récolté une bonne quantité d’applaudissements."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:39
+msgid ""
+"Enfin, le rapprochement avec Framasoft se poursuit doucement, les "
+"applications disponibles arrivent et cela promet de ne faire que de "
+"s’améliorer dans le temps. J’ai hâte ! 😃"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:41
+msgid "## Et tout le reste…"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-fermeture.md:42
+msgid ""
+"C’est déprimant le nombre de choses intéressantes que j’aurais souhaité "
+"voir… J’ai raté la conférence de Misc sur la [sécurité dans le contexte de "
+"l’auto-hébergement](https://fosdem.org/2017/schedule/event/self_hosting_privacy/), "
+"celle concernant "
+"[conversejs](https://fosdem.org/2017/schedule/event/webchat/) et "
+"l’[intégration continue des "
+"traductions](https://fosdem.org/2017/schedule/event/localisation/) avec "
+"Pootle, et tellement d’autres ! Ce FOSDEM va me donner des heures et des "
+"heures de visionnage de vidéos, j’espère que cette année on les aura "
+"toutes !"
+msgstr ""

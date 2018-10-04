@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:8
+#, no-wrap
+msgid ""
+"title: 'NextCloud 12 est disponible sur YunoHost'\n"
+"date: '2017-08-07'\n"
+"type: 'post'\n"
+"categories: ['Régionalisation']\n"
+"tags: ['traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:11
+msgid ""
+"Il y a trois mois maintenant, nous apprenions la sortie de la [version 12 de "
+"Nextcloud](https://nextcloud.com/blog/welcome-to-nextcloud-12/). Celle-ci "
+"est désormais disponible sur [YunoHost](http://yunohost.org) !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:13
+msgid ""
+"La fonctionnalité la plus pratique pour moi est l’amélioration du partage de "
+"fichier dont je fais un usage intensif, le reste concerne l’amélioration de "
+"l’intégration des contacts dans l’interface, des appels vidéos et de la "
+"sécurité."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:15
+msgid ""
+"Cependant je ne gère pas mes contacts avec NextCloud (mais Baikal), j’ai un "
+"doute sur la qualité d’appels vidéos avec une connexion ADSL et enfin, pour "
+"la sécurité, YunoHost me protège déjà des attaques par force brute."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:17
+msgid ""
+"Je ne saurais pas l’objectiver, mais en 2G, l’interface me semble plus "
+"réactive."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:19
+msgid "## Bugs"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:21
+msgid ""
+"YunoHost est encore un jeune projet, il reste donc des points à "
+"perfectionner, vous pourriez être impactés par :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:23
+msgid ""
+"ce problème de migration : [Upgrade to Nextcloud 12.0 fails: \"PHP Fatal "
+"error: Class '\\OC\\Memcache\\APC' not found in "
+"/var/www/nextcloud/lib/private/Memcache/Factory.php on line 116\" "
+"](https://github.com/YunoHost-Apps/nextcloud_ynh/issues/50)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:24
+msgid ""
+"ce problème d’affichage : [le premier chargement de la page est vide, à "
+"cause d’un soucis dans les règles "
+"ContentSecurityPolicy](https://github.com/YunoHost-Apps/nextcloud_ynh/issues/18)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:26
+msgid "## Où contribuer à la traduction ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:28
+msgid "### YunoHost"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:30
+msgid ""
+"Le projet dispose de son [instance auto-hébergée de "
+"Weblate](https://translate.yunohost.org), sur laquelle vous trouverez "
+"l’interface web, mais aussi les outils en ligne de commande. La liste de "
+"discussion est "
+"[contrib@list.yunohost.org](https://list.yunohost.org/cgi-bin/mailman/listinfo), "
+"venez y contribuer, surtout si vous parlez une autre langue que le Français "
+"ou l’Anglais !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:32
+msgid "### NextCloud"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-07-nextcloud-12-yunohost.md:33
+msgid ""
+"Pour ce projet, tout est déjà écrit dans l’article [Profiter de Fedora 26 "
+"pour utiliser le client "
+"Nextcloud](https://jibecfed.fedorapeople.org/blog/profiter-de-fedora-26-pour-utiliser-le-client-nextcloud.html)."
+msgstr ""

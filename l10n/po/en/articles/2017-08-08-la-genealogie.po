@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:8
+#, no-wrap
+msgid ""
+"title: 'La généalogie avec Linux'\n"
+"date: '2017-08-08'\n"
+"type: 'post'\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:11
+msgid ""
+"Ayant des difficultés à comprendre qui-est-qui dans les arbres familiaux, un "
+"dessin m’est souvent bien utile. Voici la solution que j’ai trouvée pour "
+"avoir un arbre généalogique avec des logiciels libres."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:13
+msgid ""
+"Ayant ma belle-famille en Europe de l’Est, s’ajoute à ma difficulté de "
+"compréhension des relations familiales, les termes utilisés et les surnoms "
+"qui sont légions. Étant également un contributeur OpenStreetMap, j’aime "
+"positionner sur une carte les branches familiales."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:15
+msgid ""
+"En interrogeant Logiciels (_Gnome-Software_), je trouve le logiciel "
+"[Gramps](http://gramps-project.org). Comme il semble développé depuis 2004, "
+"évoluer régulièrement depuis et être une réécriture d’un logiciel plus "
+"ancien encore. En plus, il est traduit en français, tous les bons signes."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:17
+msgid "# Le logiciel Gramps"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:19
+msgid ""
+"Ma recommandation est de partir d’un _individu_, de renseigner son genre et "
+"son type (Alias, inconnu, nom de naissance, nom marital)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:21
+msgid ""
+"Ensuite, dans cette même fenêtre, on ajoutera un évènement pour sa "
+"naissance, éventuellement pour sa mort. On notera qu’un mariage est un "
+"évènement familial, et donc que cela n’est pas renseigné sur l’individu mais "
+"la _famille_."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:23
+msgid ""
+"On ira ensuite sur ce que je considère à ce stade comme l’onglet magique : "
+"*Relations*. On y ajoutera les parents avec le bouton du menu supérieur « "
+"Ajouter un couple de parents ». On pourra ajouter des frères et sœurs "
+"éventuels. Et cetera."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:25
+msgid ""
+"Cet onglet permet très facilement de naviguer d’un membre à l’autre de "
+"l’arbre généalogique, c’est l’onglet pour moi le plus pratique."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:27
+msgid "## Les évènements"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:29
+msgid ""
+"Il semble que de très nombreux éléments sont considérés comme des évènements "
+"pour Gramps. On y trouvera en plus du triptyque classique "
+"naissance-mariage-décès, les étapes religieuses (baptême, première "
+"communion, confirmation, bar-mitzvah, etc.) mais aussi ce qui touche à la "
+"vocation (profession, retraite, élection…), au voyage (émigration, "
+"immigration, naturalisation), au domaine académique (niveau d’instruction, "
+"diplôme ou certificat, remise de diplôme), etc. La liste est assez complète "
+"!"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:31
+msgid ""
+"À l’image des individus ou des familles, chaque évènement peut contenir tout "
+"un ensemble d’informations, des citations, des attributs libres, des notes "
+"et une galerie de médias."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:33
+msgid ""
+"Vous pouvez donc avoir une photo liée à une _famille_ et lier à l’évènement "
+"_mariage_ une photo de mariage."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:35
+msgid "## Que faire ensuite ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:37
+msgid ""
+"La page principale indique tous les manques dans les données. En ayant passé "
+"seulement quelques heures, la page d’accueil m’indique 37 individus "
+"comprenant 9 noms de famille différents et le bloc « Et maintenant ? » me "
+"liste les dates de naissances manquantes, les lieux de naissance, les dates "
+"de mariage, etc. Le tri semble être fait par branche puis par ascendance "
+"croissante. Rendant la résolution plus facile. C’est évidemment infini, "
+"chacun déterminera jusqu’où il souhaitera aller."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:39
+msgid "## Les lieux"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:41
+msgid ""
+"Il est possible de définir des lieux liés à des évènements ou des personnes, "
+"cependant l’interface est très pauvre de ce côté... J’y reviendrai peut-être "
+"un jour si je trouve comment en tirer parti efficacement."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:43
+msgid "## Les exports"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:45
+msgid ""
+"Les possibilités sont nombreuses et à ce stade, vu le caractère superficiel "
+"des données en ma possession, je n’ai pas encore fortement creusé cet "
+"aspect. Les quelques essais d’exports textuels, pdf, postscript et html, me "
+"semblent donner des résultats pertinents. Mais malheureusement la traduction "
+"n’existe pas pour ce pays dont l’export sera en français ou en anglais."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:47
+msgid "# Sources de données"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:49
+msgid "## L’histoire locale"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:51
+msgid ""
+"Il ne semble pas y avoir de centralisation de l’état civil dans ce pays, la "
+"recherche d’information semblera passer par les églises "
+"orthodoxes. Cependant, le premier pope interrogé m’a déjà prévenu que chez "
+"lui : avant 1970, aucune archive et pas de centralisation des registres du "
+"passé !?! J’espère que tout ceci sera plus simple qu’il n’y parait et que "
+"ces hypothèses sont fausses."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:53
+msgid ""
+"Je suppose qu’il doit rester des archives liées au communisme, mais que "
+"celles-ci n’ont pas forcément été conservées avec beaucoup d’entrain… Bref… "
+"Il va falloir creuser, et ça prendra du temps !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:55
+msgid "## Les bases en ligne"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:57
+msgid ""
+"Si jamais vous lanciez vos propres recherches, Wikipédia nous donne [une "
+"liste de base de données liées à la "
+"généalogie](https://en.wikipedia.org/wiki/List_of_genealogy_databases), il "
+"faudra que je creuse."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:59
+msgid "# Où contribuer à la traduction ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:61
+msgid ""
+"La traduction du logiciel en lui-même utilise le mécanisme bien éprouvé "
+"Gettext [voici "
+"l’aide](http://www.gramps-project.org/wiki/index.php?title=Translating_Gramps), "
+"en deux mots, il faudra envoyer le fichier sur Github."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-08-la-genealogie.md:62
+msgid ""
+"Pour l’aide en ligne, il s’agit d’un mécanisme non-assisté via des modèles "
+"dans le wiki, pour lequel une aide est [également "
+"disponible](http://www.gramps-project.org/wiki/index.php?title=Translating_the_Gramps_User_manual)."
+msgstr ""

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:8
+#, no-wrap
+msgid ""
+"title: 'Paris Open Source Public - traducteurs vous n’êtes pas seuls !'\n"
+"date: '2016-11-16'\n"
+"type: 'post'\n"
+"categories: ['Événements']\n"
+"tags: ['fedora-fr', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:11
+msgid ""
+"J’ai eu la chance d’être sur le stand Fedora pendant l’open-source summit de "
+"Paris. C’était l’occasion de parler de traduction avec de nombreux "
+"utilisateurs et contributeurs."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:13
+msgid ""
+"Fedora est plutôt bien connu et l’avis globalement très positif, tant sur "
+"ses valeurs que sa stabilité. La qualité des traductions a également été "
+"indiqué comme étant bonne, bravo à tous les contributeurs directs ou "
+"indirects !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:15
+msgid ""
+"Les contributeurs ou producteurs de projets avec lesquels j’ai parlé de "
+"traduction partagent tous un besoin d’échange de la communauté des "
+"francophones afin de discuter nos traductions et faire évoluer notre "
+"vocabulaire. De Framasoft à Mozilla, en passant par Doudou Linux et GIMP, de "
+"nombreux cas d’utilisations ont été évoqués."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:17
+msgid ""
+"Les points que j’ai abordés sur l’age de pierre des traducteurs sont souvent "
+"partagés. Globalement il y a très peu de réutilisation de la mémoire "
+"collective des traducteurs, les outils sont très disparates, les "
+"contributeurs ont du mal à savoir où aller, les distributions du mal à "
+"trouver la bonne démarche avec les projets, et il n’existe presque aucun "
+"outil permettant de nous aider à piloter la qualité."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:19
+msgid ""
+"Le cas le plus incroyable : un utilisateur n’aimant pas avoir les erreurs de "
+"GCC en français, avait configuré tout son système en anglais et en "
+"conséquence des difficultés dans les autres applications, notamment les "
+"raccourcis de LibreOffice… Quel bonheur pour lui d’apprendre l’existence de "
+"« LC_ALL » ou des différentes variables disponibles dans le terminal "
+"(commande « locale ») ! Pour ceux l’ignorant, ça permet de définir la locale "
+"à utiliser par le logiciel et donc sa langue !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:21
+msgid "Merci à tous pour cette expérience pour mon premier salon !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:22
+msgid ""
+"Je reviendrai bientôt ici pour vous parler de quelques sujets et idées "
+"évoqués. Mais sachez collègues traducteurs que nous avons l'air d'être "
+"nombreux à partager les mêmes difficultés, et que peut-être que nous allons "
+"réussir à nous structurer et les résoudre progressivement !"
+msgstr ""
