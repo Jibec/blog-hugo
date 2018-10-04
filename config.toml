@@ -1,19 +1,47 @@
 baseURL = "http://example.org/"
 languageCode = "fr"
-title = "Démonstration d’Hugo avec mon Blog"
+DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 theme = "slim"
+enableMissingTranslationPlaceholders = true
 
-[[menu.main]]
+[languages]
+[languages.fr]
+title = "Démonstration d’Hugo avec mon Blog"
+contentDir = "content/fr"
+weight = 10
+
+[[languages.fr.menu.main]]
   name = "À propos"
   identifier = "contact"
   url = "/contact/a_propos/"
 
-[[menu.main]]
+[[languages.fr.menu.main]]
   name = "Me suivre via RSS"
   identifier = "rss"
   url = "/index.xml"
 
-[[menu.main]]
+[[languages.fr.menu.main]]
   name = "Mes articles"
+  identifier = "articles"
+  url = "/articles/"
+
+[languages.en]
+title = "Hugo's POC with my Blog"
+contentDir = "content/en"
+weight = 20
+
+[[languages.en.menu.main]]
+  name = "About"
+  identifier = "contact"
+  url = "/contact/about/"
+
+[[languages.en.menu.main]]
+  name = "Follow me with RSS"
+  identifier = "rss"
+  url = "/index.xml"
+
+[[languages.en.menu.main]]
+  name = "My articles"
   identifier = "articles"
   url = "/articles/"
