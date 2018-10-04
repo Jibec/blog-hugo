@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:8
+#, no-wrap
+msgid ""
+"title: 'Fournir une trace lors du plantage d’une application Android'\n"
+"date: '2017-06-23'\n"
+"type: 'post'\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:11
+msgid ""
+"Tout comme les logiciels de son ordinateur, fournir un rapport de bug est "
+"une contribution importante dans le logiciel libre. Voici les quelques "
+"étapes à mener pour un téléphone sur Android. J’utilise Fedora, mais il n’y "
+"a pas de raison que cela fonctionne très différemment sur une autre "
+"distribution."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:13
+msgid ""
+"Parfois un plantage m’est égal car c’est mineur ou tellement rare que je ne "
+"saurais pas le reproduire, d’autre c’est vraiment gênant ou fréquent, dans "
+"ce cas je dois le signaler. Dans mon cas ce sont les applications "
+"[OpenFoodFacts](https://fr.openfoodfacts.org), "
+"[OpenBeautyFacts](https://fr.openbeautyfacts.org) et "
+"[OpenPetFoodFacts](https://fr.openpetfoodfacts.org) qui m’ont posé problème."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:15
+msgid ""
+"J’utilise rarement ces applications, mais j’aime leur principe et quelques "
+"fois par ans je parcours tout ce qui sort de mes sacs de course pour "
+"apporter ma petite contribution à leurs projets. Cependant, j’avais des "
+"plantages communs à plusieurs applications et triviaux à reproduire, j’ai "
+"donc décrit ce que je rencontrais sur le [dépôt github du "
+"projet](https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/574)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:17
+msgid ""
+"La source du problème, c’est probablement le fait que mon Fairphone utilse "
+"une version désormais un peu ancienne d’Android (4.2), et même si les "
+"développeurs font attention à ne pas exclure trop rapidement ces terminaux "
+"en choisissant correctement les API sur lesquels ils s’appuient (merci !), "
+"ils peuvent ne pas avoir le matériel pour produire localement le "
+"plantage. Dans ce cas, ils demandent une trace du plantage, globalement "
+"c’est l’ensemble de la chaîne explicative, qui permet de dire : « depuis "
+"l’interface, ce bouton a appelé telle fonction qui s’appuie sur telle autre "
+"qui a provoqué telle erreur ». Les Anglais parlent aussi de backtrace."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:19
+msgid "Bon, c’est très simple :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:21
+msgid ""
+"Activez l’option « Débogage USB » dans la partie Options pour les "
+"développeurs des paramètres de votre téléphone"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:23
+#, no-wrap
+msgid ""
+"En cas d’absence de ce menu « Options pour les développeurs\" : allez dans "
+"les Paramètres généraux, ouvrez « À propos de l’appareil ». Puis tapotez par "
+"quatre fois le « Numéro de Build » pour débloquer les « Options pour les "
+"développeurs ».\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:25
+msgid "Installer adb via « sudo dnf install adb »"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:26
+msgid "Branchez votre téléphone à votre ordinateur"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:27
+msgid "Lancer la comment « adb devices » devrait le détecter"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:29
+#, no-wrap
+msgid ""
+"Si ne montre rien échoue, assurez-vous que votre téléphone détecte bien "
+"qu’il est branché en USB, et qu’il marque que la connexion est en mode "
+"« Déboguage USB »).\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:32
+msgid ""
+"Pour extraire les journaux (logs), rien de plus simple puisqu’il faut saisir "
+"« adb logcat » dans son terminal."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:34
+msgid ""
+"Vous découvrirez probablement que votre téléphone est très bavard ! "
+"Restreindre la sortie est heureusement possible via la commande : « adb "
+"logcat \"*: E\" »."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-23-Trace-Android.md:35
+msgid "Pensez à signaler vos problèmes ! (et à être gentil :))"
+msgstr ""

@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:8
+#, no-wrap
+msgid ""
+"title: 'Libération des traducteurs : Weblate est sur YunoHost'\n"
+"date: '2017-10-05'\n"
+"type: 'post'\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'traducteurs', 'YunoHost', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:11
+msgid ""
+"Un traducteur n’est pas forcément un expert en technologies, mais la "
+"barrière pour l’utilisation de certains logiciels est parfois bien trop "
+"haute. Weblate est maintenant disponible pour YunoHost, vous pouvez "
+"difficilement l’héberger plus facilement !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:13
+msgid ""
+"C’est même dans la [documentation "
+"officielle](https://docs.weblate.org/en/latest/admin/deployments.html#weblate-in-yunohost), "
+"un bouton, quelques questions et c’est parti !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:15
+msgid ""
+"J’ai préparé ce paquet pour aider à la migration l’infrastructure de "
+"YunoHost sur YunoHost, naturellement j’ai activé la possibilité de se "
+"connecter avec un compte Fedora (FAS), OpenSuse ou Ubuntu via OpenID. Les "
+"autres connecteurs (GitHub, Google, Facebook, etc.) ne sont pas activés, "
+"c’est par conviction, mais vous pouvez le faire si besoin."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:17
+msgid ""
+"[Weblate est une plateforme de traduction](https://weblate.org), peut-être "
+"pas la meilleure, mais elle a le mérite de parler directement avec les "
+"dépôts de code source, et d’avoir un mécanisme d’alertes pour les "
+"traducteurs pour être informé des changements. Cela en fait le meilleur "
+"outil à recommander aux projets. Seuls les plus gros verront un intérêt dans "
+"des outils de type Pontoon ou Pootle, et quelques sociétés aimeront Zanata."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:19
+msgid ""
+"Déployer un serveur YunoHost est simple, je vous invite simplement à lire la "
+"documentation, par exemple [pour Debian "
+"8](https://yunohost.org/#/install_on_debian_fr). Pour information, la prise "
+"en charge de Debian 9 est en cours, cela devrait venir prochainement."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:21
+msgid ""
+"Il n’y a plus de raison de ne pas vous lancer dans la traduction d’un projet "
+"qui n’utilise que Git, vous installez votre serveur YunoHost, vous ajoutez "
+"l’application Weblate, puis vous créez un composant. Je vous conseille "
+"chaleureusement de bien [lire les paramètres d’un "
+"composant](https://docs.weblate.org/en/weblate-2.16/admin/projects.html#component) "
+"pour que ça marche du premier coup."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:23
+msgid ""
+"Pour les gens voulant voir le code, tout est là : "
+"[https://github.com/YunoHost-Apps/weblate_ynh](https://github.com/YunoHost-Apps/weblate_ynh)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:25
+msgid "# Où contribuer à la traduction ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:27
+msgid "Pour Weblate : [https://hosted.weblate.org](https://hosted.weblate.org)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-10-05-Libérer-les-traducteurs.md:28
+msgid ""
+"Pour YunoHost : "
+"[https://translate.yunohost.org](https://translate.yunohost.org) (oui, cela "
+"ne fonctionne plus, c'est le crash de notre serveur qui nous a incité à "
+"migrer sur YunoHost… 😳)"
+msgstr ""

@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:8
+#, no-wrap
+msgid ""
+"title: 'FOSDEM - décentralisation'\n"
+"date: '2017-02-05'\n"
+"type: 'post'\n"
+"categories: ['Événements']\n"
+"tags: ['fedora-fr', 'FOSDEM', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:11
+msgid "## Ouverture de la devroom par Tristant Nitot"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:13
+msgid ""
+"Tristan Nitot déclare le [lancement de la salle Décentralisation "
+"d’Internet](https://fosdem.org/2017/schedule/event/personal_cloud/) nous "
+"parle des enjeux de la protection de la vie privée, en nous expliquant "
+"l’impact de la surveillance sur les citoyens, qui peuvent s’autocensurer de "
+"façon volontaire ou non."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:15
+msgid ""
+"L’exemple pris est l’accès à des articles Wikipédia sur des sujets sensibles "
+"aux états-unis, montrant une grande diminution de l’accès après les "
+"révélations de Snowden. Ça me rappel une situation avec des amis qui m’ont "
+"montré Siri, j’ai proposé en plaisantant de demander comment faire une "
+"bombe, je me suis presque fait arracher le téléphone des mains…"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:17
+msgid ""
+"C’est la centralisation qui permet la surveillance, donc c’est par la "
+"décentralisation que nous parviendrons à construire une société ouverte."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:19
+msgid "La clef de cette présentation est contenue dans ce slogan :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:21
+msgid "NSA a brisé mon internet -> nous devons en créer un g/nouveau."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:23
+msgid "### D’où vient la démarche de décentralisation d’internet ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:25
+msgid ""
+"Il y a 17 ans, au lancement du FOSDEM, la focalisation était sur l’axe "
+"client, maintenant c’est sur le serveur qu’il faut se focaliser, d’où le "
+"lancement pour la première fois de cette salle. C’est le lancement, vous "
+"direz à vos petits-enfants : « J’y étais ! »"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:27
+msgid "### A-t-on une chance de gagner vs Datacenter & quantité de données ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:29
+msgid ""
+"Tristan Nitot exprime ici plutôt de l’enthousiasme, l’architecture "
+"d’internet est déjà décentralisée, de plus les fabricants de téléphone "
+"créent des microprocesseurs surpuissants et très économes, l’orange Pi est à "
+"7 € pour quad cœur à 1,2 GHz."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:31
+msgid "### Comment diminuer la barrière à l’entrée ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:33
+msgid ""
+"Cozy est extrêmement simple à prendre en main, ce n’est pas la seule façon "
+"de faire, ni la meilleure, mais c’est un progrès et est très accessibles."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:35
+msgid "## Diaspora"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:37
+msgid ""
+"[Antoine Duparay (fla) "
+"présente](https://fosdem.org/2017/schedule/event/diaspora/) deux catégories "
+"d’utilisateurs entre l’utilisation inconséquente de Facebook à l’abstinence "
+"complète par crainte. Entre les deux explique-t-il, il y a de la place, "
+"c’est ce que propose Diaspora*."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:39
+msgid ""
+"On y trouve les fonctionnalités de base, de recherche, de mise en page et de "
+"partage, mais privé par défaut, toutes les options de partages sont au plus "
+"bas. Pas de vrai prénom et nom de famille n’est requis, même le courriel "
+"n’est pas vérifié. L’outil est tellement respectueux de votre vie privée, "
+"qu’il est même possible d’y accéder via Tor."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:41
+msgid ""
+"Le présentateur évoque clairement l’arrivée de l’État Islamique en 2014, le "
+"porteur du projet précise que Diaspora* ne vise pas à être anti-États, mais "
+"de combattre la centralisation par les grands acteurs économiques. Diaspora* "
+"étant comme un serveur de messagerie, couper un serveur ne signifie pas "
+"qu’il ne peut pas apparaître à côté."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-02-05-FOSDEM-ouverture.md:42
+msgid ""
+"La version 0.6 offre une nouvelle mise en page et ergonomie, et des travaux "
+"de fonds ont été menés sur le cœur du logiciel, notamment sur le mécanisme "
+"de Fédération, travail fait en commun avec pluiseurs acteurs : Diaspora*, "
+"Friendica, Hubzilla/Redmatrix ([en savoir "
+"plus](https://the-federation.info)."
+msgstr ""

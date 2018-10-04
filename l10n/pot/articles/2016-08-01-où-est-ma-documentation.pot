@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:8
+#, no-wrap
+msgid ""
+"title: 'Trouver la documentation des logiciels installés sur Fedora ?'\n"
+"date: '2016-08-01'\n"
+"type: 'post'\n"
+"categories: ['Trucs et astuces']\n"
+"tags: ['fedora-fr', 'documentation']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:11
+msgid ""
+"Je suis dans un avion, en train de faire un peu de « programmation » (à mon "
+"humble niveau). Je suis en train de créer mon blog, et je cherche un peu de "
+"documentation sur l’outil pelican que je vais utiliser pour générer mon "
+"petit site statique."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:13
+msgid "Sur Fedora je découvre le dossier docs :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:17
+#, no-wrap
+msgid ""
+"    :::bash\n"
+"    $ du -h /usr/share/doc --max-depth=0\n"
+"    346M\t/usr/share/doc\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:19
+msgid ""
+"Comme Fedora a une pensée particulière pour les contributeurs et "
+"développeurs, je suppose que la documentation est fournie par défaut avec "
+"chaque paquet ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:21
+msgid "Bon, après, je n’ai plus qu’à voir s’il y a quelque chose pour mon outil :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:26
+#, no-wrap
+msgid ""
+"    :::bash\n"
+"    $ ls /usr/share/doc | grep pelican\n"
+"    python2-pelican\n"
+"    python3-pelican\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-01-où-est-ma-documentation.md:27
+msgid ""
+"Bingo ! À l’intérieur, la même chose que ce qu’on pourrait trouver sur [la "
+"documentation officielle](http://docs.getpelican.com/)"
+msgstr ""

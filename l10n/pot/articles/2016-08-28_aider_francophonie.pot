@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:8
+#, no-wrap
+msgid ""
+"title: 'Comment aider la francophonie ?'\n"
+"date: '2016-08-28'\n"
+"type: 'post'\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'traduction', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:11
+msgid ""
+"Ayant décidé d’enfin faire quelque chose de concret pour Linux, me voici "
+"coordinateur de l’[équipe Francophone de "
+"Fedora](https://fedoraproject.org/wiki/L10N_French_Team) ! Globalement "
+"l’objectif est d’améliorer l’expérience des utilisateurs francophones, mais "
+"également à aider au rayonnement de la langue française car si on ne voit "
+"que des termes anglais en permanence, on les utilise machinalement sans "
+"connaître leur équivalent français."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:13
+msgid ""
+"Comme dirait Nelson Mandela « If you talk to a man in a language he "
+"understands, that goes to his head. If you talk to him in his language, that "
+"goes to his heart. ». Pour un francophone, lire en français est bien plus "
+"efficace pour sa compréhension et sa mémoire, mais encore faut-il que ce "
+"soit bien fait !"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:15
+msgid ""
+"Des tas de projets sont déjà partiellement ou totalement traduits, grâce à "
+"de nombreux développeurs qui comprennent – parfois approximativement – "
+"comment utiliser les outils. Donc, que reste-t-il à faire ?"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:17
+msgid "Pour tout le monde :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:19
+msgid "écrivez dans votre langue natale,"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:20
+msgid "utilisez les outils dans votre langue natale par défaut,"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:21
+msgid "pensez à signaler toute phrase non traduite ou peu claire,"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:22
+msgid "aidez les projets que vous suivez en améliorant leurs traductions."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:24
+msgid ""
+"À titre d’exemple : j’utilise [Yunohost](http://yunohost.org) à la maison, "
+"j’ai décidé en assumer la traduction sur leur petite [plateforme de "
+"traduction](http://translate.yunohost.org) (basée sur "
+"[weblate](http://weblate.org))."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:26
+msgid "Pour les développeurs :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:28
+msgid ""
+"internationalisez votre logiciel en utilisant l’outil le plus standard "
+"possible comme gettext"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:29
+msgid "synchroniser automatiquement les fichiers mis à disposition des traducteurs"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:30
+msgid ""
+"privilégiez une plateforme de traduction et synchronisez-le avec votre "
+"répertoire (weblate le fait automatiquement)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:31
+msgid ""
+"faites régulièrement des versions mineures comprenant les dernières "
+"traductions ou prévoyez des plages pour les traducteurs"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:35
+msgid ""
+"Vous pensez que tout est traduit ? Prenez cinq minutes, cherchez une erreur, "
+"c’est comme trouver Charlie, au début on se dit il n’est pas là, en réalité "
+"il n’y a pas qu’un seul ils y en a plein ! J’écris mon article avec l’outil "
+"[Zim](http://zim-wiki.org), voici ce que je viens de trouver :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:37
+msgid "en bas à droite, j’ai “None” d’affiché dans la barre contextuelle ;"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:38
+msgid "dans le menu affichage, j’ai “zoomer”/“dézoomer” ;"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:39
+msgid "l’aide n’est qu’en anglais ;"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:40
+msgid "menu Édition « (Dé)Cocher » est horrible ;"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:41
+msgid "menu Affichage > Barre d’adresse > « Aucun » ⇒ devrait être Aucune ;"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-28_aider_francophonie.md:41
+msgid "menu « Aller à > Aller à » => il manque l’espace devant les «:»."
+msgstr ""

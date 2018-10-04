@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:8
+#, no-wrap
+msgid ""
+"title: 'Envoyer son contenu sur fedorapeople avec ssh et Pelican'\n"
+"date: '2016-08-03'\n"
+"type: 'post'\n"
+"categories: ['Trucs et astuces']\n"
+"tags: ['fedora-fr', 'pelican', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:11
+msgid ""
+"J'utilise [Pelican](http://getpelican.com) pour ce petit blog et je suis "
+"hébergé par Fedora sur la plateforme fedorapeople. Toutes les informations "
+"pour y accéder et créer sa clefs sont décrites sur [cette page du "
+"wiki](https://fedoraproject.org/wiki/Infrastructure/fedorapeople.org). Je "
+"pars sur l'hypothèse que vous avez lu cette page qui vous explique notamment "
+"comment produire une clef rsa privée."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:13
+msgid ""
+"Pelican produit un ensemble de fichiers html qu'il faut envoyer sur le "
+"serveur distant."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:15
+msgid ""
+"Heureusement, en utilisant l'outil *pelican-quickstart*, il propose de gérer "
+"un fichier _MakeFile_."
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:17
+msgid "Ce fichier est facile à utiliser :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:21
+#, no-wrap
+msgid ""
+"    :::bash\n"
+"    $ make help\n"
+"    Makefile for a pelican Web site\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:38
+#, no-wrap
+msgid ""
+"    Usage:\n"
+"       make html                           (re)generate the web site\n"
+"       make clean                          remove the generated files\n"
+"       make regenerate                     regenerate files upon "
+"modification\n"
+"       make publish                        generate using production "
+"settings\n"
+"       make serve [PORT=8000]              serve site at "
+"http://localhost:8000\n"
+"       make serve-global [SERVER=0.0.0.0]  serve (as root) to :80\n"
+"       make devserver [PORT=8000]          start/restart develop_server.sh\n"
+"       make stopserver                     stop local server\n"
+"       make ssh_upload                     upload the web site via SSH\n"
+"       make rsync_upload                   upload the web site via "
+"rsync+ssh\n"
+"       make dropbox_upload                 upload the web site via Dropbox\n"
+"       make ftp_upload                     upload the web site via FTP\n"
+"       make s3_upload                      upload the web site via S3\n"
+"       make cf_upload                      upload the web site via Cloud "
+"Files\n"
+"       make github                         upload the web site via "
+"gh-pages\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:41
+#, no-wrap
+msgid ""
+"    Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 "
+"html\n"
+"    Set the RELATIVE variable to 1 to enable relative urls\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:44
+msgid "Seuls quelques paramètres sont donc à renseigner ici :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:50
+#, no-wrap
+msgid ""
+"    :::\n"
+"    SSH_HOST=fedorapeople.org\n"
+"    SSH_PORT=22\n"
+"    SSH_USER=jibecfed\n"
+"    SSH_TARGET_DIR=/home/fedora/jibecfed/public_html/blog\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:52
+msgid "On termine ensuite par les commandes suivantes :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:56
+#, no-wrap
+msgid ""
+"    :::bash\n"
+"    make html\n"
+"    make ssh_publish\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-03-ssh-fedora-pelican.md:57
+msgid "Magiquement, cela sera en ligne, sans problèmes majeurs !"
+msgstr ""
