@@ -11,12 +11,7 @@
 # INITILIZE VARIABLES
 ####################################
 
-# root of the documentation repository
-if [ -z "$SRCDIR" ] ; then
-	SRCDIR="./" # no trailing slash
-fi
-SRCDIR=$(realpath "$SRCDIR")
-SRCDIR_MODULE="$SRCDIR/content/fr"
+SRCDIR_MODULE="./content/fr"
 
 # place where the po files are
 if [ -z "$PO_DIR" ] ; then
@@ -70,7 +65,7 @@ use_po_module () {
 			--master "$file" --master-charset "UTF-8" \
 			--po "$PO_DIR/$lang/$potname.po" \
 			--localized "$localized_file" --localized-charset "UTF-8" \
-			--keep 0
+			--keep 50
 	done <   <(find -L "$SRCDIR_MODULE" -name "*.md"  -print0)
 }
 
