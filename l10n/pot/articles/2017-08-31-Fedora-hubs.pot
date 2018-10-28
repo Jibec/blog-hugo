@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:1
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:8
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:8
 #, no-wrap
 msgid ""
 "title: 'Fedora Hubs, c’est pas du vent !'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:11
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:11
 msgid ""
 "Faciliter la circulation de l’information dans un grand projet tel que "
 "Fedora est un défi quotidien. Il y a des dizaines de listes, d’outils, de "
@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:13
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:13
 msgid ""
 "Pourquoi est-ce que je parle de programmation ? Car l’atelier était bien "
 "préparé, une boite Vagrant, un tutoriel complet, décrivant pas à pas la "
@@ -62,12 +62,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:15
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:15
 msgid "### La mécanique générale"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:17
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:17
 msgid ""
 "Fedora Hubs est un outil agrégeant des informations de sources externes, il "
 "contient donc des petits widget qui vont avoir pour mission d’interroger ou "
@@ -77,7 +77,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:19
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:19
 msgid ""
 "On aura donc des widgets pour les développeurs via des crochets git, mais "
 "aussi tous les [évènements passant dans le bus de message Fedora "
@@ -87,12 +87,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:21
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:21
 msgid "### Essayez vous aussi !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:23
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:23
 msgid ""
 "L’ensemble du tutorial est accessible à cette adresse "
 "[https://docs.pagure.org/fedora-hubs-widget-workshop/](https://docs.pagure.org/fedora-hubs-widget-workshop/), "
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:27
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:27
 #, no-wrap
 msgid ""
 "```\n"
@@ -110,12 +110,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:29
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:29
 msgid "### Comment traduire ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:31
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:31
 msgid ""
 "Il est trop tôt pour traduire, la mécanique sous-jacente n’étant pas "
 "disponible, cependant la technologie principale étant utilisée pour les "
@@ -126,7 +126,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:32
+#: ./content/fr/articles/2017-08-31-Fedora-hubs.md:32
 msgid ""
 "Reste après à savoir si on peut et veut traduire le contenu messages en tant "
 "que tel. Peut-être que cela pourrait être intéressant, mais on va déjà "

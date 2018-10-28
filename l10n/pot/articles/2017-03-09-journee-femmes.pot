@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:1
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:8
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:8
 #, no-wrap
 msgid ""
 "title: 'Droit des femmes et traduction ?'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:11
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:11
 msgid ""
 "Quel rapport entre le logiciel libre et la journée du droit des femmes ? La "
 "qualité de la traduction et de l’internationalisation ! Ici on s’intéressera "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:13
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:13
 msgid ""
 "En réalisant la mise à jour des applications [YunoHost](http://yunohost.org) "
 "sur mon serveur ce matin, l’interface me demande « Êtes-vous sur de vouloir "
@@ -53,14 +53,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:15
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:15
 msgid ""
 "Ici, en plus du petit détail d’accent circonflexe manquant (sûr : être "
 "certain, sur : être dessus), on remarque donc deux problèmes liés au genre."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:17
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:17
 msgid ""
 "Si l’anglais permet très souvent l’usage de mots neutres, le français tend a "
 "donner un genre beaucoup plus rapidement. En anglais, effectivement cela ne "
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:19
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:19
 msgid ""
 "On découvre via la phrase source un problème de plus, ici le développeur "
 "utilise la même phrase pour parler de choses différentes « %s » peut être un "
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:21
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:21
 msgid ""
 "Pour le problème de traduction, le fait de sous-entendre que l’utilisateur "
 "est un homme peut être résolu très simplement avec la tournure « Voulez-vous "
@@ -90,7 +90,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:23
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:23
 msgid ""
 "Pour le second problème, écrire « toutes » rendra cette phrase juste quand "
 "on parle d’application, mais fausse quand on parle de paquet. D’ailleurs, "
@@ -99,14 +99,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:25
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:25
 msgid ""
 "Sur ce dernier point, deux éléments sont importants et intéressants, "
 "l’emplacement des mots dans la phrase et la grammaire."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:27
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:27
 msgid ""
 "Concernant l’emplacement des mots – la FSF donne un lien très intéressant "
 "concernant la traduction sur la page décrivant son [projet prioritaire "
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:29
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:29
 msgid ""
 "Concernant la grammaire, certaines langues changent d’orthographe de ses "
 "mots en fonction de leur rapport aux autres mots. C’est par exemple le cas "
@@ -134,7 +134,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:31
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:31
 msgid ""
 "Et encore, je n’ai pas traité ici le fait que mettre à jour « une "
 "application » ou « plusieurs applications » devrait pouvoir être traduit "
@@ -147,7 +147,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-03-09-journee-femmes.md:32
+#: ./content/fr/articles/2017-03-09-journee-femmes.md:32
 msgid ""
 "Conclusion : internationaliser un logiciel et le traduit est une activité "
 "nécessitant beaucoup d’attention pour les développeurs, en plus de "

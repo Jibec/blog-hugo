@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:1
+#: ./content/fr/articles/2017-08-23-fdroid.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:8
+#: ./content/fr/articles/2017-08-23-fdroid.md:8
 #, no-wrap
 msgid ""
 "title: 'Traduisons F-Droid en français'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:11
+#: ./content/fr/articles/2017-08-23-fdroid.md:11
 msgid ""
 "Depuis quelques semaines, j’ai constaté que F-Droid avant plusieurs "
 "sous-projets supplémentaires sur son projet Weblate. Comme c’est un exemple "
@@ -44,35 +44,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:13
+#: ./content/fr/articles/2017-08-23-fdroid.md:13
 msgid ""
 "Voici l’état des lieux actuel du [projet F-Droid sur "
 "Weblate](https://hosted.weblate.org/projects/f-droid/#components) :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:15
+#: ./content/fr/articles/2017-08-23-fdroid.md:15
 msgid ""
 "F-Droid : [l’application F-Droid](https://f-droid.org/FDroid.apk), la "
 "logithèque libre pour android"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:16
+#: ./content/fr/articles/2017-08-23-fdroid.md:16
 msgid ""
 "F-Droid Server : le [serveur](https://gitlab.com/fdroid/fdroidserver/) (de "
 "la logithèque)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:17
+#: ./content/fr/articles/2017-08-23-fdroid.md:17
 msgid ""
 "Data : données affichées par l’application F-Droid [et sur le "
 "site](https://f-droid.org/packages/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:18
+#: ./content/fr/articles/2017-08-23-fdroid.md:18
 msgid ""
 "Privileged Extension : une application permettant à F-Droid de fonctionner "
 "sans avoir à activer l’installation depuis des « sources inconnues » dans "
@@ -80,29 +80,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:19
+#: ./content/fr/articles/2017-08-23-fdroid.md:19
 msgid ""
 "repomaker et repomaker javascript : visiblement un [nouveau "
 "serveur](https://gitlab.com/fdroid/repomaker) en cours de développment ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:20
+#: ./content/fr/articles/2017-08-23-fdroid.md:20
 msgid "Website : [le site internet](http://f-droid.org),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:21
+#: ./content/fr/articles/2017-08-23-fdroid.md:21
 msgid "Website Docs : [la documentation](https://f-droid.org/docs)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:22
+#: ./content/fr/articles/2017-08-23-fdroid.md:22
 msgid "Website Posts : [les articles](https://f-droid.org/2017/04/04/new-ux.html)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:24
+#: ./content/fr/articles/2017-08-23-fdroid.md:24
 msgid ""
 "La page concernant la [contribution à la "
 "traduction](https://f-droid.org/docs/Translation_and_Localization/) indique "
@@ -110,14 +110,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:26
+#: ./content/fr/articles/2017-08-23-fdroid.md:26
 msgid ""
 "100 % sur le [projet "
 "Website](https://hosted.weblate.org/projects/f-droid/website) : ok ✔️"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:27
+#: ./content/fr/articles/2017-08-23-fdroid.md:27
 msgid ""
 "Les pages [About](https://f-droid.org/about/) et "
 "[Contribute](https://f-droid.org/contribute/) doivent être traduites à "
@@ -125,17 +125,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:28
+#: ./content/fr/articles/2017-08-23-fdroid.md:28
 msgid "la traduction d’au moins 10 applications : ok ✔️"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:30
+#: ./content/fr/articles/2017-08-23-fdroid.md:30
 msgid "Bon, il reste deux pages à traduires :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:32
+#: ./content/fr/articles/2017-08-23-fdroid.md:32
 msgid ""
 "About : [66 phrases à "
 "traduire](https://hosted.weblate.org/translate/f-droid/website-docs/fr/? "
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:33
+#: ./content/fr/articles/2017-08-23-fdroid.md:33
 msgid ""
 "Contribute : [17 phrases à "
 "traduire](https://hosted.weblate.org/translate/f-droid/website-docs/fr/? "
@@ -151,12 +151,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:35
+#: ./content/fr/articles/2017-08-23-fdroid.md:35
 msgid "Bravo au projet F-Droid ! Vous avez toutes les bonnes bases !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:37
+#: ./content/fr/articles/2017-08-23-fdroid.md:37
 msgid ""
 "Avoir une page d’explication pour les contributeurs à la traduction, la "
 "traduction du site, de la documentation, des outils et des données, une "
@@ -164,12 +164,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:39
+#: ./content/fr/articles/2017-08-23-fdroid.md:39
 msgid "## Contributer à la traduction"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:41
+#: ./content/fr/articles/2017-08-23-fdroid.md:41
 msgid ""
 "Connectez-vous simplement sur "
 "[Weblate](https://hosted.weblate.org/projects/f-droid/) et traduisez 😃. Si "
@@ -178,19 +178,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:43
+#: ./content/fr/articles/2017-08-23-fdroid.md:43
 msgid ""
 "Vous noterez que la traduction française est déjà bien avancée, bravo aux "
 "traducteurs suivant ce projet depuis longtemps."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:45
+#: ./content/fr/articles/2017-08-23-fdroid.md:45
 msgid "## Petite note"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-23-fdroid.md:46
+#: ./content/fr/articles/2017-08-23-fdroid.md:46
 msgid ""
 "Comme toujours, attention au contexte, quand on parle de la version d’un "
 "paquet, c’est féminin, si on parle du paquet c’est masculin. Ne vous faîtes "

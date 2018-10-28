@@ -12,16 +12,12 @@
 ####################################
 
 # root of the documentation repository
-if [ -z "$SRCDIR" ] ; then
-	SRCDIR="./" # no trailing slash
-fi
-SRCDIR_MODULE="$SRCDIR/content/fr"
+SRCDIR_MODULE="./content/fr"
 
 # place where to create the pot files
 if [ -z "$POTDIR" ] ; then
 	POTDIR="./l10n/pot"
 fi
-
 
 ####################################
 # TEST IF IT CAN WORK

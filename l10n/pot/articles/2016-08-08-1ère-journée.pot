@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:1
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:8
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:8
 #, no-wrap
 msgid ""
 "title: 'Transcription de ma 1ère journée au Flock @ Cracovie'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:11
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:11
 msgid ""
 "Quelle première journée ! Cela a [débuté avec Matthew "
 "Miller](https://flock2016.sched.org/event/6uwB/state-of-fedora-2016-keynote), "
@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:13
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:13
 msgid ""
 "En tout cas, sur le périmètre [Bodhi](http://bodhi.fedoraproject.org/) "
 "(processus de validation des paquets)/dist-git (l’outil qui héberge tous les "
@@ -62,46 +62,46 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:15
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:15
 msgid "Dans les objectifs évoqués :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:17
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:17
 msgid ""
 "University Outreach : promouvoir Fedora auprès des universités et des "
 "étudiants"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:18
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:18
 msgid "Python : poursuite de l’élan de migration vers Python3"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:19
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:19
 msgid "Hubs : mieux diffuser et partager l’information"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:20
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:20
 msgid ""
 "Fedora Atomic : être un support efficace pour créer une pile d’exécution de "
 "Cloud privés"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:21
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:21
 msgid "Flatpak : permettre l’adoption et l’installation"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:23
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:23
 msgid "## Régionalisation (Localization)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:25
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:25
 msgid ""
 "J’ai poursuivi par une [présentation de Noriko Mizumoto sur la "
 "« Régionalisation »](https://flock2016.sched.org/event/76nc/localization-g11n) "
@@ -117,7 +117,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:27
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:27
 msgid ""
 "Cet échange m’a semble révéler une évidence souvent ignorée : la traduction "
 "est un travail qui prend son sens par communauté linguistique, d’une façon "
@@ -127,12 +127,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:29
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:29
 msgid "## Infrastructures"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:31
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:31
 msgid ""
 "Ensuite j’ai suivi la [présentation des "
 "infrastructures](https://flock2016.sched.org/event/6yp6/the-state-of-fedora-infra) "
@@ -147,12 +147,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:33
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:33
 msgid "## Migration Python3"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:35
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:35
 msgid ""
 "La [migration vers "
 "python3](https://flock2016.sched.org/event/6yp9/python-packaging-in-fedora) "
@@ -163,7 +163,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:37
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:37
 msgid ""
 "Les blocages principaux qu’il identifie sont plutôt liés GTK2 qui ne "
 "supporte par Python3, ces logiciels doivent migrer à GTK3. D’autres outils "
@@ -171,7 +171,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:39
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:39
 msgid ""
 "En suite, il y a le souci de la conception des fichiers RPM qui relève d’un "
 "parcours du combattant. Ils ont donc créé un outil qui s’appuie sur les "
@@ -185,7 +185,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:41
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:41
 msgid ""
 "On aborde ensuite la modularité, en segmentant du cœur de python3 toutes les "
 "bibliothèques et outils non indispensable, les gains sont à attendre à moyen "
@@ -197,19 +197,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:43
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:43
 msgid ""
 "Red Hat en profite d’ailleurs pour présenter quelques excuses sur les "
 "échanges avec la communauté avec une volonté d’être plus transparente."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:45
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:45
 msgid "## L'outil Zanata"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:47
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:47
 msgid ""
 "[Cette "
 "conférence](https://flock2016.sched.org/event/76oG/zanata-translation-platform) "
@@ -221,7 +221,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:49
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:49
 msgid ""
 "La prochaine version, la 4.0 devrait offrir une petite amélioration sur le "
 "glossaire qui pourra être géré par projet (j’avoue ne pas comprendre "
@@ -230,7 +230,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:51
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:51
 msgid ""
 "Par curiosité, j’ai demandé s’il était possible d’avoir un projet contenant "
 "plusieurs types de fichiers différents (un fichier po et plusieurs fichiers "
@@ -238,12 +238,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:53
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:53
 msgid "## Fedora Magazine"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:55
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:55
 msgid ""
 "Le [constat fait par le "
 "présentateur](https://flock2016.sched.org/event/6yp4/fedora-magazine-and-what-it-teaches-us-about-users) "
@@ -255,28 +255,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:57
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:57
 msgid ""
 "La prochaine étape, c’est de réussir à faire des modes d’emploi, de parler "
 "des mises à jours, des corrections de sécurité, les outils populaires, ..."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:59
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:59
 msgid ""
 "L’objectif du [magazine](https://fedoramagazine.org/), c’est adresser les "
 "utilisateurs finaux."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:61
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:61
 msgid ""
 "L’objectif du [community blog](https://communityblog.fedoraproject.org/), "
 "c’est d’adresser les contributeurs Fedora."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:63
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:63
 msgid ""
 "Le souhait actuel c’est de s’ouvrir à de nouveaux domaines, afin de "
 "permettre aux utilisateurs d’atteindre de nouveaux sujets. D’ailleurs, des "
@@ -286,57 +286,57 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:65
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:65
 msgid "À titre d’information, le Fedora Magazine c’est :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:67
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:67
 msgid "2014 : 261 articles, 666 K vues"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:68
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:68
 msgid "2015 : 186 a, 1.9M"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:69
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:69
 msgid "2016 : 96 a, 1.25M"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:71
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:71
 msgid "Les bonnes pratiques de rédaction d’un article nous sont rappelées :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:72
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:72
 msgid "introduction : pourquoi ? qu’est-ce que ça fait ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:73
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:73
 msgid "Expliquer les avantages pour les utilisateurs"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:74
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:74
 msgid "Expliquer le processus"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:75
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:75
 msgid "Tester/démontrer"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:77
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:77
 msgid "## Globalization of Fedora Atomic"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:80
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:80
 msgid ""
 "L’anglais n’est la langue maternelle que d’environ 300 millions de "
 "personnes, plusieurs milliards de personnes ne l’utilisent pas.  Si on "
@@ -346,7 +346,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:82
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:82
 msgid ""
 "Le [constat que fait "
 "Pravin](https://flock2016.sched.org/event/76nD/globalization-audit-of-fedora-atomic), "
@@ -357,7 +357,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:84
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:84
 msgid ""
 "Si je vois Fedora Atomic comme une brique de bas niveau et que j'ai du mal à "
 "percevoir l'intérêt de la traduction, j’ai surtout soulevé que le rythme de "
@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-08-1ère-journée.md:85
+#: ./content/fr/articles/2016-08-08-1ère-journée.md:85
 msgid ""
 "Donc une idée est venue, proposer de diffuser des traductions aux "
 "utilisateurs finaux en construisant un cycle ne sollicitant pas inutilement "

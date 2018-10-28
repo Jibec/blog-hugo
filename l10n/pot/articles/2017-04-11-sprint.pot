@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:1
+#: ./content/fr/articles/2017-04-11-sprint.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:8
+#: ./content/fr/articles/2017-04-11-sprint.md:8
 #, no-wrap
 msgid ""
 "title: 'Sprint de traduction Fedora'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:11
+#: ./content/fr/articles/2017-04-11-sprint.md:11
 msgid ""
 "À partir d’aujourd’hui et jusqu’au 17 avril, la communauté Fedora organise "
 "un sprint de traduction. Il s’agit de traduire au mieux les différents "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:13
+#: ./content/fr/articles/2017-04-11-sprint.md:13
 msgid ""
 "La langue française est déjà assez bien couverte, mais il y a toujours "
 "quelques petites choses à faire. Profitez-en pour découvrir un peu Zanata et "
@@ -54,28 +54,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:15
+#: ./content/fr/articles/2017-04-11-sprint.md:15
 msgid ""
 "Si notre communication est correcte, ces trois liens devraient vous apporter "
 "toutes les informations nécessaires :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:17
+#: ./content/fr/articles/2017-04-11-sprint.md:17
 msgid ""
 "[L’annonce du sprint de "
 "traduction](https://communityblog.fedoraproject.org/fedora-26-translation-sprint/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:18
+#: ./content/fr/articles/2017-04-11-sprint.md:18
 msgid ""
 "[La page décrivant notre équipe et son "
 "fonctionnement](https://fedoraproject.org/wiki/L10N_French_Team)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-11-sprint.md:18
+#: ./content/fr/articles/2017-04-11-sprint.md:18
 msgid ""
 "[Le badge pour vous dire "
 "merci](https://badges.fedoraproject.org/badge/fedora-26-translation-sprint)"

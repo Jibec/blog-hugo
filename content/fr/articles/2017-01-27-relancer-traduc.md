@@ -38,8 +38,12 @@ traduire, si oui, comment ?
 Enfin, tous ces thèmes me semblent devoir avoir un nivellement sur la base commune acceptables par tous :
 
 * on peut discuter, disputer les mots ! Mais ce qui est couvert dans une langue ne doit pas mener à un conflit d’édition. Dans tous les cas, les termes proposés sont suggérés et en rien une règle absolue qui s’impose à tous,
-* les projets techniques doivent s’appuyer sur un minimum acceptable par tous : des licences ouvertes. On me proposait récemment de travailler sur un mécanisme s’appuyant sur google translate pour compléter les trous ou initialiser la traduction de milliers de mots. À mon sens c’est hyper pragmatique, mais cela n’entre pas dans le
-périmètre accepté par le plus grand nombre des libristes.
+* les projets techniques doivent s’appuyer sur un minimum acceptable par tous : 
+    des licences ouvertes. On me proposait récemment de travailler sur un 
+    mécanisme s’appuyant sur google translate pour compléter les trous ou 
+    initialiser     la traduction de milliers de mots. À mon sens c’est hyper 
+    pragmatique, mais cela n’entre pas dans le périmètre accepté par le plus 
+    grand nombre des libristes.
 
 Partagez-vous cette perception ? Seriez vous intéressé pour avancer sur ces thèmes collectifs ?
 

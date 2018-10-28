@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:39+0200\n"
+"POT-Creation-Date: 2018-10-28 14:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:1
+#: ./content/fr/articles/2017-08-29-Badges.md:1
 #, no-wrap
 msgid "---\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:8
+#: ./content/fr/articles/2017-08-29-Badges.md:8
 #, no-wrap
 msgid ""
 "title: 'Faire un badge'\n"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:11
+#: ./content/fr/articles/2017-08-29-Badges.md:11
 msgid ""
 "La communauté Fedora possède un mécanisme de badges, visant à encourager la "
 "découverte de notre écosystème et essayer de nous récompenser pour nos "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:13
+#: ./content/fr/articles/2017-08-29-Badges.md:13
 msgid ""
 "L’équipe chargée du Design crée ces badges à la demande tout en veillant à "
 "garantir une harmonie d’ensemble. On trouve la totalité de leurs travaux sur "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:16
+#: ./content/fr/articles/2017-08-29-Badges.md:16
 msgid ""
 "Les tickets sont catégorisés pour aider à la recherche, naturellement "
 "prendre « Easy-artwork » est recommandé :)  Dans le [ticket "
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:18
+#: ./content/fr/articles/2017-08-29-Badges.md:18
 msgid ""
 "Par ailleurs, une bibliothèque de symboles est en cours de développement et "
 "permettra la réutilisation facile dans Inkscape des icônes et symboles "
@@ -74,12 +74,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:20
+#: ./content/fr/articles/2017-08-29-Badges.md:20
 msgid "### Et la traduction ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:22
+#: ./content/fr/articles/2017-08-29-Badges.md:22
 msgid ""
 "La traduction ne possède presque aucun badge, la faute à l’absence de "
 "messages transmis par Zanata. La situation est progressivement en train de "
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:24
+#: ./content/fr/articles/2017-08-29-Badges.md:24
 msgid ""
 "J’ai donc profité de cet atelier pour attaquer [ce très vieux "
 "ticket](https://pagure.io/Fedora-Badges/issue/221) concernant une "
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:26
+#: ./content/fr/articles/2017-08-29-Badges.md:26
 msgid ""
 "Comme la valise me semble plus représenter un globe-trotteur et que les "
 "drapeaux des pays sont une représentation très imparfaite des langues, j’ai "
@@ -104,12 +104,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:28
+#: ./content/fr/articles/2017-08-29-Badges.md:28
 msgid "Voici le résultat :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:30
+#: ./content/fr/articles/2017-08-29-Badges.md:30
 msgid ""
 "<img "
 "src=\"https://pagure.io/Fedora-Badges/issue/raw/files/cb404d0498bf455a63d1746904b698e60951979f66ad0fa8c483a21de097fc8a-l10n-translation.png\" "
@@ -117,7 +117,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-Badges.md:31
+#: ./content/fr/articles/2017-08-29-Badges.md:31
 msgid ""
 "[Voici où j’en suis](https://badges.fedoraproject.org/user/jibecfed), le top "
 "10 est encore lointain 😏."
