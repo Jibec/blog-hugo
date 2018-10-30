@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jibecfed.fedorapeople.org/blog-hugo/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
@@ -18,17 +18,17 @@ weight = 10
 [[languages.fr.menu.main]]
   name = "À propos"
   identifier = "contact"
-  url = "/contact/a_propos/"
+  url = "contact/a_propos/"
 
 [[languages.fr.menu.main]]
   name = "Flux RSS"
   identifier = "rss"
-  url = "/index.xml"
+  url = "index.xml"
 
 [[languages.fr.menu.main]]
   name = "Mes articles"
   identifier = "articles"
-  url = "/articles/"
+  url = "articles/"
 
 [languages.en]
 title = "Hugo's POC with my Blog"
@@ -39,14 +39,14 @@ weight = 20
 [[languages.en.menu.main]]
   name = "About"
   identifier = "contact"
-  url = "/contact/a_propos/"
+  url = "contact/a_propos/"
 
 [[languages.en.menu.main]]
   name = "RSS feed"
   identifier = "rss"
-  url = "/index.xml"
+  url = "index.xml"
 
 [[languages.en.menu.main]]
   name = "My articles"
   identifier = "articles"
-  url = "/articles/"
+  url = "articles/"
