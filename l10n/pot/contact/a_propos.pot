@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-28 14:24+0100\n"
+"POT-Creation-Date: 2018-10-30 22:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 #: ./content/fr/contact/a_propos.md:10
 msgid ""
 "Je suis coordinateur des traductions de [Fedora](https://getfedora.org) : "
-"[mon profil](https://fedoraproject.org/wiki/User :Jibecfed)"
+"[mon profil](https://fedoraproject.org/wiki/User:Jibecfed)"
 msgstr ""
 
 #. type: Plain text

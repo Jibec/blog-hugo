@@ -6,7 +6,7 @@ Je suis un utilisateur de Linux depuis le début des années 2000. J’ai longte
 
 ### La traduction
 
-* Je suis coordinateur des traductions de [Fedora](https://getfedora.org) : [mon profil](https://fedoraproject.org/wiki/User :Jibecfed)
+* Je suis coordinateur des traductions de [Fedora](https://getfedora.org) : [mon profil](https://fedoraproject.org/wiki/User:Jibecfed)
 * J’aide également la coordination globale des traductions de [YunoHost](https://yunohost.org) : [la page d’organisation de l’équipe](https://github.com/YunoHost/project-organization#composition-des-groupes)
 
 ### Me contacter
