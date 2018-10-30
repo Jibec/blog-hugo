@@ -5,6 +5,9 @@ defaultContentLanguageInSubdir = true
 theme = "slim"
 enableMissingTranslationPlaceholders = true
 
+[permalinks]
+  articles = "/:year/:month/:title/"
+
 [languages]
 [languages.fr]
 title = "Démonstration d’Hugo avec mon Blog"
