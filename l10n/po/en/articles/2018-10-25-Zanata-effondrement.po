@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-10-28 14:27+0100\n"
-"PO-Revision-Date: 2018-10-30 22:52+0000\n"
+"PO-Revision-Date: 2018-11-05 22:03+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
 "articles2018-10-25-zanata-effondrement/en/>\n"
@@ -36,11 +36,18 @@ msgid ""
 "author: 'Jean-Baptiste Holcroft'\n"
 "---\n"
 msgstr ""
+"title: Is Zanata disappearing?\n"
+"date: '2018-10-25'\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:10
 msgid "Lettre à mon ami Red Hat,"
-msgstr ""
+msgstr "Letter to my friend Red Hat,"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:12
@@ -49,6 +56,9 @@ msgid ""
 "pas l’idée qu’une plateforme de traduction ayant de vrais avantages "
 "s’effondre par la seule décision de Red Hat."
 msgstr ""
+"Zanata is not my favorite tool, I don't hide it. However, I don't like the "
+"idea that a translation platform with real advantages collapses by Red Hat's "
+"decision alone."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:14
@@ -56,11 +66,13 @@ msgid ""
 "C’est un mauvais signal, surtout après avoir viré la majorité des "
 "traducteurs internes en 2017."
 msgstr ""
+"This is a bad signal, especially after firing the majority of in-house "
+"translators in 2017."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:16
 msgid "## Quelles sont les forces de Zanata ?"
-msgstr ""
+msgstr "## What are Zanata's strengths?"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:18
@@ -68,6 +80,8 @@ msgid ""
 "Si à mon goût, [Zanata](http://zanata.org) n’aide pas suffisamment la "
 "communauté des traducteurs de Fedora, l’outil a une réelle valeur."
 msgstr ""
+"If, in my opinion,[Zanata](http://zanata.org) does not help the Fedora "
+"translation community enough, the tool has a real value."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:20
@@ -75,6 +89,8 @@ msgid ""
 "Il rend le traducteur très efficace dans son travail et permet une gestion "
 "communautaire décentralisée."
 msgstr ""
+"It makes the translator very efficient in his work and allows for "
+"decentralized community management."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:22
@@ -83,6 +99,9 @@ msgid ""
 "bonne, les recherches et remplacement sont efficaces, les phrases à traduire "
 "s’affichent par 20, avec enregistrement automatique."
 msgstr ""
+"On the translator's **efficiency**: the translation memory is very good, "
+"searches and replacements are efficient, the sentences to be translated are "
+"displayed by 20, with automatic saves."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:24
@@ -90,6 +109,8 @@ msgid ""
 "Sur l’**administration** décentralisée : tout un chacun peut ajouter un "
 "projet, l’alimenter manuellement ou via une interface en ligne de commande."
 msgstr ""
+"On decentralized **administration**: anyone can add a project, feed it "
+"manually or via a command line interface."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:26
@@ -98,6 +119,8 @@ msgid ""
 "Framasoft l’ont élu : "
 "[https://trad.framasoft.org](https://trad.framasoft.org)."
 msgstr ""
+"It is probably for these great qualities that our friends at Framasoft "
+"elected him: [https://trad.framasoft.org](https://trad.framasoft.org)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:28
@@ -105,6 +128,8 @@ msgid ""
 "Et cette association est une locomotive sur divers enjeux majeurs du monde "
 "numérique libre."
 msgstr ""
+"And this association is a driving force on various major issues in the free "
+"digital world."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:30
@@ -112,11 +137,13 @@ msgid ""
 "Quand on y regarde, c’est assez proche du fonctionnement de Transifex, "
 "plateforme privative."
 msgstr ""
+"When you look at it, it's quite close to how Transifex works, a private "
+"platform."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:33
 msgid "## Pourquoi j’affirme que Zanata s’effondre ?"
-msgstr ""
+msgstr "## Why am I saying that Zanata is collapsing?"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:35
@@ -124,6 +151,10 @@ msgid ""
 "9 septembre, Alex Aeng quitte le projet : "
 "[https://lists.fedoraproject.org/archives/list/trans@lists.fedoraproject.org/thread/DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/](https://lists.fedoraproject.org/archives/list/trans@lists.fedoraproject.org/thread/DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/)"
 msgstr ""
+"September 9, Alex Aeng leaves the project: [https://lists.fedoraproject.org/"
+"archives/list/trans@lists.fedoraproject.org/thread/"
+"DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/](https://lists.fedoraproject.org/archives/"
+"list/trans@lists.fedoraproject.org/thread/DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:36
@@ -131,6 +162,10 @@ msgid ""
 "21 septembre, Sean Flanigan quitte le projet : "
 "[https://www.redhat.com/archives/zanata-users/2018-September/msg00002.html](https://lists.fedoraproject.org/archives/list/trans@lists.fedoraproject.org/thread/DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/)"
 msgstr ""
+"September 21, Sean Flanigan leaves the project: [https://www.redhat.com/"
+"archives/zanata-users/2018-September/"
+"msg00002.html](https://lists.fedoraproject.org/archives/list/"
+"trans@lists.fedoraproject.org/thread/DDDEM7U2DARZNGZZUA3XZF4MO3YE53JW/)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:38
@@ -138,6 +173,10 @@ msgid ""
 "Cela m’a donné envie d’aller voir qui étaient les contributeurs principaux : "
 "[https://github.com/zanata/zanata-platform/graphs/contributors?from=2017-07-26&to=2018-10-25&type=c](https://github.com/zanata/zanata-platform/graphs/contributors?from=2017-07-26&to=2018-10-25&type=c)"
 msgstr ""
+"It made me want to see who the main contributors were: [https://github.com/"
+"zanata/zanata-platform/graphs/"
+"contributors?from=2017-07-26&to=2018-10-25&type=c](https://github.com/zanata/"
+"zanata-platform/graphs/contributors?from=2017-07-26&to=2018-10-25&type=c)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:40
@@ -145,6 +184,8 @@ msgid ""
 "Or, Alex et Sean sont les contributeurs principaux depuis longtemps, suivis "
 "des deux suivants :"
 msgstr ""
+"Alex and Sean have been the main contributors for a long time, followed by "
+"the next two:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:42
@@ -152,6 +193,8 @@ msgid ""
 "Earl Floden, qui a quitté Red Hat en août : "
 "[https://www.linkedin.com/in/earlmarkfloden/](https://www.linkedin.com/in/earlmarkfloden/)"
 msgstr ""
+"Earl Floden, who left Red Hat in August: [https://www.linkedin.com/in/"
+"earlmarkfloden/](https://www.linkedin.com/in/earlmarkfloden/)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:43
@@ -159,6 +202,8 @@ msgid ""
 "Patrick Huang, qui a quité Red Hat en août : "
 "[https://www.linkedin.com/in/huangpatrick/](https://www.linkedin.com/in/huangpatrick/)"
 msgstr ""
+"Patrick Huang, who left Red Hat in August: [https://www.linkedin.com/in/"
+"huangpatrick/](https://www.linkedin.com/in/huangpatrick/)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:46
@@ -169,11 +214,15 @@ msgid ""
 "timing interpelle. Ma perception est une volonté de comprendre l’impact sur "
 "Fedora."
 msgstr ""
+"At the same time,[Brian Excelbierd] (https://fedoraproject.org/wiki/User:Bex)"
+" asks me a lot of questions about how translation and regionalization work. "
+"As much as his interest in the subject is certain, so much so is the timing. "
+"My perception is a desire to understand the impact on Fedora."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:48
 msgid "## Qu’en conclure ?"
-msgstr ""
+msgstr "## What can we conclude from this?"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:50
@@ -182,6 +231,9 @@ msgid ""
 "et que la diversité linguistique n’est pour beaucoup qu’un encombrement "
 "nécessaire pour quelques intégristes."
 msgstr ""
+"That the English language still dominates the world of free software, and "
+"that linguistic diversity is for many only a necessary burden for some "
+"fundamentalists."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:52
@@ -189,6 +241,8 @@ msgid ""
 "On parle beaucoup de l’inclusion et de diversité dans nos communautés, et la "
 "langue devrait en faire partie intégrante."
 msgstr ""
+"There is a lot of talk about inclusion and diversity in our communities, and "
+"language should be an integral part of it."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:55
@@ -197,6 +251,8 @@ msgid ""
 "l’emprunt systématique de mots anglais est également une barrière à la "
 "compréhension."
 msgstr ""
+"English is a major barrier for many.  Jargon and the systematic borrowing of "
+"English words is also a barrier to understanding."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:57
@@ -204,6 +260,8 @@ msgid ""
 "Leur usage s’explique par une tant par paresse intellectuelle que par un "
 "fait que la langue Une est l’anglais."
 msgstr ""
+"Their use is explained by both intellectual laziness and the fact that the "
+"One language is English."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:60
@@ -214,6 +272,10 @@ msgid ""
 "connaissez plus les mots. N’abandonnez pas les utilisateurs qui ne font pas "
 "partie de l’élite anglophone."
 msgstr ""
+"Developers, you have many responsibilities in our world, from the use of "
+"your tools to their impact on their users.  Do not let our ability to think "
+"in our languages die because you no longer know the words. Do not abandon "
+"users who are not part of the English-speaking elite."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:62
@@ -224,11 +286,15 @@ msgid ""
 "expliquer un concept, et oui, un mot anglais peut nécessiter plusieurs mots "
 "dans une autre langue."
 msgstr ""
+"Contributors, ask for support for your language, ask for appropriate "
+"translation tools, report errors, but above all, express yourself in simple "
+"words. It is rare to really need English words to explain a concept, and "
+"yes, an English word may require several words in another language."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:64
 msgid "Au revoir Zanata. Tu manqueras à beaucoup."
-msgstr ""
+msgstr "Goodbye, Zanata. Many will miss you."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:66
@@ -236,11 +302,13 @@ msgid ""
 "Merci encore à ses développeurs : Alex Aeng, Sean Flanigan, Patrick Huang, "
 "Earl Floden, David Mason et les autres."
 msgstr ""
+"Thanks again to its developers: Alex Aeng, Sean Flanigan, Patrick Huang, "
+"Earl Floden, David Mason and the others."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:68
 msgid "## Es-tu vraiment mon ami Red Hat ?"
-msgstr ""
+msgstr "## Are you really my friend Red Hat?"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:70
@@ -248,6 +316,8 @@ msgid ""
 "Il faudrait penser à financer un peu plus de choses qui ne sont pas des "
 "tuyaux, des outils et du produit."
 msgstr ""
+"We should think about financing a little more things that are not pipes, "
+"tools and products."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-10-25-Zanata-effondrement.md:71
@@ -255,3 +325,5 @@ msgid ""
 "Les humains et leurs cultures aussi ont besoin d’attention, et si toi qui es "
 "un géant tu ne le vois pas, ne le finance pas, qui le fera ?"
 msgstr ""
+"Humans and their cultures also need attention, and if you, as a giant, do "
+"not see it, do not finance it, who will?"
