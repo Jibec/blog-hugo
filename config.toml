@@ -10,10 +10,10 @@ enableMissingTranslationPlaceholders = true
 
 [languages]
 [languages.fr]
-title = "Démonstration d’Hugo avec mon Blog"
-contentDir = "content/fr"
-LanguageName = "Français"
-weight = 10
+  title = "Le journal de Jibec"
+  contentDir = "content/fr"
+  LanguageName = "Français"
+  weight = 10
 
 [[languages.fr.menu.main]]
   name = "À propos"
@@ -31,10 +31,10 @@ weight = 10
   url = "articles/"
 
 [languages.en]
-title = "Hugo's POC with my Blog"
-contentDir = "content/en"
-LanguageName = "English"
-weight = 20
+  title = "The Jibec journal"
+  contentDir = "content/en"
+  LanguageName = "English"
+  weight = 20
 
 [[languages.en.menu.main]]
   name = "About"
