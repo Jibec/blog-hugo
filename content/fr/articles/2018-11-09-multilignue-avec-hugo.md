@@ -47,8 +47,8 @@ Tout d’abords, voici la version d’Hugo que j’utilise :
 2. Cela créera un dossier **i18n-hyde** avec la structure par défaut.
 3. [Téléchargez le thème hyde](https://themes.gohugo.io/hyde/)
 4. Déplacez-le dans le dossier **themes** de votre site, dans un dossier appelé **hyde**. 
-5. Modifiez le fichier de configuration (par défaut config.toml), renseignez le thème 
-utilisé `theme = "hyde"`.
+5. Modifiez le fichier de configuration (par défaut config.toml), renseignez le 
+   thème utilisé `theme = "hyde"`.
 6. Créez un nouvel article : `hugo new posts/demo.md`
 7. Modifiez-le en ajoutant le contenu de votre choix et retirez le statut de brouillon. 
 8. Lancez la génération du site via : `hugo server -D`
@@ -109,8 +109,8 @@ Essayez un peu :
 Maintenant regardons le reste du site :
 
 * L’[accueil](http://localhost:1313/) liste tous les articles indifféremment de la langue
-* L’[accueil en français](http://localhost:1313/fr) liste bien uniquement bon article 
-(idem pour les autres langues) mais la mise en forme est nulle.
+* L’[accueil en français](http://localhost:1313/fr) liste bien uniquement bon 
+  article (idem pour les autres langues) mais la mise en forme est nulle.
 
 En fait, c’est là qu’on voit le piège, on pense que ça fonctionne mais non.
 Hugo voit des dossiers avec des articles, et génère simplement les pages en regard.

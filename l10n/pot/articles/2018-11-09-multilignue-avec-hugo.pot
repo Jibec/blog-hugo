@@ -1,0 +1,806 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-09 19:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:8
+#, no-wrap
+msgid ""
+"title: Créer un blog statique multilingue avec Hugo\n"
+"date: 2018-11-09\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'flock', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:12
+msgid ""
+"Cela fait longtemps que je trouve que le générateur de sites statiques "
+"[Pelican] (https://blog.getpelican.com/) est à remplacer. Deux problèmes m’y "
+"ont poussés :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:14
+msgid "Les flux RSS/Atom sont tronqués, obligeant le lecteur à visiter mon site."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:15
+msgid "La prise en charge de l’internationalisation est une bidouille au lieu d’une"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:16
+#, no-wrap
+msgid "fonctionnalité à part entière.\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:19
+msgid ""
+"Par ailleurs, c’est surtout pour cette seconde raison que je ne me suis pas "
+"intéressé à "
+"[Jekyll](https://gohugo.io/commands/hugo_import_jekyll/#readout)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:21
+msgid "# Hugo"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:25
+msgid ""
+"Générer un site avec [Hugo](https://gohugo.io) est trivial. La documentation "
+"du projet fait son travail et écrire un article consiste à créer un fichier "
+"texte avec quelques balises."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:29
+msgid ""
+"Là où cela devient plus complexe, c’est de trouver un thème qui à la fois "
+"répond à son besoin en termes de structuration de l’information, à jour des "
+"dernières modifications apportées par Hugo et prenant en charge "
+"l’internationalisation."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:32
+msgid ""
+"Ma recommandation est de se focaliser sur les deux premiers points. Le "
+"dernier est finalement assez facile à résoudre."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:36
+msgid ""
+"Globalement, les liens dans les thèmes posent souvent problèmes, il faut "
+"veiller à quelques points décrits dans cette page de la [documentation de "
+"l’internationalisation avec "
+"Hugo](https://gohugo.io/content-management/multilingual/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:38
+msgid "Vraiment, lisez la documentation."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:40
+msgid "## Activation du thème Hyde"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:42
+msgid "Tout d’abords, voici la version d’Hugo que j’utilise :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:44
+#, no-wrap
+msgid ""
+"    Hugo Static Site Generator v0.49 linux/amd64 BuildDate: "
+"2018-09-24T10:03:17Z\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:47
+msgid "Créons le nouveau site : `hugo new site i18n-hyde`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:48
+msgid "Cela créera un dossier **i18n-hyde** avec la structure par défaut."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:49
+msgid "[Téléchargez le thème hyde](https://themes.gohugo.io/hyde/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:50
+msgid ""
+"Déplacez-le dans le dossier **themes** de votre site, dans un dossier appelé "
+"**hyde**."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:52
+msgid ""
+"Modifiez le fichier de configuration (par défaut config.toml), renseignez le "
+"thème utilisé `theme = \"hyde\"`."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:53
+msgid "Créez un nouvel article : `hugo new posts/demo.md`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:54
+msgid ""
+"Modifiez-le en ajoutant le contenu de votre choix et retirez le statut de "
+"brouillon."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:55
+msgid "Lancez la génération du site via : `hugo server -D`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:57
+msgid "## Activer l’internationalisation dans Hugo"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:60
+msgid ""
+"Bon, maintenant ajoutons un peu d’internationalisation, modifiez le fichier "
+"de configuration :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:62
+msgid "Modifiez la langue par défaut :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:63
+msgid "`languageCode = \"fr\"`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:64
+msgid "Description de la documentation : __a string representing the language as"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:66
+msgid ""
+"defined. This is mostly used to populate the RSS feeds with the right "
+"language code.__"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:67
+msgid "Indiquez à Hugo que tout contenu sans langue est en Français par défaut :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:68
+msgid "`DefaultContentLanguage = \"fr\"`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:69
+msgid "Description de la documentation : __Content without language indicator will"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:70
+msgid "default to this language.__"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:72
+msgid ""
+"Indiquez à Hugo que vos articles sont désormais dans un sous-dossier du nom "
+"de la langue :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:73
+msgid "`defaultContentLanguageInSubdir = true`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:74
+msgid "Description de la documentation : __Render the default content language in"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:75
+msgid "subdir, e.g. content/en/. The site root / will then redirect to /en/.__"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:76
+msgid "Dans le dossier de votre site, créez un dossier **fr** dans content."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:77
+msgid "Déplacez le dossier **posts** dans ce dossier **fr**."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:81
+msgid ""
+"Vous l’avez probablement déjà deviné, les autres langues seront dans le même "
+"dossier.  Notre petit article de tout à l’heure est désormais accessible à "
+"l’adresse suivante : "
+"[http://localhost:1313/fr/posts/demo/](http://localhost:1313/fr/posts/demo/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:83
+msgid "# Le contenu"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:85
+msgid "## Traduisons notre article en plusieurs langues"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:88
+msgid ""
+"Allez dans le dossier content, copiez votre dossier **fr** en ar pour "
+"l’Arable, **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le "
+"Roumain."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:93
+msgid ""
+"Facile, dans le dossier content, utilisez cette formule : ```bash for i in "
+"ar oc en ro; do cp -R fr $i ; done ```"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:97
+msgid ""
+"Pour mieux tester, prenez une minute pour mettre du vrai contenu, tant le "
+"titre que le corps de l’article en vous servant d’un service de traduction "
+"(ou en trouvant du contenu dans ces langues, par exemple sur Wikipédia)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:99
+msgid "Générez à nouveau le site : `hugo server -D`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:101
+msgid "Essayez un peu :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:103
+msgid "[En arable](http://localhost:1313/ar/posts/demo/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:104
+msgid "[En occitan](http://localhost:1313/oc/posts/demo/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:105
+msgid "[En anglais](http://localhost:1313/en/posts/demo/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:106
+msgid "[En roumain](http://localhost:1313/en/posts/demo/)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:108
+msgid "Ça fonctionne sans soucis. C’est un bon début."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:110
+msgid "Maintenant regardons le reste du site :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:112
+msgid ""
+"L’[accueil](http://localhost:1313/) liste tous les articles indifféremment "
+"de la langue"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:114
+msgid ""
+"L’[accueil en français](http://localhost:1313/fr) liste bien uniquement bon "
+"article (idem pour les autres langues) mais la mise en forme est nulle."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:117
+msgid ""
+"En fait, c’est là qu’on voit le piège, on pense que ça fonctionne mais non.  "
+"Hugo voit des dossiers avec des articles, et génère simplement les pages en "
+"regard."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:121
+msgid ""
+"Vous pouvez le constater, car lors de la génération du site, lors ce que "
+"vous saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages "
+"correspondantes à la langue **FR**."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:123
+msgid "## Bilan d’étape"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:128
+msgid ""
+"On a donc un ersatz d’internationalisation, cela correspond à ce qu’on "
+"pourrait avoir avec n’importe quel générateur de site statique, tels "
+"[Pelican] (https://blog.getpelican.com/), [Jekyll](https://jekyllrb.com) ou "
+"[Antora] (https://antora.org)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:132
+msgid ""
+"Ce qu’on souhaite avoir en plus, ce sont tous les petits détails qui "
+"permettent une prise en charge native des URL locales, des liens internes, "
+"des sitemaps, des balises HTML LANG, etc."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:134
+msgid "# Ajouter l’internationalisation au thème"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:136
+msgid "## Débuter par prévenir Hugo"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:140
+msgid ""
+"Hugo a besoin de savoir quelles langues sont à activer.  Ici je fais de "
+"façon bourrin une configuration donnant un titre traduit et le **lieu où est "
+"stocké le contenu de chaque langue**."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:142 ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:235 ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:265
+msgid "```"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:159
+#, no-wrap
+msgid ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"  [languages.ar]\n"
+"    title = \"بلدي تدويل المتظاهر\"\n"
+"    contentDir = \"content/ar\"\n"
+"  [languages.oc]\n"
+"    title = \"El meu manifestant d’internacionalització\"\n"
+"    contentDir = \"content/oc\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:162
+msgid ""
+"Relancez maintenant `hugo server -D`, vous n’avez qu’une colonne pour les "
+"pages correspondantes à la langue **FR**."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:164
+msgid "On voit bien une colonne par langue, c’est bon signe :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:175
+#, no-wrap
+msgid ""
+"| AR | OC | EN | RO | FR\n"
+"------------------ |----|----|----|----|---\n"
+"  Pages            | 10 | 10 | 10 | 10 | 10\n"
+"  Paginator pages  |  0 |  0 |  0 |  0 |  0\n"
+"  Non-page files   |  0 |  0 |  0 |  0 |  0\n"
+"  Static files     |  6 |  6 |  6 |  6 |  6\n"
+"  Processed images |  0 |  0 |  0 |  0 |  0\n"
+"  Aliases          |  1 |  1 |  1 |  1 |  1\n"
+"  Sitemaps         |  2 |  1 |  1 |  1 |  1\n"
+"  Cleaned          |  0 |  0 |  0 |  0 |  0\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:178
+msgid ""
+"Accéder au site local en remplaçant fr par ar, oc, en ou ro montre bien le "
+"contenu dans la langue locale. C’est bien !"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:180
+msgid "## Liste des corrections à apporter"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:182
+msgid "Il reste encore tout un tas de petits détails à apporter :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:184
+msgid "le titre principal du site (celui à gauche) ne comprends pas la langue"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:185
+msgid "il faudrait ajouter un bouton pour lire le contenu dans une autre langue"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:186
+msgid "utiliser les URL dans la langue des articles"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:187
+msgid "les liens internes sont-ils tous cohérents vis-à-vis de la langue courante"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:188
+msgid "la balise HTML LANG n’est pas définie"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:190
+msgid "### Correction 1 : lien principal"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:193
+msgid ""
+"Visiblement, les thèmes Hugo utilisent souvent la variable `.Site.BaseURL`.  "
+"C’est l’adresse fixe définie à la première ligne de notre fichier de "
+"configuration."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:195
+msgid ""
+"Une simple commande indique où cette variable est utilisée : `grep -R "
+"Site.BaseURL *`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:197
+msgid "themes/hyde/layouts/partials/sidebar.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:198
+msgid "C’est notre menu de gauche → à corriger"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:199 ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:307
+msgid "themes/hyde/layouts/partials/head.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:200
+msgid "C’est pour nos fichiers statiques → à conserver tel quel"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:201
+msgid "themes/hyde/layouts/404.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:202
+msgid "C’est pour le bouton retour en cas de page 404 → à conserver tel quel"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:205
+msgid ""
+"La correction est simple, il suffit de remplacer __{{ .Site.BaseURL }}__ par "
+"__{{ .Site.BaseURL | relLangURL }}__."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:208
+msgid ""
+"On commence à toucher du bout du doigt ce que veut signifie « prendre en "
+"charge l’internationalisation »."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:210
+msgid "### Correction 2 : lister les langues"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:212
+msgid "Une simple liste nous permettra de lister les articles traduits :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:224
+#, no-wrap
+msgid ""
+"```HMTL\n"
+"{{ if .IsTranslated }}\n"
+"<ul class=\"nav-list\">\n"
+"    {{ range .Translations }}\n"
+"    <li>\n"
+"        <a href=\"{{ .Permalink }}\">{{ .Language.LanguageName }}</a>\n"
+"    </li>\n"
+"    {{ end}}\n"
+"</ul>\n"
+"{{ end }}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:226
+msgid "On ajoutera celle-ci à la fin des modèles suivants :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:228
+msgid "dans l’article : themes/hyde/layouts/_default/single.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:229
+msgid "dans le menu latéral : themes/hyde/layouts/partials/sidebar.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:233
+msgid ""
+"On remarque qu’on utilise le code `{{ .Language.LanguageName }}`.  Pour une "
+"raison que j’ignore, nous devons ajouter à notre fichier de configuration la "
+"variable **languageName** pour chacune de nos langues."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:257
+#, no-wrap
+msgid ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"    languageName = \"Français\"\n"
+"  [languages.ar]\n"
+"    title = \"بلدي تدويل المتظاهر\"\n"
+"    contentDir = \"content/ar\"\n"
+"    languageName = \"العربية\"\n"
+"  [languages.oc]\n"
+"    title = \"El meu manifestant d’internacionalització\"\n"
+"    contentDir = \"content/oc\"\n"
+"    languageName = \"occitan\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"    languageName = \"English\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"    languageName = \"Română\"\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:259
+msgid "En actualisant, on constate le bon fonctionnement. C’est bien !"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:261
+msgid "### Correction 3 : utilisez la langue locale dans l’URL"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:263
+msgid "Il suffit d’ajouter deux lignes à la configuration :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:268
+#, no-wrap
+msgid ""
+"   posts = \"/:year/:month/:title/\"\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:270
+msgid "Et voilà ! Notre page de démo a donc les adresses suivantes :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:272
+msgid "Français : http://localhost:1313/fr/2018/10/demo/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:273
+msgid "Roumain : http://localhost:1313/ro/2018/10/demonstra%C8%9Bie/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:274
+msgid ""
+"Arabe : "
+"http://localhost:1313/ar/2018/10/%D9%85%D8%B8%D8%A7%D9%87%D8%B1%D8%A9/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:275
+msgid "Occitan : http://localhost:1313/oc/2018/10/demostraci%C3%B3/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:276
+msgid "Anglais : http://localhost:1313/en/2018/10/demo/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:278
+msgid "### Correction 4 : les liens internes sont-ils tous cohérents ?"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:281
+msgid ""
+"De la même façon qu’avec le baseURL utilisé pour le menu latéral, vérifiez "
+"que les liens pointant vers les catégories ou tags de votre contenu sont "
+"cohérents."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:283
+msgid "### Correction 5 : la balise HTML LANG"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:286
+msgid ""
+"Pour démarrer, voici [la recommandation du "
+"W3C](https://www.w3.org/International/questions/qa-html-language-declarations)  "
+"et l’explication sur [pourquoi utiliser cette balise "
+"lang](https://www.w3.org/International/questions/qa-lang-why)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:288
+msgid ""
+"Une simple commande indique où la base html est déclarée : `grep -R \"html "
+"\" *`"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:290
+msgid "Il n’y a qu’une page de modèle : __themes/hyde/layouts/partials/head.html__."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:293
+msgid ""
+"On ajoutera simplement `lang=\"{{ .Site.Language.Lang }}\" xml:lang=\"{{ "
+".Site.Language.Lang }}\"` à notre balise HTML."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:295
+msgid "# Bonus : nettoyer le thème"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:297
+msgid "Pensez à virer toutes les choses nocives pour le web."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:300
+msgid ""
+"Dans ce thème on trouve une référence à Google Analytics et Disqus, mais "
+"surtout un appel systématique à Google Fonts."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:303
+msgid ""
+"Les fichiers à modifier sont les suivants, ça prend deux minutes et le web "
+"ne s’en portera que mieux :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:305
+msgid "themes/hyde/layouts/_default/baseof.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:306
+msgid "themes/hyde/layouts/_default/single.html"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:308
+msgid "themes/hyde/layouts/partials/head_fonts.htm"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:310
+msgid "# Bilan"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:312
+msgid "Nous avons maintenant un site statique et multilingue :)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:313
+msgid "Merci Hugo."
+msgstr ""
