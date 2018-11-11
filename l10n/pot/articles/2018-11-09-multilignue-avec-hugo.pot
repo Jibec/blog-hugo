@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-11-09 19:18+0100\n"
+"POT-Creation-Date: 2018-11-11 15:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,14 +49,10 @@ msgid "Les flux RSS/Atom sont tronqués, obligeant le lecteur à visiter mon sit
 msgstr ""
 
 #. type: Plain text
-#: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:15
-msgid "La prise en charge de l’internationalisation est une bidouille au lieu d’une"
-msgstr ""
-
-#. type: Plain text
 #: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:16
-#, no-wrap
-msgid "fonctionnalité à part entière.\n"
+msgid ""
+"La prise en charge de l’internationalisation est une bidouille au lieu d’une "
+"fonctionnalité à part entière."
 msgstr ""
 
 #. type: Plain text
@@ -367,8 +363,8 @@ msgstr ""
 #. type: Plain text
 #: ./content/fr/articles/2018-11-09-multilignue-avec-hugo.md:121
 msgid ""
-"Vous pouvez le constater, car lors de la génération du site, lors ce que "
-"vous saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages "
+"Vous pouvez le constater, car lors de la génération du site, lorsque vous "
+"saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages "
 "correspondantes à la langue **FR**."
 msgstr ""
 
@@ -425,10 +421,10 @@ msgid ""
 "    title = \"Mon démonstrateur d’internationalisation\"\n"
 "    contentDir = \"content/fr\"\n"
 "  [languages.ar]\n"
-"    title = \"بلدي تدويل المتظاهر\"\n"
+"    title = \"مُستعرِضي للتدويل\"\n"
 "    contentDir = \"content/ar\"\n"
 "  [languages.oc]\n"
-"    title = \"El meu manifestant d’internacionalització\"\n"
+"    title = \"Lo meu demostrator d’internacionalizacion\"\n"
 "    contentDir = \"content/oc\"\n"
 "  [languages.en]\n"
 "    title = \"My internationalization demonstrator\"\n"
