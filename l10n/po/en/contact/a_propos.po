@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-09 19:18+0100\n"
-"PO-Revision-Date: 2018-10-28 16:37+0000\n"
+"PO-Revision-Date: 2018-11-11 14:30+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
 "contacta_propos/en/>\n"
@@ -51,13 +51,12 @@ msgstr "### Translation"
 
 #. type: Plain text
 #: content/fr/contact/a_propos.md:10
-#, fuzzy
 msgid ""
 "Je suis coordinateur des traductions de [Fedora](https://getfedora.org) : "
 "[mon profil](https://fedoraproject.org/wiki/User:Jibecfed)"
 msgstr ""
 "I'm the translation coordinator of [Fedora](https://getfedora.org) : [my "
-"profile](https://fedoraproject.org/wiki/User :Jibecfed)"
+"profile](https://fedoraproject.org/wiki/User:Jibecfed)"
 
 #. type: Plain text
 #: content/fr/contact/a_propos.md:11
