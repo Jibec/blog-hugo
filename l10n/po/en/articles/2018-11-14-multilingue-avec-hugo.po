@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-14 22:54+0100\n"
-"PO-Revision-Date: 2018-11-14 21:24+0000\n"
+"PO-Revision-Date: 2018-11-14 22:04+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
-"articles2018-11-09-multilignue-avec-hugo/en/>\n"
+"articles2018-11-14-multilingue-avec-hugo/en/>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,14 +62,11 @@ msgstr "RSS/Atom feeds are truncated, forcing the reader to visit my site."
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:16
-#, fuzzy
-#| msgid ""
-#| "La prise en charge de l’internationalisation est une bidouille au lieu "
-#| "d’une"
 msgid ""
 "La prise en charge de l’internationalisation est une bidouille au lieu d’une "
 "fonctionnalité à part entière."
-msgstr "The support of internationalization is a sham instead of a"
+msgstr ""
+"Support for internationalization is a sham instead of a full functionality."
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:19
@@ -325,18 +322,13 @@ msgstr "## Let's translate our article into several languages"
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:88
-#, fuzzy
-#| msgid ""
-#| "Allez dans le dossier content, copiez votre dossier **fr** en ar pour "
-#| "l’Arable, **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le "
-#| "Roumain."
 msgid ""
 "Allez dans le dossier content, copiez votre dossier **fr** en **ar** pour "
 "l’Arabe, **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le "
 "Roumain."
 msgstr ""
-"Go to the content folder, copy your folder **fr** in ar for Arable, **oc** "
-"for Occitan, **en** for English and **ro** for Romanian."
+"Go to the content folder, copy your folder **fr** in **ar** for Arabic, "
+"**oc** for Occitan, **en** for English and **ro** for Romanian."
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:93
@@ -370,8 +362,6 @@ msgstr "Try it a moment:"
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:103
-#, fuzzy
-#| msgid "[En arable](http://localhost:1313/ar/posts/demo/)"
 msgid "[En arabe](http://localhost:1313/ar/posts/demo/)"
 msgstr "[In Arabic](http://localhost:1313/ar/posts/demo/)"
 
@@ -429,11 +419,6 @@ msgstr ""
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:121
-#, fuzzy
-#| msgid ""
-#| "Vous pouvez le constater, car lors de la génération du site, lors ce que "
-#| "vous saisissez `hugo server -D`, vous n’avez qu’une colonne pour les "
-#| "pages correspondantes à la langue **FR**."
 msgid ""
 "Vous pouvez le constater, car lors de la génération du site, lorsque vous "
 "saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages "
@@ -501,24 +486,7 @@ msgstr "```"
 
 #. type: Plain text
 #: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:159
-#, fuzzy, no-wrap
-#| msgid ""
-#| "  [languages.fr]\n"
-#| "    title = \"Mon démonstrateur d’internationalisation\"\n"
-#| "    contentDir = \"content/fr\"\n"
-#| "  [languages.ar]\n"
-#| "    title = \"بلدي تدويل المتظاهر\"\n"
-#| "    contentDir = \"content/ar\"\n"
-#| "  [languages.oc]\n"
-#| "    title = \"El meu manifestant d’internacionalització\"\n"
-#| "    contentDir = \"content/oc\"\n"
-#| "  [languages.en]\n"
-#| "    title = \"My internationalization demonstrator\"\n"
-#| "    contentDir = \"content/en\"\n"
-#| "  [languages.ro]\n"
-#| "    title = \"Demonstratorul meu de internaționalizare\"\n"
-#| "    contentDir = \"content/ro\"\n"
-#| "```\n"
+#, no-wrap
 msgid ""
 "  [languages.fr]\n"
 "    title = \"Mon démonstrateur d’internationalisation\"\n"
@@ -541,10 +509,10 @@ msgstr ""
 "    title = \"Mon démonstrateur d’internationalisation\"\n"
 "    contentDir = \"content/fr\"\n"
 "  [languages.ar]\n"
-"    title = \"بلدي تدويل المتظاهر\"\n"
+"    title = \"مُستعرِضي للتدويل\"\n"
 "    contentDir = \"content/ar\"\n"
 "  [languages.oc]\n"
-"    title = \"El meu manifestant d’internacionalització\"\n"
+"    title = \"Lo meu demostrator d’internacionalizacion\"\n"
 "    contentDir = \"content/oc\"\n"
 "  [languages.en]\n"
 "    title = \"My internationalization demonstrator\"\n"
