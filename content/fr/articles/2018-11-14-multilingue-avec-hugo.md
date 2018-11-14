@@ -162,7 +162,7 @@ correspondantes à la langue **FR**.
 
 On voit bien une colonne par langue, c’est bon signe :
 
- .                 | AR | OC | EN | RO | FR
+  Catégorie        | AR | OC | EN | RO | FR
 ------------------ |----|----|----|----|---
   Pages            | 10 | 10 | 10 | 10 | 10
   Paginator pages  |  0 |  0 |  0 |  0 |  0

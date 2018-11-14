@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-11-14 22:54+0100\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -451,7 +451,7 @@ msgstr ""
 #: ./content/fr/articles/2018-11-14-multilingue-avec-hugo.md:175
 #, no-wrap
 msgid ""
-"| AR | OC | EN | RO | FR\n"
+"  Catégorie        | AR | OC | EN | RO | FR\n"
 "------------------ |----|----|----|----|---\n"
 "  Pages            | 10 | 10 | 10 | 10 | 10\n"
 "  Paginator pages  |  0 |  0 |  0 |  0 |  0\n"

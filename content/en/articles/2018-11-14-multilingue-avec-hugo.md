@@ -12,8 +12,7 @@ I have long ago found that the static site generator [Pelican]
 to do so:
 
  1. RSS/Atom feeds are truncated, forcing the reader to visit my site.
- 2. La prise en charge de l’internationalisation est une bidouille au lieu d’une
-    fonctionnalité à part entière.
+ 2. Support for internationalization is a sham instead of a full functionality.
 
 Moreover, it is mainly for this second reason that I was not interested in
 [Jekyll] (https://gohugo.io/commands/hugo_import_jekyll/#readout).
@@ -85,8 +84,8 @@ following address:
 
 ## Let's translate our article into several languages
 
-Go to the content folder, copy your folder **fr** in ar for Arable, **oc**
-for Occitan, **en** for English and **ro** for Romanian.
+Go to the content folder, copy your folder **fr** in **ar** for Arabic,
+**oc** for Occitan, **en** for English and **ro** for Romanian.
 
 Easy, in the content folder, use this formula: ```bash for i in ar oc en ro;
 do cp -R fr $i ; done ```
@@ -116,9 +115,9 @@ Now let's look at the rest of the site:
 In fact, that's where we see the trap, we think it works but no.  Hugo sees
 folders with articles, and simply generates the pages next to them.
 
-Vous pouvez le constater, car lors de la génération du site, lorsque vous
-saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages
-correspondantes à la langue **FR**.
+You can see this, because when generating the site, when you enter `hugo
+server -D`, you only have one column for the pages corresponding to the
+language **FR**.
 
 ## Progress report
 
@@ -163,7 +162,7 @@ corresponding to the language **FR**.
 
 We can see one column per language, which is a good sign:
 
-| AR | OC | EN | RO | FR
+ Category          | AR | OC | EN | RO | FR
 ------------------ |----|----|----|----|---
   Pages            | 10 | 10 | 10 | 10 | 10
   Paginator pages  |  0 |  0 |  0 |  0 |  0
