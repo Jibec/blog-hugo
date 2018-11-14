@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:1
+#: content/fr/articles/2016-11-15-webhooks.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:8
+#: content/fr/articles/2016-11-15-webhooks.md:8
 #, no-wrap
 msgid ""
 "title: 'Comment avons-nous traduit Webhooks ?'\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:11
+#: content/fr/articles/2016-11-15-webhooks.md:11
 msgid ""
 "Pendant notre traduction de la future version de l’outil Zanata, nous avons "
 "choisi de traduire « Webhooks » en « URL de rappel » et je vais vous écrire "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:13
+#: content/fr/articles/2016-11-15-webhooks.md:13
 msgid ""
 "Nos amis anglophones brillent parfois par leur capacité à inventer des mots "
 "pour décrire les fonctionnalités ou mécanismes de leurs logiciels. La "
@@ -56,38 +56,38 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:15
+#: content/fr/articles/2016-11-15-webhooks.md:15
 msgid ""
 "traduire est-il un gain dans la compréhension ou le terme est-il déjà trop "
 "utilisé ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:16
+#: content/fr/articles/2016-11-15-webhooks.md:16
 msgid ""
 "ma compréhension du terme est-elle suffisante pour apporter un mot/une "
 "phrase cohérente avec le contexte ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:17
+#: content/fr/articles/2016-11-15-webhooks.md:17
 msgid "ma langue a-t-elle des mots adaptés et clairs pour y répondre ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:18
+#: content/fr/articles/2016-11-15-webhooks.md:18
 msgid ""
 "comment s’assurer que mon remplacement soit cohérent avec la pratique des "
 "autres traducteurs ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:20
+#: content/fr/articles/2016-11-15-webhooks.md:20
 msgid "### À quoi cela correspond ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:23
+#: content/fr/articles/2016-11-15-webhooks.md:23
 msgid ""
 "Un webhooks est l’URL d’une interface REST que sera appelée lors d’un "
 "évènement sur une application.  On peut traduire sans régionaliser, cela "
@@ -96,19 +96,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:25
+#: content/fr/articles/2016-11-15-webhooks.md:25
 msgid "### Notre approche"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:30
+#: content/fr/articles/2016-11-15-webhooks.md:30
 msgid ""
 "Il y a donc eu plusieurs cas présentés par Jérôme : — méthode web ou méthode "
 "HTTP — rappel web ou rappel HTTP — voire méthode de rappel HTTP ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:33
+#: content/fr/articles/2016-11-15-webhooks.md:33
 msgid ""
 "Une approche pourrait aller vers une définition beaucoup plus détaillée et "
 "auto-porteuse, comme en parle José : « fonction de rappel HTTP définie par "
@@ -118,29 +118,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:35
+#: content/fr/articles/2016-11-15-webhooks.md:35
 msgid ""
 "Le problème c’est que cette fonction n’est accessible qu’à une population "
 "spécifique sur un logiciel non publié, pour voir le contexte c’est "
 "compliqué… Heureusement, Zanata a une documentation tout à fait honorable "
-"qui parle de ce sujet : "
-"[http://docs.zanata.org/en/release/user-guide/projects/project-settings/#webhooks](http://docs.zanata.org/en/release/user-guide/projects/project-settings/#webhooks)"
+"qui parle de ce sujet : [http://docs.zanata.org/en/release/user-guide/"
+"projects/project-settings/#webhooks](http://docs.zanata.org/en/release/user-"
+"guide/projects/project-settings/#webhooks)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:37
+#: content/fr/articles/2016-11-15-webhooks.md:37
 msgid ""
 "Finalement, nous tendons vers une « URL de rappel », qui signifie : l’URL "
 "qui sera rappelée quand l’évènement surviendra."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:39
+#: content/fr/articles/2016-11-15-webhooks.md:39
 msgid "### Propager la pratique"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:41
+#: content/fr/articles/2016-11-15-webhooks.md:41
 msgid ""
 "Voilà, un mot de plus de couvert, j’espère que les autres groupes de "
 "traducteurs viendront nous confirmer qu’ils partagent cette traduction. À ma "
@@ -149,20 +150,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:43
+#: content/fr/articles/2016-11-15-webhooks.md:43
 msgid "Références :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:45
+#: content/fr/articles/2016-11-15-webhooks.md:45
 msgid ""
-"[https://lists.fedoraproject.org/archives/list/trans-fr@lists.fedoraproject.org/message/2HZHA2OT2UPE2R2XBYQKP243ZFCOTXRC/](Le "
-"lieu de la discussion publique initiée par Jérôme)"
+"[https://lists.fedoraproject.org/archives/list/trans-fr@lists.fedoraproject."
+"org/message/2HZHA2OT2UPE2R2XBYQKP243ZFCOTXRC/](Le lieu de la discussion "
+"publique initiée par Jérôme)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-15-webhooks.md:45
+#: content/fr/articles/2016-11-15-webhooks.md:45
 msgid ""
-"[http://docs.zanata.org/en/release/user-guide/projects/project-settings/#webhooks](documentation "
-"de Zanata concernant la fonction Webhooks)"
+"[http://docs.zanata.org/en/release/user-guide/projects/project-settings/"
+"#webhooks](documentation de Zanata concernant la fonction Webhooks)"
 msgstr ""

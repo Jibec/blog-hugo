@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:1
+#: content/fr/articles/2017-04-19-locasprint.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:8
+#: content/fr/articles/2017-04-19-locasprint.md:8
 #, no-wrap
 msgid ""
 "title: 'Locasprint N°5 @ Mozilla'\n"
@@ -38,69 +38,68 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:11
+#: content/fr/articles/2017-04-19-locasprint.md:11
 msgid ""
 "Le week-end des 8 et 9 avril, j’ai pu participer à un évènement organisé par "
-"la fondation Mozilla, un « [Locasprint](https://mozfr.org/locasprint/) » "
-"(ironique comme nom pour une rencontre de traducteurs)."
+"la fondation Mozilla, un « [Locasprint](https://mozfr.org/locasprint/) "
+"» (ironique comme nom pour une rencontre de traducteurs)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:13
+#: content/fr/articles/2017-04-19-locasprint.md:13
 msgid ""
 "Trois présentations ont été faites sur le périmètre de traduction dans la "
 "communauté Mozilla. Évidemment, s’il faut trois présentations c’est que "
 "c’est large, très large et le caractère exhaustif de la présentation a fait "
-"que cela a naturellement pris du temps, la matinée entière y a été "
-"consacré !"
+"que cela a naturellement pris du temps, la matinée entière y a été consacré !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:15
+#: content/fr/articles/2017-04-19-locasprint.md:15
 msgid ""
 "Le fait qu’il y ait quatre intervenants différents et de nombreuses "
 "illustrations a permi de rendre l’ensemble plus agréable."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:17
+#: content/fr/articles/2017-04-19-locasprint.md:17
 msgid ""
 "Le reste de la journée, appuyé sur ce tour d’horizon a été structuré en "
 "trois thèmes :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:19
+#: content/fr/articles/2017-04-19-locasprint.md:19
 msgid ""
 "la traduction via la plateforme [Pontoon](http://pontoon.mozilla.org) "
 "(applications, sites, extensions, courriels, phrases d’en-tête, etc.),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:20
+#: content/fr/articles/2017-04-19-locasprint.md:20
 msgid ""
 "traduire le [Mozilla Developer Network](https://developer.mozilla.org/fr/) "
 "(une documentation utilisant un wiki),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:21
+#: content/fr/articles/2017-04-19-locasprint.md:21
 msgid ""
-"la traduction articles (très proche du fonctionnement de "
-"[Framalang](https://framalang.org))."
+"la traduction articles (très proche du fonctionnement de [Framalang](https://"
+"framalang.org))."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:23
+#: content/fr/articles/2017-04-19-locasprint.md:23
 msgid ""
 "Dans les personnes présentes, on trouve un équilibre entre les personnes "
-"ayant un passé orienté linguistique et celles ayant un passé "
-"technique. Naturellement la première catégorie est très féminine tandis que "
-"la seconde est particulièrement masculine."
+"ayant un passé orienté linguistique et celles ayant un passé technique. "
+"Naturellement la première catégorie est très féminine tandis que la seconde "
+"est particulièrement masculine."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:25
+#: content/fr/articles/2017-04-19-locasprint.md:25
 msgid ""
 "L’objectif assumé est de ne pas faire du chiffre, d’une part parce que la "
 "langue française est plutôt bien représentée, mais surtout parce que les "
@@ -110,38 +109,38 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:27
+#: content/fr/articles/2017-04-19-locasprint.md:27
 msgid ""
 "C’est donc d’une manière très décomplexée que j’ai pu assaillir [Théo "
-"Chevalier](https://www.theochevalier.fr) de questions sur "
-"[Pontoon](http://pontoon.mozilla.org) – la plateforme de traduction "
-"développée par Mozilla – mais aussi sur le fonctionnement global de "
-"l’internationalisation, des dépôts des traducteurs, etc."
+"Chevalier](https://www.theochevalier.fr) de questions sur [Pontoon](http://"
+"pontoon.mozilla.org) – la plateforme de traduction développée par Mozilla – "
+"mais aussi sur le fonctionnement global de l’internationalisation, des "
+"dépôts des traducteurs, etc."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:29
+#: content/fr/articles/2017-04-19-locasprint.md:29
 msgid ""
 "L’ensemble me semble habilement pensé par des personnes comprenant bien les "
 "besoins d’une communauté de traducteur."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:31
+#: content/fr/articles/2017-04-19-locasprint.md:31
 msgid ""
-"Pendant plusieurs années, Mozilla a utilisé "
-"[Pootle](https://mozilla.locamotion.org), mais malheureusement pendant "
-"quelque temps le projet est tombé en sommeil, Mozilla a été obligé de cloner "
-"le code et de maintenir sa propre version. Face à une cette impasse et les "
-"besoins spécifiques non couverts nécessaires à une grosse communauté, "
-"Mozilla a décidé de lancer son propre développement. Les deux plateformes "
-"perdurent et chaque équipe peut choisir à quel moment elle souhaite migrer "
-"vers Pontoon. Pootle est désormais à nouveau maintenu et vivant, c’est "
-"malheureusement trop tard pour Mozilla."
+"Pendant plusieurs années, Mozilla a utilisé [Pootle](https://mozilla."
+"locamotion.org), mais malheureusement pendant quelque temps le projet est "
+"tombé en sommeil, Mozilla a été obligé de cloner le code et de maintenir sa "
+"propre version. Face à une cette impasse et les besoins spécifiques non "
+"couverts nécessaires à une grosse communauté, Mozilla a décidé de lancer son "
+"propre développement. Les deux plateformes perdurent et chaque équipe peut "
+"choisir à quel moment elle souhaite migrer vers Pontoon. Pootle est "
+"désormais à nouveau maintenu et vivant, c’est malheureusement trop tard pour "
+"Mozilla."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:33
+#: content/fr/articles/2017-04-19-locasprint.md:33
 msgid ""
 "En pointillé, j’ai également passé du temps à comprendre comment traduire et "
 "mettre à jour le [MDN](https://developer.mozilla.org/fr/), le site de "
@@ -153,9 +152,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-19-locasprint.md:34
+#: content/fr/articles/2017-04-19-locasprint.md:34
 msgid ""
 "Merci aux organisateurs et traducteurs présents ce week-end. Pour en savoir "
-"plus, parcourez cette page dédiée à l’évènement : "
-"[https://github.com/mozfr/besogne/wiki/Locasprint](https://github.com/mozfr/besogne/wiki/Locasprint)"
+"plus, parcourez cette page dédiée à l’évènement : [https://github.com/mozfr/"
+"besogne/wiki/Locasprint](https://github.com/mozfr/besogne/wiki/Locasprint)"
 msgstr ""

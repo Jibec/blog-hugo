@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:1
+#: content/fr/articles/2017-06-17-Measuring_success.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:8
+#: content/fr/articles/2017-06-17-Measuring_success.md:8
 #, no-wrap
 msgid ""
 "title: 'Measuring success - l10n/language'\n"
@@ -38,16 +38,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:11
+#: content/fr/articles/2017-06-17-Measuring_success.md:11
 msgid ""
 "As I invite each of us to use the native language when blogging, here is my "
 "first english message for a very late answer to Brian's Fedora Magazine blog "
-"post: [Measuring "
-"Success](https://fedoramagazine.org/share-fedora-measuring-success/)."
+"post: [Measuring Success](https://fedoramagazine.org/share-fedora-measuring-"
+"success/)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:13
+#: content/fr/articles/2017-06-17-Measuring_success.md:13
 msgid ""
 "There is many aspects we can measure in a distribution, we can measure "
 "achievents of objectives for particular kind of targets (main Fedora "
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:15
+#: content/fr/articles/2017-06-17-Measuring_success.md:15
 msgid ""
 "Please note I use language support as a whole, including both i18n and l10n "
 "as they are bound together. You can't translate a software if it's not "
@@ -70,45 +70,46 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:17
+#: content/fr/articles/2017-06-17-Measuring_success.md:17
 msgid "Here are my assumption:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:19
+#: content/fr/articles/2017-06-17-Measuring_success.md:19
 msgid ""
 "For easier adoption and consumption, software need to be translated and to "
 "have quality resources in local languages."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:20
+#: content/fr/articles/2017-06-17-Measuring_success.md:20
 msgid ""
 "However, translators are undervalued, ill-equipped and insufficiently "
 "structured, which tends to make their action not very effective."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:21
+#: content/fr/articles/2017-06-17-Measuring_success.md:21
 msgid "How to help translator communities to be efficient?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:22 /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:50
+#: content/fr/articles/2017-06-17-Measuring_success.md:22
+#: content/fr/articles/2017-06-17-Measuring_success.md:50
 msgid ""
 "By setting up management tools suited for language support, by facilitating "
 "contribution and by tooling communities to give them needed autonomy."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:24
+#: content/fr/articles/2017-06-17-Measuring_success.md:24
 msgid ""
 "# For easier adoption and consumption, software need to be translated and to "
 "have quality resources in local languages."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:26
+#: content/fr/articles/2017-06-17-Measuring_success.md:26
 msgid ""
 "_Why_? In its Internet Health report, the Mozilla foundation and a number of "
 "researchers evaluate that 52% of online resources are in English while only "
@@ -117,14 +118,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:28
+#: content/fr/articles/2017-06-17-Measuring_success.md:28
 msgid ""
 "_How_? By using open standards, clear tools and processes and local "
 "communities who translate the software and evangelize it."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:30
+#: content/fr/articles/2017-06-17-Measuring_success.md:30
 msgid ""
 "_Where_? Emblematic free and open-source software projects are translated, "
 "from the Firefox browser to the LibreOffice suite, the GNOME desktop or VLC "
@@ -133,42 +134,42 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:32
+#: content/fr/articles/2017-06-17-Measuring_success.md:32
 msgid ""
 "# However, translators are undervalued, ill-equipped and insufficiently "
 "structured, which tends to make their action not very effective."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:34
+#: content/fr/articles/2017-06-17-Measuring_success.md:34
 msgid ""
 "Even when they care about it, FLOSS projects do not know how to interact "
 "with language communities."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:36
+#: content/fr/articles/2017-06-17-Measuring_success.md:36
 msgid ""
 "Projects managers are often fine experts, with a high level of education and "
 "fluent in English."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:38
+#: content/fr/articles/2017-06-17-Measuring_success.md:38
 msgid ""
 "Comfortable with English speaking communities, they tend to shy away from "
 "localization issues."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:40
+#: content/fr/articles/2017-06-17-Measuring_success.md:40
 msgid ""
 "Focused on product delivery, the impacts of technical choices on "
 "localization are often unknown to them."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:42
+#: content/fr/articles/2017-06-17-Measuring_success.md:42
 msgid ""
 "Open-source tools are structured by project, from development to inclusion "
 "in distributions, in containers and now in Flatpack. Nevertheless, users "
@@ -177,14 +178,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:44
+#: content/fr/articles/2017-06-17-Measuring_success.md:44
 msgid ""
 "Improvement of language support quality requires therefore improvement of "
 "various software and a strengthening of practices."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:46
+#: content/fr/articles/2017-06-17-Measuring_success.md:46
 msgid ""
 "At most, 15% of (gnome) software descriptions are translated in French, "
 "whereas 10% of software might be translated in French, which has a "
@@ -193,141 +194,142 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:48
+#: content/fr/articles/2017-06-17-Measuring_success.md:48
 msgid "# How to help translator communities to be efficient?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:51
+#: content/fr/articles/2017-06-17-Measuring_success.md:51
 msgid ""
-"To measure the actual status of language support in Fedora and to "
-"lead/support improvement language by language (translation rate, trend over "
-"time, team activity)."
+"To measure the actual status of language support in Fedora and to lead/"
+"support improvement language by language (translation rate, trend over time, "
+"team activity)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:52
+#: content/fr/articles/2017-06-17-Measuring_success.md:52
 msgid ""
 "To quantify actual need of language support in Fedora, language by language: "
 "statistics on audiences of public websites and of local communities."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:53
+#: content/fr/articles/2017-06-17-Measuring_success.md:53
 msgid ""
 "To bolster existing tools by supplying quality tools for language support "
 "(Transvision, Pology, Dennis, Language-toolik)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:55
+#: content/fr/articles/2017-06-17-Measuring_success.md:55
 msgid "# What sources can we get these information from?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:57
+#: content/fr/articles/2017-06-17-Measuring_success.md:57
 msgid "management tools suited for language support:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:58
+#: content/fr/articles/2017-06-17-Measuring_success.md:58
 msgid "websites can gives an idea of language request (from browser settings)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:59
+#: content/fr/articles/2017-06-17-Measuring_success.md:59
 msgid "our translation platform should give us per-month activity level"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:60
+#: content/fr/articles/2017-06-17-Measuring_success.md:60
 msgid ""
 "documentation toolchain should allow translation and be reusable for any "
 "projects so they can ask for L10N support"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:61
+#: content/fr/articles/2017-06-17-Measuring_success.md:61
 msgid "actual status of language support:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:62
-msgid "taskotron may be used to extract current translation and run tests on it:"
+#: content/fr/articles/2017-06-17-Measuring_success.md:62
+msgid ""
+"taskotron may be used to extract current translation and run tests on it:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:63
+#: content/fr/articles/2017-06-17-Measuring_success.md:63
 msgid ""
 "content in package vs. content in translation platform (see [Transdiff "
 "change proposal](https://fedoraproject.org/wiki/Changes/Transdiff))"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:64
+#: content/fr/articles/2017-06-17-Measuring_success.md:64
 msgid "feed a global translation memory datawarehouse"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:65
+#: content/fr/articles/2017-06-17-Measuring_success.md:65
 msgid ""
 "appstream has a tools to extract translation level of software (it uses the "
 "data for gnome-software),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:66
+#: content/fr/articles/2017-06-17-Measuring_success.md:66
 msgid "quality tools for language support:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:67
+#: content/fr/articles/2017-06-17-Measuring_success.md:67
 msgid "Provide easy to use quality tools:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:68
+#: content/fr/articles/2017-06-17-Measuring_success.md:68
 msgid "using per project tools like pology, language-toolkit, dennis..."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:69
+#: content/fr/articles/2017-06-17-Measuring_success.md:69
 msgid ""
 "using distribution wide consistency checks (same word, deferent translation, "
 "using wordnet and equivalents)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:70
+#: content/fr/articles/2017-06-17-Measuring_success.md:70
 msgid "Package delivry:"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:71
+#: content/fr/articles/2017-06-17-Measuring_success.md:71
 msgid ""
 "we may try to fill the gaps with an automatic machine translation (for some "
 "part of Fedora)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:72
+#: content/fr/articles/2017-06-17-Measuring_success.md:72
 msgid "localized documentation should be included in packages"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:73
+#: content/fr/articles/2017-06-17-Measuring_success.md:73
 msgid ""
 "we should be able to translate downstream and push back content to projects "
 "(translation patches), at least for AppData files."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:75
+#: content/fr/articles/2017-06-17-Measuring_success.md:75
 msgid "# Flock"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-06-17-Measuring_success.md:76
+#: content/fr/articles/2017-06-17-Measuring_success.md:76
 msgid ""
 "This is quite a lot of subjects to discuss about at Flock! If you feel like "
 "helping, you're really welcome!"

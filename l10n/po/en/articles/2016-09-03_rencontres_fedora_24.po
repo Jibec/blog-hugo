@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:1
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:8
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:8
 #, no-wrap
 msgid ""
 "title: 'Les rencontres Fedora 24 à Paris'\n"
@@ -38,24 +38,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:11
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:11
 msgid ""
-"Ah, quel régal ces [rencontres fedora "
-"24](https://fedoraproject.org/wiki/Rencontres_Fedora_24_à_Paris) ! Affronter "
-"l’inconnue de événement, savoir qu’en face de nous il n’y a pas simplement "
-"le sachant, l’expert en technologies et outils mais aussi le tout venant, "
-"l’amateur cherchant à s’informer, l’opportuniste avec toutes ses qualités."
+"Ah, quel régal ces [rencontres fedora 24](https://fedoraproject.org/wiki/"
+"Rencontres_Fedora_24_à_Paris) ! Affronter l’inconnue de événement, savoir "
+"qu’en face de nous il n’y a pas simplement le sachant, l’expert en "
+"technologies et outils mais aussi le tout venant, l’amateur cherchant à "
+"s’informer, l’opportuniste avec toutes ses qualités."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:13
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:13
 msgid ""
 "Aujourd’hui nous avons présenté Fedora 24, en rappelant ses valeurs et ses "
 "forces, sans occulter ses faiblesses."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:15
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:15
 msgid ""
 "Après avoir rappelé ces valeurs et les caractéristiques de Fedora 24, nous "
 "avons présenté les nouveautés, principalement sous l’angle des montées de "
@@ -67,33 +67,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:17
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:17
 msgid ""
-"Ensuite, [ma présentation sur la "
-"traduction](https://jibecfed.fedorapeople.org/pr%c3%a9sentations/2016-09-03%20La%20traduction%20de%20Fedora%20en%20Fran%c3%a7ais.odp) "
-"visait à expliquer les mots, les outils, les processus, les fonctionnements "
-"de la traduction de Fedora en tant que Plate-forme. Elle s’est poursuivit "
-"sur un atelier, qui a permit d’attaquer un peu la [traduction des "
-"descriptions de "
-"logiciels](https://jibecfed.fedorapeople.org/l10n/appdata-fr/) qu’on peut "
-"voir par exemple dans Logiciels (Gnome-software). Naturellement, tout ceci "
-"s’est terminé autour d’une bonne bière."
+"Ensuite, [ma présentation sur la traduction](https://jibecfed.fedorapeople."
+"org/pr%c3%a9sentations/2016-09-03%20La%20traduction%20de%20Fedora%20en%20Fran"
+"%c3%a7ais.odp) visait à expliquer les mots, les outils, les processus, les "
+"fonctionnements de la traduction de Fedora en tant que Plate-forme. Elle "
+"s’est poursuivit sur un atelier, qui a permit d’attaquer un peu la "
+"[traduction des descriptions de logiciels](https://jibecfed.fedorapeople.org/"
+"l10n/appdata-fr/) qu’on peut voir par exemple dans Logiciels (Gnome-"
+"software). Naturellement, tout ceci s’est terminé autour d’une bonne bière."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:19
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:19
 msgid ""
 "Merci à [Emmanuel](https://fedoraproject.org/wiki/User:Eseyman) et "
 "[Alexandre](https://fedoraproject.org/wiki/User:Nobrakal) avec qui "
-"l’événement a été organisé, mais également à "
-"[Misc](https://fedoraproject.org/wiki/User:Misc) et "
-"[Jehane](https://fedoraproject.org/wiki/User:Jehane) pour leur participation "
-"et bienvenue à [Seb75](https://fedoraproject.org/wiki/User:Seb75) qui "
-"peut-être deviendra un contributeur régulier ? Navré, mais je n’ai pas "
-"l’identifié de la petite dizaine de curieux."
+"l’événement a été organisé, mais également à [Misc](https://fedoraproject."
+"org/wiki/User:Misc) et [Jehane](https://fedoraproject.org/wiki/User:Jehane) "
+"pour leur participation et bienvenue à [Seb75](https://fedoraproject.org/"
+"wiki/User:Seb75) qui peut-être deviendra un contributeur régulier ? Navré, "
+"mais je n’ai pas l’identifié de la petite dizaine de curieux."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-03_rencontres_fedora_24.md:20
+#: content/fr/articles/2016-09-03_rencontres_fedora_24.md:20
 msgid "À bientôt petite communauté, c’était un plaisir ! 😏"
 msgstr ""

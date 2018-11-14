@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:1
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:8
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:8
 #, no-wrap
 msgid ""
 "title: 'Fedora 25 est là, regard sur le travail des traducteurs'\n"
@@ -38,20 +38,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:11
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:11
 msgid ""
 "Pour [Fedora 25](https://getfedora.org), les traducteurs se sont chargés de "
-"traduire intégralement "
-"[ibus-typing-booster](https://fedoramagazine.org/ibus-typing-booster/), "
-"qu’on pourrait appeler l’accélérateur de saisie ! Il vise à faciliter "
-"l’écriture de langues asiatiques, mais peut aussi permettre aux européens, "
-"outre l'accélération de la saisie par prédiction, d’accéder à leurs propres "
-"symboles : les émoticônes ! En saisissant le drapeau, on nous suggère « 🏳‍ » "
-"ou le chat « 🐈 »."
+"traduire intégralement [ibus-typing-booster](https://fedoramagazine.org/ibus-"
+"typing-booster/), qu’on pourrait appeler l’accélérateur de saisie ! Il vise "
+"à faciliter l’écriture de langues asiatiques, mais peut aussi permettre aux "
+"européens, outre l'accélération de la saisie par prédiction, d’accéder à "
+"leurs propres symboles : les émoticônes ! En saisissant le drapeau, on nous "
+"suggère « 🏳‍ » ou le chat « 🐈 »."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:13
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:13
 msgid ""
 "Dans la continuité, nous avons également traduit/finalisé des outils plus "
 "anciens ibus, ibus-anthy, ibus-chewing, ibus-libpinyin. permettant la saisie "
@@ -59,16 +58,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:15
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:15
 msgid ""
 "Évidemment, l’outil Fedora Media Writer, qu’on appellerait l’installateur de "
 "médias, est intégralement traduit pour faciliter l’installation. Les sites "
-"internet et tous les outils principaux sont toujours à complètement "
-"traduits."
+"internet et tous les outils principaux sont toujours à complètement traduits."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:17
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:17
 msgid ""
 "L’outil de signalement automatique ABRT et ses dépendances devraient être "
 "également complètement traduits pour faciliter la remontée de rapports "
@@ -76,97 +74,94 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:19
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:19
 msgid ""
 "La page des téléchargements alternatifs Fedora a été finalisée par l’équipe "
-"Websites, puis traduite dans la foulée : "
-"[https://alt.fedoraproject.org](https://alt.fedoraproject.org). Tous les "
-"sites Fedora sont donc traduits !"
+"Websites, puis traduite dans la foulée : [https://alt.fedoraproject.org]"
+"(https://alt.fedoraproject.org). Tous les sites Fedora sont donc traduits !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:21
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:21
 msgid ""
 "L’équipe de Documentation a toujours besoin de bras pour actualiser ses "
-"documents et publier nos "
-"traductions. "
-"[http://www.winglemeyer.org/technology/2016/09/20/fedora-docs.html Ils "
-"refondent leurs outils et chaînes de production], n’hésitez pas à les aider "
-"!"
+"documents et publier nos traductions. [http://www.winglemeyer.org/"
+"technology/2016/09/20/fedora-docs.html Ils refondent leurs outils et chaînes "
+"de production], n’hésitez pas à les aider !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:23
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:23
 msgid "### Que faire pour aider ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:25
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:25
 msgid ""
 "Dès que vous voyez un logiciel (que vous utilisez) qui est incomplet voire "
 "même non traduit :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:27
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:27
 msgid "remontez jusqu’à son code,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:28
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:28
 msgid "trouvez sa plateforme de traduction,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:29
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:29
 msgid "battez-vous pour obtenir une traduction à 100 %,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:30
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:30
 msgid "relisez trois fois pour un 100 % en qualité,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:31
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:31
 msgid ""
 "suivez son cycle de parution pour s’assurer que les nouvelles traductions "
 "parviennent jusqu’à votre ordinateur."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:33
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:33
 msgid "La dernière étape peut prendre du temps ;)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:35
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:35
 msgid ""
 "Traduisez également les notes de version de vos logiciels et outils pour "
 "faciliter leur compréhension."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:37
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:37
 msgid "### Un doute dans la traduction d’un programme ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:39
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:39
 msgid ""
 "Vous pouvez préciser dans quelle langue lancer le programme en surchargeant "
 "la valeur de '“LANG”'"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:41
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:41
 msgid ""
 "Si votre système est configuré en Français, vous pouvez tout de même lancer "
 "l’éditeur OpenStreetMap en anglais, en faisant :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:44
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:44
 #, no-wrap
 msgid ""
 "    :::bash\n"
@@ -174,45 +169,45 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:46
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:46
 msgid "### Organisation de Fedora"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:48
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:48
 msgid ""
 "L’organisation de la traduction d’une distribution est particulière de part "
 "la diversité des sources des contenus fournis à l’utilisateur."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:50
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:50
 msgid "La communauté Fedora :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:52
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:52
 msgid ""
 "utilise majoritairement Zanata comme plateforme de traduction de ses "
 "productions internes http://fedora.zanata. org/"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:53
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:53
 msgid ""
-"on y trouve par exemple [les sites "
-"internet](https://fedora.zanata.org/version-group/view/web)"
+"on y trouve par exemple [les sites internet](https://fedora.zanata.org/"
+"version-group/view/web)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:54
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:54
 msgid ""
 "les [outils majeurs](https://fedora.zanata.org/version-group/view/main), "
 "tels que l’installateur ou le gestionnaire de paquets DNF"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:57
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:57
 msgid ""
 "Des logiciels peuvent être majoritairement utilisés par Fedora, mais être "
 "pensés dans une optique plus large, on les retrouvera sur la [plateforme « "
@@ -221,32 +216,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:59
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:59
 msgid ""
 "Pour tout le reste, il faut remonter à la source du code pour trouver où "
 "traduire. Voici quelques exemples parmi les plus connus :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:61
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:61
 msgid ""
-"[traduction de Thunderbird et "
-"Firefox](https://wiki.mozilla.org/L10n:Home_Page)"
+"[traduction de Thunderbird et Firefox](https://wiki.mozilla.org/L10n:"
+"Home_Page)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:62
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:62
 msgid ""
-"[traduction de "
-"Libreoffice](https://fr.libreoffice.org/community/localization/)"
+"[traduction de Libreoffice](https://fr.libreoffice.org/community/"
+"localization/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:63
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:63
 msgid "[traduction de GNOME](https://l10n.gnome.org)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:63
+#: content/fr/articles/2016-11-22-Fedora-25-et-la-traduction.md:63
 msgid "[traduction de KDE](http://l10n.kde.org)"
 msgstr ""

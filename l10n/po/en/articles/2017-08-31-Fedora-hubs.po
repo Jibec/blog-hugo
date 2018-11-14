@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:1
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:8
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:8
 #, no-wrap
 msgid ""
 "title: 'Fedora Hubs, c’est pas du vent !'\n"
@@ -38,22 +38,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:11
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:11
 msgid ""
 "Faciliter la circulation de l’information dans un grand projet tel que "
 "Fedora est un défi quotidien. Il y a des dizaines de listes, d’outils, de "
 "canaux de communication, de sites, c’est merveilleusement le bazar ! Pour "
 "aider à affronter ce défi de tout grand projet, Fedora Hubs nous a été "
 "annoncé de longue date. Le Flock fut l’occasion pour Aurélien Bompard et "
-"Máirín Duffy de nous faire une [présentation (avec "
-"démo)](https://flock2017.sched.com/event/Bm9h/fedora-hubs-demo-roadmap) et "
-"de poursuivre par un [atelier de "
-"programmation](https://flock2017.sched.com/event/Bm8x/fedora-hubs-hackfest) "
-"(cette fois ci avec Sayan Chowdhury)."
+"Máirín Duffy de nous faire une [présentation (avec démo)](https://flock2017."
+"sched.com/event/Bm9h/fedora-hubs-demo-roadmap) et de poursuivre par un "
+"[atelier de programmation](https://flock2017.sched.com/event/Bm8x/fedora-"
+"hubs-hackfest) (cette fois ci avec Sayan Chowdhury)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:13
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:13
 msgid ""
 "Pourquoi est-ce que je parle de programmation ? Car l’atelier était bien "
 "préparé, une boite Vagrant, un tutoriel complet, décrivant pas à pas la "
@@ -64,12 +63,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:15
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:15
 msgid "### La mécanique générale"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:17
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:17
 msgid ""
 "Fedora Hubs est un outil agrégeant des informations de sources externes, il "
 "contient donc des petits widget qui vont avoir pour mission d’interroger ou "
@@ -79,31 +78,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:19
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:19
 msgid ""
 "On aura donc des widgets pour les développeurs via des crochets git, mais "
-"aussi tous les [évènements passant dans le bus de message Fedora "
-"(Fedmsg)](https://fedora-fedmsg.readthedocs.io/en/latest/topics.html), ou "
-"ceux que vous aurez envie d’ajouter, dans mon cas ça serait des flux RSS par "
-"exemple pour avoir le flux Fedora-fr sur le Hub francophone."
+"aussi tous les [évènements passant dans le bus de message Fedora (Fedmsg)]"
+"(https://fedora-fedmsg.readthedocs.io/en/latest/topics.html), ou ceux que "
+"vous aurez envie d’ajouter, dans mon cas ça serait des flux RSS par exemple "
+"pour avoir le flux Fedora-fr sur le Hub francophone."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:21
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:21
 msgid "### Essayez vous aussi !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:23
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:23
 msgid ""
-"L’ensemble du tutorial est accessible à cette adresse "
-"[https://docs.pagure.org/fedora-hubs-widget-workshop/](https://docs.pagure.org/fedora-hubs-widget-workshop/), "
-"et à l’exception de la commande suivante pour obtenir la boite Vagrant, vous "
-"avez tout le nécessaire pour vous débrouiller tout seul."
+"L’ensemble du tutorial est accessible à cette adresse [https://docs.pagure."
+"org/fedora-hubs-widget-workshop/](https://docs.pagure.org/fedora-hubs-widget-"
+"workshop/), et à l’exception de la commande suivante pour obtenir la boite "
+"Vagrant, vous avez tout le nécessaire pour vous débrouiller tout seul."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:27
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:27
 #, no-wrap
 msgid ""
 "```\n"
@@ -112,23 +111,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:29
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:29
 msgid "### Comment traduire ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:31
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:31
 msgid ""
 "Il est trop tôt pour traduire, la mécanique sous-jacente n’étant pas "
 "disponible, cependant la technologie principale étant utilisée pour les "
 "Widgets s’appuie sur Jinja2 comme moteur de template. C’est donc exactement "
-"[le même procédé que pour traduire un site utilisant "
-"Pelican](https://github.com/getpelican/pelican-plugins/blob/master/i18n_subsites/localizing_using_jinja2.rst). "
-"Le reste utilise le cadriciel Flask, ce qui devrait également être ok."
+"[le même procédé que pour traduire un site utilisant Pelican](https://github."
+"com/getpelican/pelican-plugins/blob/master/i18n_subsites/"
+"localizing_using_jinja2.rst). Le reste utilise le cadriciel Flask, ce qui "
+"devrait également être ok."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-31-Fedora-hubs.md:32
+#: content/fr/articles/2017-08-31-Fedora-hubs.md:32
 msgid ""
 "Reste après à savoir si on peut et veut traduire le contenu messages en tant "
 "que tel. Peut-être que cela pourrait être intéressant, mais on va déjà "

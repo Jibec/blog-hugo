@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:52+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:1
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:8
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:8
 #, no-wrap
 msgid ""
 "title: 'Changer quelque chose ?'\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:11
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:11
 msgid ""
 "Je réalise la difficulté de maintenir une activité dans la communauté "
 "Fedora, et la nécessité pour moi d’avoir le sentiment de faire avancer les "
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:13
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:13
 msgid ""
 "L’actuelle situation me fait me sentir mal à l’aise vue l’immense somme de "
 "dysfonctionnements. La majorité d’entre eux sont techniques, quelques-uns "
@@ -57,28 +57,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:15
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:15
 msgid "Voici plusieurs projets que je galère à relancer :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:17
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:17
 msgid ""
 "[Traduc](https://traduc.org), les traducteurs doivent pouvoir avoir leur "
 "lieu d’échange et de discussion,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:19
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:19
 msgid ""
-"le projet de [traduction pages de "
-"manuel](https://gitlab.com/perkamon/man-pages-fr) (ex : `man grep`) est à "
-"deux doigts de renaître de ses cendres, nous devons finaliser l’effort, ne "
-"serait-ce que par respect pour le travail passé,"
+"le projet de [traduction pages de manuel](https://gitlab.com/perkamon/man-"
+"pages-fr) (ex : `man grep`) est à deux doigts de renaître de ses cendres, "
+"nous devons finaliser l’effort, ne serait-ce que par respect pour le travail "
+"passé,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:21
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:21
 msgid ""
 "la [documentation de Fedora](https://docs.fedoraproject.org) n’est toujours "
 "pas traduisible, faute de synchronisation dans la disponibilité entre Brian "
@@ -86,15 +86,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:23
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:23
 msgid ""
-"Fedora continue d’utiliser Zanata [pour ses "
-"traductions](https://fedora.zanata.org), qui est une plateforme de "
-"traduction inadaptée à sa typologie."
+"Fedora continue d’utiliser Zanata [pour ses traductions](https://fedora."
+"zanata.org), qui est une plateforme de traduction inadaptée à sa typologie."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:25
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:25
 msgid ""
 "Bon, on est en 2018, deux enfants, un changement de région et boulot, ça va "
 "être un défi de faire mieux qu’en 2017, voir simplement de faire quelque "
@@ -102,33 +101,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:27
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:27
 msgid ""
 "Ma priorité sur le logiciel libre reste la traduction, et si un jour on veut "
 "que cela fonctionne mieux, il faudra :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:29
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:29
 msgid ""
 "continuer de permettre la traduction de tout contenu : logiciel, messages "
 "d’erreurs, site internet, documentation, interfaces en ligne de commande…"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:31
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:31
 msgid ""
 "informer le monde entier quand vous allez faire une nouvelle version de "
 "votre logiciel, il est impossible pour nous traducteurs de tout suivre, au "
-"mieux on suit 5 à 10 projets de près, et il existe des centaines de "
-"langues. Prenez en exemple weblate : une annonce une semaine avant chaque "
-"version. Idem pour VLC, nextcloud, Gephi et d’autres. Si vous ne le faites "
-"pas, faites une release technique par mois pour qu’on puisse ajouter nos "
+"mieux on suit 5 à 10 projets de près, et il existe des centaines de langues. "
+"Prenez en exemple weblate : une annonce une semaine avant chaque version. "
+"Idem pour VLC, nextcloud, Gephi et d’autres. Si vous ne le faites pas, "
+"faites une release technique par mois pour qu’on puisse ajouter nos "
 "traductions au fil de l’eau,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:33
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:33
 msgid ""
 "débattre des traductions, la langue se construit avec le temps, un "
 "traducteur qui propose quelque chose n’a que rarement l’occasion d’une "
@@ -137,7 +136,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2018-01-25-Changeons-quelque-chose.md:34
+#: content/fr/articles/2018-01-25-Changeons-quelque-chose.md:34
 msgid ""
 "utiliser des outils ne nécessitant pas de connaître git pour traduire, si "
 "vous êtes geek et que vous appréciez ses indéniables qualités, ne faites pas "

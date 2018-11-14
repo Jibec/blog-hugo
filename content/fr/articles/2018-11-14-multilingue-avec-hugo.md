@@ -83,7 +83,7 @@ Notre petit article de tout à l’heure est désormais accessible à l’adress
 
 ## Traduisons notre article en plusieurs langues
 
-Allez dans le dossier content, copiez votre dossier **fr** en ar pour l’Arable, 
+Allez dans le dossier content, copiez votre dossier **fr** en **ar** pour l’Arabe, 
 **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le Roumain.
 
 Facile, dans le dossier content, utilisez cette formule :
@@ -99,7 +99,7 @@ Générez à nouveau le site : `hugo server -D`
 
 Essayez un peu :
 
-* [En arable](http://localhost:1313/ar/posts/demo/)
+* [En arabe](http://localhost:1313/ar/posts/demo/)
 * [En occitan](http://localhost:1313/oc/posts/demo/)
 * [En anglais](http://localhost:1313/en/posts/demo/)
 * [En roumain](http://localhost:1313/en/posts/demo/)

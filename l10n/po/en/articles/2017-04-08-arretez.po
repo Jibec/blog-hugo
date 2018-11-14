@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:1
+#: content/fr/articles/2017-04-08-arretez.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:8
+#: content/fr/articles/2017-04-08-arretez.md:8
 #, no-wrap
 msgid ""
 "title: 'Arrêtez de traduire !'\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:11
+#: content/fr/articles/2017-04-08-arretez.md:11
 msgid ""
 "Amis de la langue et du logiciel libre, quand vous êtes sur une traduction "
 "et qu’une phrase vous semble étrange, arrêtez-vous, posez des questions et "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:13
+#: content/fr/articles/2017-04-08-arretez.md:13
 msgid ""
 "Arriver à 100 % de traduction n’a aucun sens si ce que voit l’utilisateur "
 "n’est pas bien écrit, ou s’il y a des bugs dans les logiciels que vous ne "
@@ -55,35 +55,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:15
+#: content/fr/articles/2017-04-08-arretez.md:15
 msgid ""
-"Depuis peu, Bram, un des développeurs a [développé le "
-"nécessaire](https://github.com/YunoHost/apps/pull/123) pour pouvoir traduire "
-"de façon centralisée la description et les questions posées par les "
-"applications installables par l’utilisateur sur son serveur "
-"[YunoHost](http://yunohost.org) . Debian fait la même chose avec [ddtp]() et "
-"[debconf](https://www.debian.org/international/french/po-debconf) "
-"(respectivement la description des paquets et les questions posées à "
-"l’utilisateur)."
+"Depuis peu, Bram, un des développeurs a [développé le nécessaire](https://"
+"github.com/YunoHost/apps/pull/123) pour pouvoir traduire de façon "
+"centralisée la description et les questions posées par les applications "
+"installables par l’utilisateur sur son serveur [YunoHost](http://yunohost."
+"org) . Debian fait la même chose avec [ddtp]() et [debconf](https://www."
+"debian.org/international/french/po-debconf) (respectivement la description "
+"des paquets et les questions posées à l’utilisateur)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:17
+#: content/fr/articles/2017-04-08-arretez.md:17
 msgid ""
-"J’ai remarqué plusieurs choses étranges, des [phrases "
-"vides](https://dev.yunohost.org/issues/888), des [phrases sources écrites en "
-"français](https://dev.yunohost.org/issues/887) au lieu de l’anglais, des "
-"[phrases perfectibles](https://dev.yunohost.org/issues/895), énormément de "
-"redondance et… un [bug supposé dans "
-"Weblate](https://github.com/WeblateOrg/weblate/issues/1429)."
+"J’ai remarqué plusieurs choses étranges, des [phrases vides](https://dev."
+"yunohost.org/issues/888), des [phrases sources écrites en français](https://"
+"dev.yunohost.org/issues/887) au lieu de l’anglais, des [phrases perfectibles]"
+"(https://dev.yunohost.org/issues/895), énormément de redondance et… un [bug "
+"supposé dans Weblate](https://github.com/WeblateOrg/weblate/issues/1429)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:19
+#: content/fr/articles/2017-04-08-arretez.md:19
 msgid ""
 "Après coup, quand je vois ce qui est à traduire, il y a un souci "
-"supplémentaire. Avoir 127 phrases à traduire « Choose a domain for %%% » où "
-"%%% correspond au nom du paquet YunoHost, ce n’est pas utile à traduire ! Et "
+"supplémentaire. Avoir 127 phrases à traduire « Choose a domain for %%% » où %"
+"%% correspond au nom du paquet YunoHost, ce n’est pas utile à traduire ! Et "
 "ce n’est que le début… 20 phrases à traduire « Choose a domain name for %%% "
 "»… Cela se poursuit avec 136 phrases « Choose a path %%% » et 22 phrases "
 "pour le choix de l’administrateur, 74 pour le caractère public ou privé de "
@@ -93,26 +91,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:21
+#: content/fr/articles/2017-04-08-arretez.md:21
 msgid ""
-"Voici la demande d’évolution que j’ai [formulée sur l’outil de "
-"suivi](https://dev.yunohost.org/issues/896)."
+"Voici la demande d’évolution que j’ai [formulée sur l’outil de suivi]"
+"(https://dev.yunohost.org/issues/896)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:23
+#: content/fr/articles/2017-04-08-arretez.md:23
 msgid "Deux pistes me semblent possibles :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:25
+#: content/fr/articles/2017-04-08-arretez.md:25
 msgid ""
-"proposer des méthodes aux paquets pour les questions génériques (complexe "
-"?),"
+"proposer des méthodes aux paquets pour les questions génériques (complexe ?),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:26
+#: content/fr/articles/2017-04-08-arretez.md:26
 msgid ""
 "ajouter une règle de contrôle automatique pour éviter que les applications "
 "renseignent leur nom dans les questions pour au moins réduire les phrases "
@@ -120,7 +117,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-08-arretez.md:27
+#: content/fr/articles/2017-04-08-arretez.md:27
 msgid ""
 "La conclusion de tout ceci, c’est qu’il faut aller plus loin dans nos "
 "travaux que simplement traduire, il faut coconstruire le logiciel avec les "

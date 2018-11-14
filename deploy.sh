@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# ./make_pot.sh
+git pull
 
-# ./use_po.sh
+./make_pot.sh
+
+./use_po.sh
 
 ../hugo
 

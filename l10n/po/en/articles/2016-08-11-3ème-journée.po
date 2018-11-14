@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:50+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:1
+#: content/fr/articles/2016-08-11-3ème-journée.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:8
+#: content/fr/articles/2016-08-11-3ème-journée.md:8
 #, no-wrap
 msgid ""
 "title: 'Transcription de ma 3ème journée au Flock @ Cracovie'\n"
@@ -38,21 +38,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:11
+#: content/fr/articles/2016-08-11-3ème-journée.md:11
 msgid "## Les flashs !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:13
+#: content/fr/articles/2016-08-11-3ème-journée.md:13
 msgid ""
 "Il est 9h du matin, la salle est presque pleine, on a le droit à des tables "
 "et malgré la soirée sur la péniche organisée la veille, c’est salle comble ! "
-"La liste des intervenants est publié sur cette [page "
-"wiki](https://fedoraproject.org/wiki/Flock/Lightning_Talks_2016)."
+"La liste des intervenants est publié sur cette [page wiki](https://"
+"fedoraproject.org/wiki/Flock/Lightning_Talks_2016)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:15
+#: content/fr/articles/2016-08-11-3ème-journée.md:15
 msgid ""
 "Le marketing nous a été présenté par Joe Brockmeier non pas comme un sport "
 "qu’on regarde mais qu’on pratique ! Une petite blague sur le don du sang a "
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:17
+#: content/fr/articles/2016-08-11-3ème-journée.md:17
 msgid ""
 "Scott Collier d’OpenShift nous a présenté sa préparation sur le support "
 "d’Atomic sur Amazon Web Services en nous expliquant les différentes étapes "
@@ -73,30 +73,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:19
+#: content/fr/articles/2016-08-11-3ème-journée.md:19
 msgid ""
 "Second sujet marketing, cette fois-ci mené par Justin W. Flory plus orienté "
 "communication interne, au début, le Fedora magazine était focalisé vers les "
 "contributeurs, puis vers octobre 2015, lancement du communityblog, focalisé "
 "vers les contributeurs afin de répondre à la question : donne une réponse à "
-"« qu’est ce qui se passe dans la communauté ces temps ci ? » Idem que flash "
-"N°1, peu importe ce qu’on fait, ne pas hésiter à aller voir le community "
-"blog pour en parler, voir écrire soi-même !"
+"« qu’est ce qui se passe dans la communauté ces temps ci ? » Idem que flash N"
+"°1, peu importe ce qu’on fait, ne pas hésiter à aller voir le community blog "
+"pour en parler, voir écrire soi-même !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:21
+#: content/fr/articles/2016-08-11-3ème-journée.md:21
 msgid ""
 "Loopabull présenté par Adam Miller semble être un moteur d’exécution lançant "
-"des instances ansibles. Ils lancent les « book » "
-"[ansibles](https://www.ansible.com) à partir de "
-"[fedmsg](http://www.fedmsg.com/en/latest/) afin d’automatiser le plus de "
-"chose possible et cherchent à créer de nouvelles connexions pour automatiser "
-"plus de sujets."
+"des instances ansibles. Ils lancent les « book » [ansibles](https://www."
+"ansible.com) à partir de [fedmsg](http://www.fedmsg.com/en/latest/) afin "
+"d’automatiser le plus de chose possible et cherchent à créer de nouvelles "
+"connexions pour automatiser plus de sujets."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:24
+#: content/fr/articles/2016-08-11-3ème-journée.md:24
 msgid ""
 "Kushal Das parle de son projet [DGPlug](http://dgplug.org) qui fait des "
 "cours en ligne pendant 3 mois chaque été où tous les étudiants sont sur "
@@ -108,7 +107,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:26
+#: content/fr/articles/2016-08-11-3ème-journée.md:26
 msgid ""
 "Milan Navratil nous parle maintenant de la documentation en cherchant un "
 "parallèle entre les LEGO et leur documentation quand on lit un guide "
@@ -126,16 +125,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:28
+#: content/fr/articles/2016-08-11-3ème-journée.md:28
 msgid ""
 "Le noyau Linux a été évoqué avec Laura Abbott, afin de rappeler que ce n’est "
-"pas un domaine inaccessible et qu’il existe par exemple le site "
-"[http://kernelnewbies.org/](http://kernelnewbies.org/) pour entrer dans le "
-"sujet plus facilement."
+"pas un domaine inaccessible et qu’il existe par exemple le site [http://"
+"kernelnewbies.org/](http://kernelnewbies.org/) pour entrer dans le sujet "
+"plus facilement."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:30
+#: content/fr/articles/2016-08-11-3ème-journée.md:30
 msgid ""
 "Lors de mon intervention, j’ai rappelé que la majorité des humains n’étaient "
 "pas natifs de pays anglophones et qu’aujourd’hui, Fedora est construit de "
@@ -150,7 +149,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:32
+#: content/fr/articles/2016-08-11-3ème-journée.md:32
 msgid ""
 "Pravin Satpute explique que chaque produit est un équilibre entre "
 "fournisseurs et consommateurs, ou dans notre cas entre développeurs et "
@@ -160,44 +159,44 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:34
+#: content/fr/articles/2016-08-11-3ème-journée.md:34
 msgid ""
 "Jens Petersen nous parle désormais du Haskell, langage plutôt orienté pour "
 "les mathématiques, avec des dépendances qui sont assez forte et restrictives "
-"et nous donne l’explication de [ce qui arrive dans Fedora "
-"25](https://fedoraproject.org/wiki/Releases/25/ChangeSet#GHC_7.10)."
+"et nous donne l’explication de [ce qui arrive dans Fedora 25](https://"
+"fedoraproject.org/wiki/Releases/25/ChangeSet#GHC_7.10)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:36
+#: content/fr/articles/2016-08-11-3ème-journée.md:36
 msgid ""
-"Un log anglais existe pour cette conférence, [accédez-y via "
-"meetbot](https://meetbot.fedoraproject.org/fedora-flock-picasso/2016-08-04/flock2016.2016-08-04-07.28.html)"
+"Un log anglais existe pour cette conférence, [accédez-y via meetbot](https://"
+"meetbot.fedoraproject.org/fedora-flock-picasso/2016-08-04/"
+"flock2016.2016-08-04-07.28.html)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:38
+#: content/fr/articles/2016-08-11-3ème-journée.md:38
 msgid "## Documentation"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:40
+#: content/fr/articles/2016-08-11-3ème-journée.md:40
 msgid ""
-"L’[atelier de "
-"travail](https://flock2016.sched.org/event/76oX/hackfest-fedora-docs-learn-and-hack) "
-"organisé par l’équipe de documentation de Fedora et présenté par [Paul "
-"Frields](http://paul.frields.org) nous a expliqué la migration de "
-"[Publican](https://fedorahosted.org/publican/) vers AsciiDoc. Aujourd’hui, "
-"tout le contenu a été déplacé Pagure, et c’est "
-"[Pintail](https://github.com/projectmallard/pintail) qui sera utilisé "
-"publier les sites internet. Il y a fort à parier que pendant plusieurs "
-"versions de Fedora, les deux formats vont vivre en parallèle, sachant qu’il "
-"s’agit probablement le plus gros projet à utiliser Pintail et qu’en "
-"conséquence de nombreux soucis surviendront."
+"L’[atelier de travail](https://flock2016.sched.org/event/76oX/hackfest-"
+"fedora-docs-learn-and-hack) organisé par l’équipe de documentation de Fedora "
+"et présenté par [Paul Frields](http://paul.frields.org) nous a expliqué la "
+"migration de [Publican](https://fedorahosted.org/publican/) vers AsciiDoc. "
+"Aujourd’hui, tout le contenu a été déplacé Pagure, et c’est [Pintail]"
+"(https://github.com/projectmallard/pintail) qui sera utilisé publier les "
+"sites internet. Il y a fort à parier que pendant plusieurs versions de "
+"Fedora, les deux formats vont vivre en parallèle, sachant qu’il s’agit "
+"probablement le plus gros projet à utiliser Pintail et qu’en conséquence de "
+"nombreux soucis surviendront."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:43
+#: content/fr/articles/2016-08-11-3ème-journée.md:43
 msgid ""
 "Des fichiers dockers vont être diffusés afin d’aider à mettre en place le "
 "nécessaire et éviter d’arriver à la situation actuelle où presque personne "
@@ -208,7 +207,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:45
+#: content/fr/articles/2016-08-11-3ème-journée.md:45
 msgid ""
 "En plus du changement de processus de publication, l’équipe souhaite se "
 "réorienter vers une documentation par cas d’utilisation plus que de livres "
@@ -217,7 +216,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:47
+#: content/fr/articles/2016-08-11-3ème-journée.md:47
 msgid ""
 "Une bonne partie des informations qui sont présentées par Paul Frields qui "
 "n’existent pas ailleurs, j’ai demandé à ce qu’il y ait plus d’informations "
@@ -226,7 +225,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:49
+#: content/fr/articles/2016-08-11-3ème-journée.md:49
 msgid ""
 "Le retour d’expérience de GNOME pour changer le paradigme c’est de ne rien "
 "reprendre et réécrire ! Cela leur a également permit de changer la licence "
@@ -235,7 +234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:51
+#: content/fr/articles/2016-08-11-3ème-journée.md:51
 msgid ""
 "Les débats sont nombreux sur ce que nous devons ou ne pas documenter, qui "
 "font partie de la stratégie de documentation que souhaite mettre en œuvre "
@@ -243,19 +242,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:54
+#: content/fr/articles/2016-08-11-3ème-journée.md:54
 msgid ""
 "En complément, Paul souhaite impliquer d’avantage les communautés "
-"consommatrices de Fedora (downsteam), comme le projet Atomic "
-"https://www.ansible.com/. En insistant que le plus important dans une "
-"communauté c’est de créer une communauté, en conséquence, la mission de docs "
-"c’est de créer une communauté.  Dans les problèmes rencontrés aujourd’hui, "
-"quand on voit un guide pour Fedora 24, c’est que quelqu’un l’a publié, pas "
-"qu’il a été revu et actualisé."
+"consommatrices de Fedora (downsteam), comme le projet Atomic https://www."
+"ansible.com/. En insistant que le plus important dans une communauté c’est "
+"de créer une communauté, en conséquence, la mission de docs c’est de créer "
+"une communauté.  Dans les problèmes rencontrés aujourd’hui, quand on voit un "
+"guide pour Fedora 24, c’est que quelqu’un l’a publié, pas qu’il a été revu "
+"et actualisé."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:56
+#: content/fr/articles/2016-08-11-3ème-journée.md:56
 msgid ""
 "Ma perception que l’équipe de documentation est bien rentré dans le sujet de "
 "la publication, mais reste encore en recherche sur le sujet du processus de "
@@ -264,82 +263,81 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:58
+#: content/fr/articles/2016-08-11-3ème-journée.md:58
 msgid ""
-"Sur le même sujet, lisez l’article "
-"[https://dhanvi1.wordpress.com/2016/06/23/example-of-newer-document-writing-for-fedora-docs/](https://dhanvi1.wordpress.com/2016/06/23/example-of-newer-document-writing-for-fedora-docs/)"
+"Sur le même sujet, lisez l’article [https://dhanvi1.wordpress.com/2016/06/23/"
+"example-of-newer-document-writing-for-fedora-docs/](https://dhanvi1."
+"wordpress.com/2016/06/23/example-of-newer-document-writing-for-fedora-docs/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:60
+#: content/fr/articles/2016-08-11-3ème-journée.md:60
 msgid "## C’est la fin de mes transcriptions francophones"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:62
+#: content/fr/articles/2016-08-11-3ème-journée.md:62
 msgid ""
-"Je vais maintenant écrire sur nos deux propositions concernant la "
-"traduction."
+"Je vais maintenant écrire sur nos deux propositions concernant la traduction."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:64
+#: content/fr/articles/2016-08-11-3ème-journée.md:64
 msgid "Où trouver d’autres transcriptions, éventuellement en anglais ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:66
+#: content/fr/articles/2016-08-11-3ème-journée.md:66
 msgid ""
 "Quelques personnes ont pris des notes et les ont partagées via meetbot, "
-"chaque contenu est disponible par salle (voir "
-"[https://flock2016.sched.org/](https://flock2016.sched.org/) pour trouver "
-"les salles) :"
+"chaque contenu est disponible par salle (voir [https://flock2016.sched.org/]"
+"(https://flock2016.sched.org/) pour trouver les salles) :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:67
+#: content/fr/articles/2016-08-11-3ème-journée.md:67
 msgid ""
-"Salle OpenQA : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-openqa&type=channel](https://meetbot.fedoraproject.org/sresults/? "
+"Salle OpenQA : [https://meetbot.fedoraproject.org/sresults/? group_id=fedora-"
+"flock-openqa&type=channel](https://meetbot.fedoraproject.org/sresults/? "
 "group_id=fedora-flock-openqa&type=channel)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:68
+#: content/fr/articles/2016-08-11-3ème-journée.md:68
 msgid ""
 "Salle Picasso : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-picasso&type=channel](https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-picasso&type=channel)"
+"group_id=fedora-flock-picasso&type=channel](https://meetbot.fedoraproject."
+"org/sresults/? group_id=fedora-flock-picasso&type=channel)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:69
+#: content/fr/articles/2016-08-11-3ème-journée.md:69
 msgid ""
 "Salle Canaletto : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-canaletto&type=channel](https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-canaletto&type=channel)"
+"group_id=fedora-flock-canaletto&type=channel](https://meetbot.fedoraproject."
+"org/sresults/? group_id=fedora-flock-canaletto&type=channel)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:70
+#: content/fr/articles/2016-08-11-3ème-journée.md:70
 msgid ""
-"Salle Monet : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-monet&type=channel](https://meetbot.fedoraproject.org/sresults/? "
+"Salle Monet : [https://meetbot.fedoraproject.org/sresults/? group_id=fedora-"
+"flock-monet&type=channel](https://meetbot.fedoraproject.org/sresults/? "
 "group_id=fedora-flock-monet&type=channel)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:71
+#: content/fr/articles/2016-08-11-3ème-journée.md:71
 msgid ""
 "Salle Chelmonski : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-chelmonski&type=channel](https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-chelmonski&type=channel)"
+"group_id=fedora-flock-chelmonski&type=channel](https://meetbot.fedoraproject."
+"org/sresults/? group_id=fedora-flock-chelmonski&type=channel)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-11-3ème-journée.md:71
+#: content/fr/articles/2016-08-11-3ème-journée.md:71
 msgid ""
 "Salle Matejko : [https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-matejko&type=channel](https://meetbot.fedoraproject.org/sresults/? "
-"group_id=fedora-flock-matejko&type=channel)"
+"group_id=fedora-flock-matejko&type=channel](https://meetbot.fedoraproject."
+"org/sresults/? group_id=fedora-flock-matejko&type=channel)"
 msgstr ""

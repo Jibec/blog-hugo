@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:50+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:1
+#: content/fr/articles/2016-08-09-2ème-journée.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:8
+#: content/fr/articles/2016-08-09-2ème-journée.md:8
 #, no-wrap
 msgid ""
 "title: ' Transcription de ma 2ème journée au Flock @ Cracovie'\n"
@@ -38,31 +38,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:11
+#: content/fr/articles/2016-08-09-2ème-journée.md:11
 msgid "Une seconde journée au Flock, également bien remplie !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:13
+#: content/fr/articles/2016-08-09-2ème-journée.md:13
 msgid "## Gnome-Software"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:17
+#: content/fr/articles/2016-08-09-2ème-journée.md:17
 msgid ""
-"Dans [sa "
-"présentation](https://flock2016.sched.org/event/76mO/gnome-software-youll-never-guess-what-happens), "
-"Richard Hughes réalise une présentation de PackageKit dans la résolution des "
-"dépendances et son fonctionnement interne.  Historiquement, PackageKit "
-"contenait une interface contenant des catégories et déduisait du contenu du "
-"fichier, puis se chargeait de l’installation, mais finalement tout ça a été "
-"abandonné car trop compliqué et non maintenable.  Le choix a été de refondre "
-"l’interface pour la rendre plus simple et compréhensible : c’est la "
-"naissance de gnome-software (appelé Logiciels en français)."
+"Dans [sa présentation](https://flock2016.sched.org/event/76mO/gnome-software-"
+"youll-never-guess-what-happens), Richard Hughes réalise une présentation de "
+"PackageKit dans la résolution des dépendances et son fonctionnement "
+"interne.  Historiquement, PackageKit contenait une interface contenant des "
+"catégories et déduisait du contenu du fichier, puis se chargeait de "
+"l’installation, mais finalement tout ça a été abandonné car trop compliqué "
+"et non maintenable.  Le choix a été de refondre l’interface pour la rendre "
+"plus simple et compréhensible : c’est la naissance de gnome-software (appelé "
+"Logiciels en français)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:20
+#: content/fr/articles/2016-08-09-2ème-journée.md:20
 msgid ""
 "Celui-ci ne se charge plus du tout d’essayer de se charger des dépendances "
 "mais en s’appuie sur le gestionnaire de paquets local. En termes de mise en "
@@ -71,15 +71,14 @@ msgid ""
 "l’ajout de nouvelles fonctionnalités.  Pour éviter d’avoir à réinventer les "
 "descriptions de chaque paquet et de devoir produire des descriptions pour "
 "chaque logiciel, Richard travaillé à la normalisation des logiciels entre "
-"les distributions. C’est là que le fichier "
-"[AppData](http://www.freedesktop.org/wiki/Distributions/AppStream/) arrive, "
-"qui petit à petit devient de plus en plus riche et précis avec le temps, "
-"avec un côté gagnant-gagnant, plus le fichier est complet, plus "
-"l’application est mise en avant !"
+"les distributions. C’est là que le fichier [AppData](http://www.freedesktop."
+"org/wiki/Distributions/AppStream/) arrive, qui petit à petit devient de plus "
+"en plus riche et précis avec le temps, avec un côté gagnant-gagnant, plus le "
+"fichier est complet, plus l’application est mise en avant !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:22
+#: content/fr/articles/2016-08-09-2ème-journée.md:22
 msgid ""
 "En complément, pour obtenir des retours des utilisateurs, un mécanisme de "
 "collecte des retours utilisateurs a été construit : Open Desktop Review "
@@ -87,7 +86,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:28
+#: content/fr/articles/2016-08-09-2ème-journée.md:28
 msgid ""
 "Il faut que ce dernier permette à n’importe quelle personne d’écrire un "
 "commentaire et donner une note au logiciel, sans imposer de connexion et "
@@ -105,16 +104,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:30
+#: content/fr/articles/2016-08-09-2ème-journée.md:30
 msgid ""
-"Ubuntu a migré à Gnome-Software faute de capacité à maintenir leur "
-"plate-forme logicielle. Ils utilisent également les fichiers AppData quand "
-"ils existent au niveau des projets source. La seule différence c’est qu’ils "
+"Ubuntu a migré à Gnome-Software faute de capacité à maintenir leur plate-"
+"forme logicielle. Ils utilisent également les fichiers AppData quand ils "
+"existent au niveau des projets source. La seule différence c’est qu’ils "
 "veulent utiliser un fichier YAML et non XML."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:33
+#: content/fr/articles/2016-08-09-2ème-journée.md:33
 msgid ""
 "Richard est ensuite revenu sur le grand travail sur Fedora 23, consistant à "
 "rétro-porter les fonctionnalités de la future version de Gnome pour "
@@ -123,7 +122,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:35
+#: content/fr/articles/2016-08-09-2ème-journée.md:35
 msgid ""
 "La prise en charge plus complète des Flatpack, qui permettent également de "
 "restreindre les logiciels dans un bac à sable. Richard a indiqué que plus le "
@@ -132,7 +131,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:37
+#: content/fr/articles/2016-08-09-2ème-journée.md:37
 msgid ""
 "La licence logicielle sera également mise en avant afin d’indiquer si le "
 "logiciel est libre ou non.  Une plate-forme de mise à disposition de Flatpak "
@@ -140,50 +139,50 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:39
+#: content/fr/articles/2016-08-09-2ème-journée.md:39
 msgid ""
 "J’ai posé une question sur la redondance entre le contenu de ces fichiers et "
 "les fichiers inclus dans RPM et DEB ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:41
+#: content/fr/articles/2016-08-09-2ème-journée.md:41
 msgid ""
 "appstream-util permettrait de limiter la redondance et de générer à partir "
 "du fichier AppData le nécessaire dans les fichiers RPM et DEB."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:43
+#: content/fr/articles/2016-08-09-2ème-journée.md:43
 msgid ""
 "Les impressions d’écran peuvent-elles être traduites pour offrir des images "
 "contenant du texte français ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:45
+#: content/fr/articles/2016-08-09-2ème-journée.md:45
 msgid ""
 "apparemment c’est possible en modifiant simplement le fichier en mettant un "
 "« _ » devant le nom balise (<image> devient <_image>)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:47
+#: content/fr/articles/2016-08-09-2ème-journée.md:47
 msgid "## Factory 2.0"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:49
+#: content/fr/articles/2016-08-09-2ème-journée.md:49
 msgid ""
-"[Présentation par Ralph "
-"Bean](https://flock2016.sched.org/event/76mK/factory-20) (threebean), qui va "
-"nous parler d’automatisation, mais il parlera à un rythme effréné et peu "
-"fort. On parle ici de l’accélération de la demande et de l’évolution du "
-"développement, de la nécessité d⁽être capable de suivre."
+"[Présentation par Ralph Bean](https://flock2016.sched.org/event/76mK/"
+"factory-20) (threebean), qui va nous parler d’automatisation, mais il "
+"parlera à un rythme effréné et peu fort. On parle ici de l’accélération de "
+"la demande et de l’évolution du développement, de la nécessité d⁽être "
+"capable de suivre."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:52
+#: content/fr/articles/2016-08-09-2ème-journée.md:52
 msgid ""
 "Factory 2.0 n’est pas un site internet, pas une réécriture de tout leur "
 "processus, pas un œuf d’or, pas seulement de la modularité, pas facile. On "
@@ -193,7 +192,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:55
+#: content/fr/articles/2016-08-09-2ème-journée.md:55
 msgid ""
 "La présentation comporte une cartographie des problèmes qu’ils rencontrent "
 "et leurs relations, sur les problèmes modularité qui entraînent des "
@@ -205,7 +204,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:59
+#: content/fr/articles/2016-08-09-2ème-journée.md:59
 msgid ""
 "Je n'ai malheureusement pas réussi à comprendre les détails, un exemple de "
 "problème donné est le conteneur Docker, pour mettre à jour quelque chose "
@@ -221,32 +220,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:61
+#: content/fr/articles/2016-08-09-2ème-journée.md:61
 msgid "## IoT"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:63
+#: content/fr/articles/2016-08-09-2ème-journée.md:63
 msgid ""
-"La [présentation sur l’internet des "
-"objets](https://flock2016.sched.org/event/76mN/iot-on-fedora) et les objets "
-"connectés était hyper technique et orienté tout d’horizon sur la situation "
-"actuelle de Fedora vis-à-vis de ce monde."
+"La [présentation sur l’internet des objets](https://flock2016.sched.org/"
+"event/76mN/iot-on-fedora) et les objets connectés était hyper technique et "
+"orienté tout d’horizon sur la situation actuelle de Fedora vis-à-vis de ce "
+"monde."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:65
+#: content/fr/articles/2016-08-09-2ème-journée.md:65
 msgid ""
 "Je comprends qu’une bonne partie des protocoles de communication sont "
 "présents ou en bonne passe de l’être, mais ce sont les piles logicielles qui "
 "ne sont pas encore empaquetés. Le même problème récurrent lié à la multitude "
 "de logiciels venant de partout, ils précisent par exemple qu’ils ont 700 "
-"paquets à produire pour pouvoir mettre à disposition "
-"[Node-RED](http://nodered.org/) et qu’ils en sont à presque 400 de “prêts” :"
+"paquets à produire pour pouvoir mettre à disposition [Node-RED](http://"
+"nodered.org/) et qu’ils en sont à presque 400 de “prêts” :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:67
+#: content/fr/articles/2016-08-09-2ème-journée.md:67
 msgid ""
 "L’autre exemple pris est [OpenHab](http://www.openhab.org/) qui ne rencontre "
 "cette fois ci ce n’est pas un problème de dépendances jabascript, mais de "
@@ -254,7 +253,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:69
+#: content/fr/articles/2016-08-09-2ème-journée.md:69
 msgid ""
 "Sur la partie analyse de données, plusieurs éléments existent et "
 "fonctionnent bien, comme Elastic Search, Kibana et divers outils liés à "
@@ -265,45 +264,45 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:71
+#: content/fr/articles/2016-08-09-2ème-journée.md:71
 msgid "## Pagure"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:73
+#: content/fr/articles/2016-08-09-2ème-journée.md:73
 msgid ""
-"La présentation de [Pierre-Yves "
-"Chibon/Pingou](https://flock2016.sched.org/event/6yp8/pagure-past-present-and-future) "
-"sur [Pagure](https://pagure.io) qui est une alternative récente à Github et "
-"Gitlab ! La présentation a réuni une cinquantaine de personnes et "
-"réceptionné des applaudissements à plusieurs occasions par l’assemblée, les "
-"utilisateurs sont enthousiastes et n’ont pas manqué de le faire savoir."
+"La présentation de [Pierre-Yves Chibon/Pingou](https://flock2016.sched.org/"
+"event/6yp8/pagure-past-present-and-future) sur [Pagure](https://pagure.io) "
+"qui est une alternative récente à Github et Gitlab ! La présentation a réuni "
+"une cinquantaine de personnes et réceptionné des applaudissements à "
+"plusieurs occasions par l’assemblée, les utilisateurs sont enthousiastes et "
+"n’ont pas manqué de le faire savoir."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:75
+#: content/fr/articles/2016-08-09-2ème-journée.md:75
 msgid "### Fonctionnalités existantes ou arrivant très prochainement"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:77
+#: content/fr/articles/2016-08-09-2ème-journée.md:77
 msgid "#### Globales"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:79
+#: content/fr/articles/2016-08-09-2ème-journée.md:79
 msgid ""
 "le suivi de projet sera bientôt possible pour avoir des alertes sur "
 "l’activité, un peu à la github ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:80
+#: content/fr/articles/2016-08-09-2ème-journée.md:80
 msgid "héberger de la documentation html sur docs.pagure.org/nom_du_projet ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:81
+#: content/fr/articles/2016-08-09-2ème-journée.md:81
 msgid ""
 "ajout d’un README par défaut, permettant d’éviter à ce que l’utilisateur ai "
 "à initialiser la branche master (j’en ai moi-même bénéficié et je n’ai rien "
@@ -312,14 +311,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:82
+#: content/fr/articles/2016-08-09-2ème-journée.md:82
 msgid ""
 "ajouter un texte qui s’affichera sur l’écran de pull-request pour informer "
 "le contributeur d’actions ou de procédure à suivre ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:83
+#: content/fr/articles/2016-08-09-2ème-journée.md:83
 msgid ""
 "possibilité d’avoir un « Fake namespace », je crois que c’est pour permettre "
 "d’avoir une barre oblique « / » dans le nom grâce à une astucieuse solution "
@@ -329,19 +328,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:84
+#: content/fr/articles/2016-08-09-2ème-journée.md:84
 msgid ""
 "plusieurs points d’accroche (hooks) ont été créés, notamment un pour "
 "ReadTheDoc, pour fermer automatiqument un ticket, etc."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:86
+#: content/fr/articles/2016-08-09-2ème-journée.md:86
 msgid "#### Gestion des tickets"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:88
+#: content/fr/articles/2016-08-09-2ème-journée.md:88
 msgid ""
 "la création de feuilles de route (roadmap) va également arriver à l’avenir, "
 "il recommande actuellement d’utiliser les étiquettes (tags) sur la liste des "
@@ -350,31 +349,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:89
+#: content/fr/articles/2016-08-09-2ème-journée.md:89
 msgid ""
 "des modèles vont être disponibles pour mettre des titres par défaut et "
 "guider la saisie ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:90
-msgid "nouveau bouton permettant de s’assigner directement une tâche en un clic ;"
+#: content/fr/articles/2016-08-09-2ème-journée.md:90
+msgid ""
+"nouveau bouton permettant de s’assigner directement une tâche en un clic ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:91
-msgid "ajout du remplissage automatique quand on fait @<utilisateur> et #<ticket>."
+#: content/fr/articles/2016-08-09-2ème-journée.md:91
+msgid ""
+"ajout du remplissage automatique quand on fait @<utilisateur> et #<ticket>."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:92
+#: content/fr/articles/2016-08-09-2ème-journée.md:92
 msgid ""
 "fonctionnalité de différence entre les diffs : prendre deux hash permet de "
 "montrer ce qu’il s’est passé entre les deux ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:93
+#: content/fr/articles/2016-08-09-2ème-journée.md:93
 msgid ""
 "j’ai demandé s’il était possible de le faire par date, visiblement ce n’est "
 "pas trop compliqué, mais ce n’est pas encore fait, et il risque d’y avoir "
@@ -382,42 +383,42 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:95
+#: content/fr/articles/2016-08-09-2ème-journée.md:95
 msgid "### À l’avenir, les fonctionnalités suivantes devraient arriver :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:97
+#: content/fr/articles/2016-08-09-2ème-journée.md:97
 msgid "la possibilité de créer des projets privés ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:98
+#: content/fr/articles/2016-08-09-2ème-journée.md:98
 msgid "l’intégration continue avec jenkins (CI Integration) ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:99
+#: content/fr/articles/2016-08-09-2ème-journée.md:99
 msgid ""
-"une nouvelle interface pour "
-"[pkgs.fp.o](http://pkgs.fedoraproject.org/cgit/rpms/) qui est [actuellement "
-"en test](https://pkgs.stg.fedoraproject.org/pagure/)"
+"une nouvelle interface pour [pkgs.fp.o](http://pkgs.fedoraproject.org/cgit/"
+"rpms/) qui est [actuellement en test](https://pkgs.stg.fedoraproject.org/"
+"pagure/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:101
+#: content/fr/articles/2016-08-09-2ème-journée.md:101
 msgid "### Quelques chiffres sur Pagure"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:103
+#: content/fr/articles/2016-08-09-2ème-journée.md:103
 msgid ""
 "Pagure c’est : 56 contributeurs jusqu’à aujourd’hui ! À titre d’information, "
 "pour la v1.0 c’était 33 !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:105
+#: content/fr/articles/2016-08-09-2ème-journée.md:105
 msgid ""
 "Dans le top 10, seuls 2 sont des contributeurs Red Hat. Pagure est désormais "
 "disponible dans Debian, deux instances publiques existent également en "
@@ -426,41 +427,39 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:107
+#: content/fr/articles/2016-08-09-2ème-journée.md:107
 msgid ""
 "Ceci montre que c’est un bon outil, que ce n’est pas un produit 100 % "
 "interne à Fedora/RedHat."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:109
+#: content/fr/articles/2016-08-09-2ème-journée.md:109
 msgid "Bravo pingou !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:111
+#: content/fr/articles/2016-08-09-2ème-journée.md:111
 msgid "## Fedora Hubs et IRC en temps réel"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:113
+#: content/fr/articles/2016-08-09-2ème-journée.md:113
 msgid ""
-"La [dernière "
-"présentation](https://flock2016.sched.org/event/76nk/realtime-irc-chat-on-fedora-hubs) "
-"à laquelle je me suis rendu est l’interconnexion entre Fedora-Hubs, une "
-"plate-forme en cours de développement visant à connecter tous les flux "
-"d’informations liés à Fedora, avec IRC. La simplicité volontaire d’IRC rend "
-"les problématiques de diffusion multi-client, d’authentification et autre "
-"très complexe."
+"La [dernière présentation](https://flock2016.sched.org/event/76nk/realtime-"
+"irc-chat-on-fedora-hubs) à laquelle je me suis rendu est l’interconnexion "
+"entre Fedora-Hubs, une plate-forme en cours de développement visant à "
+"connecter tous les flux d’informations liés à Fedora, avec IRC. La "
+"simplicité volontaire d’IRC rend les problématiques de diffusion multi-"
+"client, d’authentification et autre très complexe."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-08-09-2ème-journée.md:114
+#: content/fr/articles/2016-08-09-2ème-journée.md:114
 msgid ""
 "On sent que les deux développeurs se sont donné beaucoup de mal, mais si le "
 "POC fonctionne plus ou moins, l’approche semble étrange quand on a lu les "
-"articles très complets « [Parlons "
-"XMPP](https://linuxfr.org/tags/parlons_xmpp/public) de "
-"[Goffi](http://www.goffi.org/) » ou même plus généralement de "
-"[XMPP](http://linuxfr.org/tags/xmpp/public)"
+"articles très complets « [Parlons XMPP](https://linuxfr.org/tags/"
+"parlons_xmpp/public) de [Goffi](http://www.goffi.org/) » ou même plus "
+"généralement de [XMPP](http://linuxfr.org/tags/xmpp/public)"
 msgstr ""

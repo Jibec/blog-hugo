@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 22:54+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:1
+#: content/fr/articles/2017-08-29-1ère-journée.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:8
+#: content/fr/articles/2017-08-29-1ère-journée.md:8
 #, no-wrap
 msgid ""
 "title: 'Ouverture du Flock @ Cape Cod'\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:11
+#: content/fr/articles/2017-08-29-1ère-journée.md:11
 msgid ""
 "La [conférence annuelle](http://flocktofedora.org) des contributeurs Fedora "
 "vient de débuter ! Le mot d’ordre reste l’industrialisation des processus et "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:13
+#: content/fr/articles/2017-08-29-1ère-journée.md:13
 msgid ""
 "Cela devient traditionnel, les statistiques des téléchargement des miroirs "
 "sont présentés, avec toutes les précautions d’usage sur la façon de mesurer "
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:15
+#: content/fr/articles/2017-08-29-1ère-journée.md:15
 msgid ""
 "Pour lui nous sommes dans une situation de changements profonds \"Everything "
 "is on fire!\", qui va apporter une nouvelle dynamique qui elle apportera une "
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:17
+#: content/fr/articles/2017-08-29-1ère-journée.md:17
 msgid ""
 "Les chiffres basés sur la vérification de connectivité des ordinateurs "
 "portables (une requête toutes les 5 minutes) permettent d’estimer qu’au "
@@ -81,7 +81,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:19
+#: content/fr/articles/2017-08-29-1ère-journée.md:19
 msgid ""
 "Aujourd’hui, nous avons une mécanique qui est pensée pour des volumes de "
 "paquets et de développeur beaucoup plus petit que ce que nous avons à "
@@ -91,12 +91,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:21
+#: content/fr/articles/2017-08-29-1ère-journée.md:21
 msgid "Pour aider à cet objectif (d’automatisation) :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:23
+#: content/fr/articles/2017-08-29-1ère-journée.md:23
 msgid ""
 "le [projet Atomic](http://www.projectatomic.io) nous permet de changer nos "
 "processus pour obtenir une intégration continue permettant d’éviter "
@@ -105,7 +105,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:24
+#: content/fr/articles/2017-08-29-1ère-journée.md:24
 msgid ""
 "[Fedora modularity](https://docs.pagure.org/modularity/) nous permet à "
 "partir d’un module unique produire des conteneurs, des paquets RPM et des "
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:25
+#: content/fr/articles/2017-08-29-1ère-journée.md:25
 msgid ""
 "La modularité devrait aider également à fluidifier le lien EPEL - Fedora en "
 "offrant des paquets ayant des cycles de vie plus variables. Sauf erreur, les "
@@ -122,7 +122,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:28
+#: content/fr/articles/2017-08-29-1ère-journée.md:28
 msgid ""
 "Historiquement, les ambassadeurs allaient sur les salons Linux, mais "
 "l’impact n’est pas forcément énorme du fait de la population présente qui "
@@ -130,12 +130,12 @@ msgid ""
 "objectifs clefs de Fedora. L’idée est d’aller aux évènements où sont les "
 "personnes liées à ces objectifs plutôt que d’aller aux conférences "
 "uniquement Linux.  Matthew nous incite vraiment à aller lire cet article sur "
-"la [*proposition* de nouvelle stratégie concernant les "
-"ambassadeurs](https://communityblog.fedoraproject.org/ambassadors-fedora-strategy/)."
+"la [*proposition* de nouvelle stratégie concernant les ambassadeurs](https://"
+"communityblog.fedoraproject.org/ambassadors-fedora-strategy/)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-08-29-1ère-journée.md:29
+#: content/fr/articles/2017-08-29-1ère-journée.md:29
 msgid ""
 "Quelques statistiques (attention : celles faciles à mesurer, et la "
 "traduction n’est pas incluse) sur le bus Fedmsg, qui transmet divers "
