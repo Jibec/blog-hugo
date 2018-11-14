@@ -53,8 +53,9 @@ do
     fi
 
     po4a-gettextize \
-        --format asciidoc --option debug split_attributelist \
-        --master "$file" --master-charset "UTF-8" \
+        --format asciidoc \
+        --master "$file" \
+        --master-charset "UTF-8" \
         --po "$POTDIR/$potname"
 
     for lang in $(ls "$PO_DIR" ); do
@@ -66,7 +67,6 @@ do
 
         if ! po4a-updatepo \
             --format asciidoc \
-            --option debug split_attributelist \
             --master "$file" \
             --master-charset "UTF-8" \
             --po "$po_file" ; then

@@ -56,13 +56,17 @@ use_po_module () {
 		fi
 
 		if [ ! -e "$PO_DIR/$lang/$potname.po" ]; then
-			po4a-gettextize --format asciidoc --option debug split_attributelist \
-				--master "$file" --master-charset "UTF-8" \
+			po4a-gettextize \
+				--format asciidoc \
+				--master "$file" \
+				--master-charset "UTF-8" \
 				--po "$PO_DIR/$lang/$potname.po"
 		fi
 
-		po4a-translate --format asciidoc --option debug split_attributelist \
-			--master "$file" --master-charset "UTF-8" \
+		po4a-translate \
+			--format asciidoc \
+			--master "$file" \
+			--master-charset "UTF-8" \
 			--po "$PO_DIR/$lang/$potname.po" \
 			--localized "$localized_file" --localized-charset "UTF-8" \
 			--keep 50
