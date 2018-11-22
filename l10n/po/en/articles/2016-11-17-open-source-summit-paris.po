@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:1
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:8
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:8
 #, no-wrap
 msgid ""
 "title: 'Paris Open Source Public - traducteurs vous n’êtes pas seuls !'\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:11
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:11
 msgid ""
 "J’ai eu la chance d’être sur le stand Fedora pendant l’open-source summit de "
 "Paris. C’était l’occasion de parler de traduction avec de nombreux "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:13
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:13
 msgid ""
 "Fedora est plutôt bien connu et l’avis globalement très positif, tant sur "
 "ses valeurs que sa stabilité. La qualité des traductions a également été "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:15
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:15
 msgid ""
 "Les contributeurs ou producteurs de projets avec lesquels j’ai parlé de "
 "traduction partagent tous un besoin d’échange de la communauté des "
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:17
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:17
 msgid ""
 "Les points que j’ai abordés sur l’age de pierre des traducteurs sont souvent "
 "partagés. Globalement il y a très peu de réutilisation de la mémoire "
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:19
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:19
 msgid ""
 "Le cas le plus incroyable : un utilisateur n’aimant pas avoir les erreurs de "
 "GCC en français, avait configuré tout son système en anglais et en "
@@ -88,12 +88,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:21
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:21
 msgid "Merci à tous pour cette expérience pour mon premier salon !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-11-17-open-source-summit-paris.md:22
+#: content/fr/articles/2016-11-17-open-source-summit-paris.md:22
 msgid ""
 "Je reviendrai bientôt ici pour vous parler de quelques sujets et idées "
 "évoqués. Mais sachez collègues traducteurs que nous avons l'air d'être "

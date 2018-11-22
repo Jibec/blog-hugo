@@ -12,7 +12,7 @@ Cela fait longtemps que je trouve que le générateur de sites statiques [Pelica
 
  1. Les flux RSS/Atom sont tronqués, obligeant le lecteur à visiter mon site.
  2. La prise en charge de l’internationalisation est une bidouille au lieu d’une
-  fonctionnalité à part entière.
+    fonctionnalité à part entière.
 
 Par ailleurs, c’est surtout pour cette seconde raison que je ne me suis pas 
 intéressé à [Jekyll](https://gohugo.io/commands/hugo_import_jekyll/#readout).
@@ -83,7 +83,7 @@ Notre petit article de tout à l’heure est désormais accessible à l’adress
 
 ## Traduisons notre article en plusieurs langues
 
-Allez dans le dossier content, copiez votre dossier **fr** en ar pour l’Arable, 
+Allez dans le dossier content, copiez votre dossier **fr** en **ar** pour l’Arabe, 
 **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le Roumain.
 
 Facile, dans le dossier content, utilisez cette formule :
@@ -99,7 +99,7 @@ Générez à nouveau le site : `hugo server -D`
 
 Essayez un peu :
 
-* [En arable](http://localhost:1313/ar/posts/demo/)
+* [En arabe](http://localhost:1313/ar/posts/demo/)
 * [En occitan](http://localhost:1313/oc/posts/demo/)
 * [En anglais](http://localhost:1313/en/posts/demo/)
 * [En roumain](http://localhost:1313/en/posts/demo/)
@@ -115,7 +115,7 @@ Maintenant regardons le reste du site :
 En fait, c’est là qu’on voit le piège, on pense que ça fonctionne mais non.
 Hugo voit des dossiers avec des articles, et génère simplement les pages en regard.
 
-Vous pouvez le constater, car lors de la génération du site, lors ce que vous 
+Vous pouvez le constater, car lors de la génération du site, lorsque vous 
 saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages 
 correspondantes à la langue **FR**.
 
@@ -144,10 +144,10 @@ Ici je fais de façon bourrin une configuration donnant un titre traduit et le
     title = "Mon démonstrateur d’internationalisation"
     contentDir = "content/fr"
   [languages.ar]
-    title = "بلدي تدويل المتظاهر"
+    title = "مُستعرِضي للتدويل"
     contentDir = "content/ar"
   [languages.oc]
-    title = "El meu manifestant d’internacionalització"
+    title = "Lo meu demostrator d’internacionalizacion"
     contentDir = "content/oc"
   [languages.en]
     title = "My internationalization demonstrator"
@@ -162,7 +162,7 @@ correspondantes à la langue **FR**.
 
 On voit bien une colonne par langue, c’est bon signe :
 
- .                 | AR | OC | EN | RO | FR
+  Catégorie        | AR | OC | EN | RO | FR
 ------------------ |----|----|----|----|---
   Pages            | 10 | 10 | 10 | 10 | 10
   Paginator pages  |  0 |  0 |  0 |  0 |  0

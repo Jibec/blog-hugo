@@ -16,7 +16,12 @@ SRCDIR_MODULE="./content/fr"
 
 # place where to create the pot files
 if [ -z "$POTDIR" ] ; then
-	POTDIR="./l10n/pot"
+    POTDIR="./l10n/pot"
+fi
+
+# place where the po files are
+if [ -z "$PO_DIR" ] ; then
+	PO_DIR="./l10n/po"
 fi
 
 ####################################
@@ -48,8 +53,35 @@ do
     fi
 
     po4a-gettextize \
-    	--format asciidoc --option debug split_attributelist \
-    	--master "$file" --master-charset "UTF-8" \
-    	--po "$POTDIR/$potname"
+        --format asciidoc \
+        --master "$file" \
+        --master-charset "UTF-8" \
+        --po "$POTDIR/$potname"
+
+    for lang in $(ls "$PO_DIR" ); do
+
+        po_file="$PO_DIR/$lang/${potname%.pot}.po"
+
+        # po4a-updatepo would be angry otherwise
+        sed -i 's/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g' "$po_file"
+
+        if ! po4a-updatepo \
+            --format asciidoc \
+            --master "$file" \
+            --master-charset "UTF-8" \
+            --po "$po_file" ; then
+        echo ""
+        echo "Error updating $lang PO file for: $adoc_file"
+
+        fi
+    done
 
 done <   <(find -L "$SRCDIR_MODULE" -name "*.md" -print0)
+
+echo ""
+echo "REMOVE TEMPORARY FILES"
+
+for lang in $(ls "$PO_DIR" ); do
+	rm "l10n/po/$lang/contact/"*.po~
+	rm "l10n/po/$lang/articles/"*.po~
+done

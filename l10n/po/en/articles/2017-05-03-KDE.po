@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:1
+#: content/fr/articles/2017-05-03-KDE.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:8
+#: content/fr/articles/2017-05-03-KDE.md:8
 #, no-wrap
 msgid ""
 "title: 'Les traducteurs francophone de KDE redémarrent'\n"
@@ -38,58 +38,58 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:12
+#: content/fr/articles/2017-05-03-KDE.md:12
 msgid ""
 "L’équipe de traducteurs francophones de KDE reprend le travail ! Suite à un "
-"message du mainteneur de Kwave – [Thomas "
-"Eschenbacher](https://mail.kde.org/pipermail/kde-francophone/2017-April/000106.html) "
-"faisant un appel aux traducteurs francophones, plusieurs personnes se sont "
-"dites intéressées pour contribuer. Faute de coordinateur actif pendant "
-"quelques mois, l’équipe était tombée en sommeil, Ludovic Grossard en a donc "
-"profité pour [relancer "
-"l’équipe](https://mail.kde.org/pipermail/kde-francophone/2017-May/000128.html)."
+"message du mainteneur de Kwave – [Thomas Eschenbacher](https://mail.kde.org/"
+"pipermail/kde-francophone/2017-April/000106.html) faisant un appel aux "
+"traducteurs francophones, plusieurs personnes se sont dites intéressées pour "
+"contribuer. Faute de coordinateur actif pendant quelques mois, l’équipe "
+"était tombée en sommeil, Ludovic Grossard en a donc profité pour [relancer "
+"l’équipe](https://mail.kde.org/pipermail/kde-francophone/2017-May/000128."
+"html)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:14
+#: content/fr/articles/2017-05-03-KDE.md:14
 msgid ""
 "Si vous aimez la traduction, KDE et son écosystème, n’hésitez pas à "
 "rejoindre cette liste, y proposer vos services et à parcourir cette page qui "
-"sembre lister tous les liens utiles : [French Team "
-"(fr)](https://l10n.kde.org/team-infos.php ? teamcode=fr)."
+"sembre lister tous les liens utiles : [French Team (fr)](https://l10n.kde."
+"org/team-infos.php ? teamcode=fr)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:16
+#: content/fr/articles/2017-05-03-KDE.md:16
 msgid "À savoir :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:17
+#: content/fr/articles/2017-05-03-KDE.md:17
 msgid ""
 "l’équipe KDE utilise beaucoup [Pology](https://fr.l10n.kde.org/pology.php) "
 "et [Lokalize](http://userbase.kde.org/Lokalize/fr/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:18
+#: content/fr/articles/2017-05-03-KDE.md:18
 msgid ""
 "quelques notes sur la [grammaire](https://fr.l10n.kde.org/grammaire.php), "
-"leur [dictionnaire](https://fr.l10n.kde.org/dict/), "
-"[…](https://fr.l10n.kde.org/liens.php)"
+"leur [dictionnaire](https://fr.l10n.kde.org/dict/), […](https://fr.l10n.kde."
+"org/liens.php)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:20
+#: content/fr/articles/2017-05-03-KDE.md:20
 msgid ""
 "Vincent Pinon résume les étapes clefs de cette façon : installer Lokalize, "
-"télécharger le fichier.po [de kwave "
-"(exemple)](http://websvn.kde.org/*checkout*/trunk/l10n-support/fr/summit/messages/kdemultimedia/kwave.po), "
+"télécharger le fichier.po [de kwave (exemple)](http://websvn.kde.org/"
+"*checkout*/trunk/l10n-support/fr/summit/messages/kdemultimedia/kwave.po), "
 "traduire le paquet et le renvoyer sur la liste."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:22
+#: content/fr/articles/2017-05-03-KDE.md:22
 msgid ""
 "En complément, il propose comme astuce : télécharger un (ou plusieurs, voir "
 "tous) dossiers de traductions KDE, et les « ajouter à la mémoire de "
@@ -98,7 +98,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-05-03-KDE.md:23
+#: content/fr/articles/2017-05-03-KDE.md:23
 msgid ""
 "Je ne connais pas encore le détail du fonctionnement de l’équipe KDE, mais "
 "je souhaie bon courage à cette équipe !"

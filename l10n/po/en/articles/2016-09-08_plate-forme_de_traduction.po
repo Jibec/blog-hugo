@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 23:36+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:1
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:8
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:8
 #, no-wrap
 msgid ""
 "title: 'Qu’est ce qu’une bonne plateforme de traduction ?'\n"
@@ -45,7 +45,7 @@ msgstr ""
 "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:11
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:11
 msgid ""
 "Je considère que les outils de traduction ont trois grands domaines de "
 "fonctionnalités, les capacités d’interactions techniques, les capacités de "
@@ -56,32 +56,32 @@ msgstr ""
 "translation support capabilities."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:13
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:13
 msgid "La technique comprend :"
 msgstr "The technical part includes:"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:15
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:15
 msgid "les formats de fichiers supportés"
 msgstr "supported file formats"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:16
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:16
 msgid "la synchronisation avec le dépôt source"
 msgstr "synchronization with the source repository"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:17
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:17
 msgid "l’outillage d’aide à l’automatisation"
 msgstr "automation support tools"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:18
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:18
 msgid "les possibilités d’interfaçage"
 msgstr "the interface possibilities"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:20
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:20
 msgid ""
 "Le support au travail d’équipe, qu’on pourrait aussi appeler « animation de "
 "la communauté » comprend :"
@@ -90,78 +90,79 @@ msgstr ""
 "includes:"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:22
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:22
 msgid "Le suivi les modifications (par un traducteur, sur un projet…)"
 msgstr "Monitoring changes (by a translator, on a project...)"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:23
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:23
 msgid "Le suivi les mises à jour poussées par les projets"
 msgstr "Follow-up on updates pushed by projects"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:24
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:24
 msgid "L’affichage de l’état des lieux"
 msgstr "The display of the state of the situation"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:25
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:25
 msgid "La capacité de positionner ou non des étapes de relecture et validation"
 msgstr "The ability to enable or not the review and validation steps"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:26
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:26
 msgid ""
-"L’aide à la discussion entre traducteurs (d’une même équipe et "
-"inter-langues)"
+"L’aide à la discussion entre traducteurs (d’une même équipe et inter-langues)"
 msgstr ""
 "Assistance in discussion between translators (from the same team and inter-"
 "languages)"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:27
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:27
 msgid "L’aide à la discussion avec le mainteneur du projet"
 msgstr "Assistance with discussion with the project maintainer"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:28
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:28
 msgid ""
 "La possibilité de communiquer globalement sur la plateforme (actualités, "
 "etc.)"
 msgstr "The possibility to communicate globally on the platform (news, etc.)"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:30
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:30
 msgid "L’aide à la traduction comprend :"
 msgstr "Translation assistance includes:"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:32
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:32
 msgid "Une interface claire et ergonomique"
 msgstr "A clear and ergonomic interface"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:33
-msgid "Un nombre d’étapes limité pour trouver son projet et commencer à travailler"
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:33
+msgid ""
+"Un nombre d’étapes limité pour trouver son projet et commencer à travailler"
 msgstr "A limited number of steps to find your project and start working"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:34
-msgid "Une capacité simple de lecture du flux entre la traduction et la diffusion"
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:34
+msgid ""
+"Une capacité simple de lecture du flux entre la traduction et la diffusion"
 msgstr "A simple ability to read the flow between translation and distribution"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:35
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:35
 msgid "L’accès à une mémoire de traduction"
 msgstr "Access to a translation memory machine"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:36
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:36
 msgid "L’enrichissement d’un glossaire"
 msgstr "The enrichment of a glossary"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:38
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:38
 msgid ""
 "Quand on regarde ces quelques points, il n’y a finalement pas de grandes "
 "différences avec une plateforme de gestion de code source sur les deux "
@@ -177,7 +178,7 @@ msgstr ""
 "sophisticated than developers, although they are much more numerous."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:40
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:40
 msgid ""
 "Regardons maintenant ceux qui pour moi sont les meilleurs, la plateforme "
 "GNOME :"
@@ -185,7 +186,7 @@ msgstr ""
 "Now let's look at the ones that are the best for me, the GNOME platform:"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:42
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:42
 msgid ""
 "Leur site contient tant l’organisation des équipes que la plateforme de "
 "traduction. On voit qui est responsable et les rôles dans l’équipe. Tout est "
@@ -196,7 +197,7 @@ msgstr ""
 "concentrated in a few screens."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:43
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:43
 msgid ""
 "On trouve facilement sur quoi travailler, mais on se rend rapidement compte "
 "qu’il va falloir utiliser des fichiers qu’on télécharge sur son poste, puis "
@@ -208,7 +209,7 @@ msgstr ""
 "modified. It's not very sexy, but the logic is easy to understand."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:44
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:44
 msgid ""
 "On renvoie le fichier, ça transmet potentiellement une alerte sur la liste "
 "de discussion. Les étapes suivantes sont connues et on peut échanger sur la "
@@ -220,7 +221,7 @@ msgstr ""
 "the global level (but not comment on a sentence)."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:46
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:46
 msgid ""
 "Cela paraîtra étonnant, mais c’est la meilleure plateforme de traduction "
 "avec 297 langues et un pourcentage d’avancement clair, tant sur les phrases "
@@ -236,7 +237,7 @@ msgstr ""
 "on a tool that promotes community work."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:48
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:48
 msgid ""
 "Si on regarde maintenant les pratiques de l’équipe de traduction de Debian, "
 "qui fait du bon travail depuis des années en traduisant des contenus "
@@ -248,8 +249,8 @@ msgid ""
 "tout en étant dans le peloton de tête des langues !"
 msgstr ""
 "If we now look at the practices of the Debian translation team, which has "
-"been doing a good job for years translating unimaginable content for Fedora ("
-"especially news), we see that they have a highly codified translation "
+"been doing a good job for years translating unimaginable content for Fedora "
+"(especially news), we see that they have a highly codified translation "
 "process, based exclusively on emails with manual push in the repositories. "
 "They too have put everything into the process rather than the tools, and "
 "despite the considerable energy that this seems to me to require, it seems "
@@ -257,7 +258,7 @@ msgstr ""
 "languages!"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:50
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:50
 msgid ""
 "Ma perception est que l’enjeu de la réussite d’une plateforme de traduction "
 "n’est pas basé sur la capacité à faire de l’unitaire (Technique, Traduire), "
@@ -270,7 +271,7 @@ msgstr ""
 "processes, this is what gives it sustainability."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:52
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:52
 msgid ""
 "Ce sont les processus de production qui sont les plus importants pour "
 "structurer une équipe, en les constituant correctement, chaque nouvel "
@@ -283,7 +284,7 @@ msgstr ""
 "the next ones."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:54
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:54
 msgid ""
 "Pour construire une communauté pérenne, il faut donc : en priorité un outil "
 "qui aide le travail collaboratif, puis seulement s’intéresser à l’ergonomie."
@@ -292,7 +293,7 @@ msgstr ""
 "tool that helps collaborative work, then only to be interested in usability."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:56
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:56
 msgid ""
 "Pour obtenir rapidement des traductions sur un projet, il faut simplement "
 "une interface ergonomique."
@@ -301,7 +302,7 @@ msgstr ""
 "interface."
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-09-08_plate-forme_de_traduction.md:57
+#: content/fr/articles/2016-09-08_plate-forme_de_traduction.md:57
 msgid ""
 "On comprendra par cette explication ma frustration vis-à-vis de l’outil "
 "Zanata, performant sur l’angle technique, performant sur l’interface, mais "

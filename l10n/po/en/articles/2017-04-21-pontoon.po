@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:1
+#: content/fr/articles/2017-04-21-pontoon.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:8
+#: content/fr/articles/2017-04-21-pontoon.md:8
 #, no-wrap
 msgid ""
 "title: 'La plateforme de traduction Pontoon'\n"
@@ -38,33 +38,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:11
+#: content/fr/articles/2017-04-21-pontoon.md:11
 msgid ""
 "Dans un précédent article, j’ai décrit ce qu’était pour moi [une bonne "
-"plateforme de "
-"traduction](https://jibecfed.fedorapeople.org/blog/quest-ce-quune-bonne-plateforme-de-traduction.html), "
-"voici mon retour d’expérience sur "
-"[Pontoon](https://pontoon.mozilla.org). C’est déjà un bon outil alors qu’il "
-"est encore en pleine maturation, bien adapté pour les projets bien "
+"plateforme de traduction](https://jibecfed.fedorapeople.org/blog/quest-ce-"
+"quune-bonne-plateforme-de-traduction.html), voici mon retour d’expérience "
+"sur [Pontoon](https://pontoon.mozilla.org). C’est déjà un bon outil alors "
+"qu’il est encore en pleine maturation, bien adapté pour les projets bien "
 "organisés, moins pour les plateformes génériques/multi-projets (ex: [Fedora "
 "l10n](http://fedora.zanata.org) ou [Suse l10n](https://l10n.opensuse.org))."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:13
+#: content/fr/articles/2017-04-21-pontoon.md:13
 msgid "## La technique"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:15
+#: content/fr/articles/2017-04-21-pontoon.md:15
 msgid ""
-"Ça commence bien, même si Pontoon est géré par mozilla (qui pousse le "
-"[L20N](http://l20n.org)), cet outil prend en charge divers formats bien "
-"connus : gettext, XLIFF, L20n, lang, properties, etc."
+"Ça commence bien, même si Pontoon est géré par mozilla (qui pousse le [L20N]"
+"(http://l20n.org)), cet outil prend en charge divers formats bien connus : "
+"gettext, XLIFF, L20n, lang, properties, etc."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:17
+#: content/fr/articles/2017-04-21-pontoon.md:17
 msgid ""
 "On voit ici que les développeurs ont compris comment faciliter la vie tant "
 "des développeurs que des traducteurs, puisque la synchronisation avec un "
@@ -74,7 +73,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:19
+#: content/fr/articles/2017-04-21-pontoon.md:19
 msgid ""
 "On notera que sur la majorité de ses projets, Mozilla crée des dépôts dédiés "
 "pour les traductions, allant jusqu’à faire un dépôt par langue (pour une "
@@ -82,12 +81,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:21
+#: content/fr/articles/2017-04-21-pontoon.md:21
 msgid "## Le support au travail d’équipe"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:23
+#: content/fr/articles/2017-04-21-pontoon.md:23
 msgid ""
 "La plateforme utilise une structure générale simple et efficace : langue > "
 "projet > ressource > interface de traduction. On retrouve cette structure à "
@@ -95,7 +94,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:25
+#: content/fr/articles/2017-04-21-pontoon.md:25
 msgid ""
 "L’entête de la page affiche systématiquement les informations utiles. C’est "
 "tellement simple que je n’ai même pas besoin d’une impression d’écran pour "
@@ -103,7 +102,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:37
+#: content/fr/articles/2017-04-21-pontoon.md:37
 #, no-wrap
 msgid ""
 "    :::bash\n"
@@ -120,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:39
+#: content/fr/articles/2017-04-21-pontoon.md:39
 msgid ""
 "L’équipe française fonctionne par un mécanisme de validation. Seules "
 "quelques personnes peuvent valider le contenu tandis que toutes peuvent "
@@ -130,7 +129,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:41
+#: content/fr/articles/2017-04-21-pontoon.md:41
 msgid ""
 "Quand on descend dans un projet, on voit plein d’autres choses utiles, "
 "allant du point de contact à l’échéance de traduction, incluant le degré de "
@@ -139,7 +138,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:49
+#: content/fr/articles/2017-04-21-pontoon.md:49
 #, no-wrap
 msgid ""
 "    :::bash\n"
@@ -152,7 +151,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:51
+#: content/fr/articles/2017-04-21-pontoon.md:51
 msgid ""
 "Si on est capable de voir les contributeurs les plus actifs (et les "
 "contacter), il n’est malheureusement pas possible de discuter dans l’outil, "
@@ -163,12 +162,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:53
+#: content/fr/articles/2017-04-21-pontoon.md:53
 msgid "## L’aide à la traduction"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:55
+#: content/fr/articles/2017-04-21-pontoon.md:55
 msgid ""
 "L’interface d’édition est simple et efficace, focalisée sur le travail de "
 "traduction et ergonomique. On y retrouve les suggestions, la traduction "
@@ -177,28 +176,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:57
+#: content/fr/articles/2017-04-21-pontoon.md:57
 msgid ""
 "Les points évoqués dans le travail d’équipe confirme qu’il y a donc nombre "
 "d’étapes très limité pour trouver son projet et commencer à travailler, "
-"ainsi que pour comprendre le parcours de la traduction à la "
-"diffusion/publication de notre travail."
+"ainsi que pour comprendre le parcours de la traduction à la diffusion/"
+"publication de notre travail."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:59
+#: content/fr/articles/2017-04-21-pontoon.md:59
 msgid ""
 "La mémoire de traduction n’est cependant pas interrogeable directement "
 "depuis Pontoon, il faut aller sur un autre outil maison de Mozilla."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:61
+#: content/fr/articles/2017-04-21-pontoon.md:61
 msgid "## Bilan"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:63
+#: content/fr/articles/2017-04-21-pontoon.md:63
 msgid ""
 "C’est donc globalement une plateforme très intéressante, à laquelle il ne "
 "manque pas grand-chose pour pouvoir être utilisé par n’importe quelle "
@@ -206,31 +205,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:65
+#: content/fr/articles/2017-04-21-pontoon.md:65
 msgid ""
 "une connexion avec autre chose qu’une adresse Mozilla (personna/Firefox "
 "sync),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:66
+#: content/fr/articles/2017-04-21-pontoon.md:66
 msgid ""
 "des notifications (mail) en fonction des évènements sur la plateforme "
 "(nouveau projet à traduire, modifications, etc.),"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:67
+#: content/fr/articles/2017-04-21-pontoon.md:67
 msgid "la possibilité d’importer/exporter dans divers formats,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:68
+#: content/fr/articles/2017-04-21-pontoon.md:68
 msgid "l’utilisation de règles qualité lancées sur les traductions."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-04-21-pontoon.md:69
+#: content/fr/articles/2017-04-21-pontoon.md:69
 msgid ""
 "À ce stade, elle ne pourrait pas vraiment être utilisée par Fedora par "
 "exemple, mais on y est presque !"

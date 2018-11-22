@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:1
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:8
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:8
 #, no-wrap
 msgid ""
 "title: 'Wallabag est sur Weblate !'\n"
@@ -38,14 +38,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:11
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:11
 msgid ""
 "[Wallabag](https://www.wallabag.org) utilise la plateforme de traduction "
 "[Weblate](https://hosted.weblate.org) !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:13
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:13
 msgid ""
 "Avant, Wallabag attendait de ses traducteurs des demandes d’intégration. Mon "
 "avis c’est que je n’aime pas avoir de commentaire sur ses demandes "
@@ -55,38 +55,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:15
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:15
 msgid "### À l’origine"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:17
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:17
 msgid ""
 "J’ai été dérangé par quelques traductions incomplètes ou pas tout à fait à "
-"mon goût sur mon installation de Wallabag (grâce au système "
-"[YunoHost](https://yunohost.org))."
+"mon goût sur mon installation de Wallabag (grâce au système [YunoHost]"
+"(https://yunohost.org))."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:19
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:19
 msgid ""
-"En me rendant sur le [dépôt du "
-"projet](https://github.com/wallabag/wallabag), je me suis rendu compte que "
-"tout était dans des fichiers YAML…"
+"En me rendant sur le [dépôt du projet](https://github.com/wallabag/"
+"wallabag), je me suis rendu compte que tout était dans des fichiers YAML…"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:21
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:21
 msgid ""
 "Naïvement, j’ai tenté de modifier dans GitHub le fichier puis fait une "
 "demande d’intégration (je ne sais pas vraiment utiliser Git pour ça et je "
 "trouve anormal de devoir l’apprendre pour traduire). Cependant, j’ai trouvé "
-"l’expérience laborieuse, [voir le détail de ma demande "
-"d’intégration](https://github.com/wallabag/wallabag/pull/2519)."
+"l’expérience laborieuse, [voir le détail de ma demande d’intégration]"
+"(https://github.com/wallabag/wallabag/pull/2519)."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:23
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:23
 msgid ""
 "Finalement, peut-être par désespoir devant mon inaptitude, c’est Jérémy "
 "Benoist, un des mainteneurs du projet qui a finalisé la demande et l’a "
@@ -94,47 +93,47 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:25
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:25
 msgid ""
 "Le mécanisme d’avis technique sur les demandes d’intégration me semble être "
 "inapproprié pour un traducteur, qui doit pouvoir se focaliser sur la langue."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:27
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:27
 msgid "### La demande"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:29
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:29
 msgid ""
 "Comme tout utilisateur de logiciel libre devrait le faire, j’ai créé un "
-"[ticket pour exprimer mon souhait d’utilisation de "
-"Weblate](https://github.com/wallabag/wallabag/issues/2511). Jérémy, "
-"peut-être sensibilisé par nos échanges sur la demande d’intégration a tout "
-"de suite compris l’intérêt et y a été favorable."
+"[ticket pour exprimer mon souhait d’utilisation de Weblate](https://github."
+"com/wallabag/wallabag/issues/2511). Jérémy, peut-être sensibilisé par nos "
+"échanges sur la demande d’intégration a tout de suite compris l’intérêt et y "
+"a été favorable."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:31
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:31
 msgid ""
-"Vous pouvez donc aller [traduire Wallabag sur cette plateforme "
-"Weblate](https://hosted.weblate.org/projects/wallabag/)"
+"Vous pouvez donc aller [traduire Wallabag sur cette plateforme Weblate]"
+"(https://hosted.weblate.org/projects/wallabag/)"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:33
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:33
 msgid ""
-"On voit environ qu’il y a eu [2000 "
-"modifications](https://hosted.weblate.org/projects/wallabag/#activity) "
-"depuis la création du projet et qu’il y a maintenant un support complet de "
-"l’anglais, du français, de l’allemand et du japonais. De nombreuses autres "
-"langues sont disponibles, mais en dessous de 80 %, j’ai le sentiment que "
-"c’est un peu trop incomplet pour parler de support."
+"On voit environ qu’il y a eu [2000 modifications](https://hosted.weblate.org/"
+"projects/wallabag/#activity) depuis la création du projet et qu’il y a "
+"maintenant un support complet de l’anglais, du français, de l’allemand et du "
+"japonais. De nombreuses autres langues sont disponibles, mais en dessous de "
+"80 %, j’ai le sentiment que c’est un peu trop incomplet pour parler de "
+"support."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:34
+#: content/fr/articles/2016-12-20-wallabag-est-sur-Weblate.md:34
 msgid ""
 "Voilà, il faut prendre son temps, mais dans le logiciel libre, il suffit "
 "parfois de présenter les besoins des traducteurs pour obtenir satisfaction ! "

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:21+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:1
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:8
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:8
 #, no-wrap
 msgid ""
 "title: 'L’internationalisation : une priorité de la FSF'\n"
@@ -38,25 +38,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:11
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:11
 msgid ""
-"Comme le pointe [Jehan sur "
-"Linuxfr](http://linuxfr.org/users/jehan/journaux/flash-est-en-phase-terminale), "
-"la FSF a [revu sa liste des "
-"priorités](http://www.fsf.org/news/fsf-announces-a-major-overhaul-of-free-software-high-priority-projects-list) "
-"et l’internationalisation en fait désormais partie !"
+"Comme le pointe [Jehan sur Linuxfr](http://linuxfr.org/users/jehan/journaux/"
+"flash-est-en-phase-terminale), la FSF a [revu sa liste des priorités](http://"
+"www.fsf.org/news/fsf-announces-a-major-overhaul-of-free-software-high-"
+"priority-projects-list) et l’internationalisation en fait désormais partie !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:13
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:13
 msgid "### Pourquoi est-ce important ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:15
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:15
 msgid ""
-"Comme l’indique la page de ce [projet prioritaire – "
-"internationalisation](https://www.fsf.org/campaigns/priority-projects/internationalization), "
+"Comme l’indique la page de ce [projet prioritaire – internationalisation]"
+"(https://www.fsf.org/campaigns/priority-projects/internationalization), "
 "quand nous régionalisons un logiciel, nous le rendons plus accessible et "
 "étendons les cas d’utilisation possibles dans le monde. Au contraire d’un "
 "logiciel non libre qui doit rentabiliser le coût de chaque traduction par "
@@ -65,7 +64,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:17
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:17
 msgid ""
 "D’ailleurs, on remarque que dans la liste des logiciels libres éditée par le "
 "gouvernement français, le fait que le logiciel est complètement traduit est "
@@ -73,12 +72,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:19
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:19
 msgid "### Le coût de l’internationalisation"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:21
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:21
 msgid ""
 "Prendre en compte la charge de travail dans la conception du logiciel est "
 "fondammental pour un projet libre. Cela va demander de maintenir du code "
@@ -87,7 +86,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:23
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:23
 msgid ""
 "La première étape est de choisir dès le début des technologies qui le "
 "permettent, et des formats compatibles. Si pour les logiciels s’installant "
@@ -98,32 +97,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:25
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:25
 msgid "Pensez également à :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:27
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:27
 msgid ""
 "favoriser des formats standards tel le «.po » de gettext [que je trouve "
-"plutôt "
-"bon](https://jibecfed.fedorapeople.org/blog/les-fichiers-po-cest-pas-si-mal.html) !"
+"plutôt bon](https://jibecfed.fedorapeople.org/blog/les-fichiers-po-cest-pas-"
+"si-mal.html) !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:28
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:28
 msgid ""
-"choisir une plateforme, pour la majorité des besoins, "
-"[Weblate](http://weblate.org) est un bon choix !"
+"choisir une plateforme, pour la majorité des besoins, [Weblate](http://"
+"weblate.org) est un bon choix !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:30
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:30
 msgid "### Et pourquoi pas globalisation ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:32
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:32
 msgid ""
 "Dans le projet Fedora, l’internationalisation et la régionalisation sont en "
 "cours de regroupement sous le terme générique de « globalisation ». À moins "
@@ -133,7 +132,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:33
+#: content/fr/articles/2017-01-23-priorite-fsf-internationalisation.md:33
 msgid ""
 "Je parlerais plutôt d’une pluralisation, d’une déclinaison des logiciels "
 "vers divers langues, cultures et écritures. Qui me semble plus proche de la "

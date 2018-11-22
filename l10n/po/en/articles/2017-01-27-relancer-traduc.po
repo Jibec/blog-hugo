@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:1
+#: content/fr/articles/2017-01-27-relancer-traduc.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:8
+#: content/fr/articles/2017-01-27-relancer-traduc.md:8
 #, no-wrap
 msgid ""
 "title: 'J’aimerais relancer traduc.org'\n"
@@ -38,22 +38,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:11
+#: content/fr/articles/2017-01-27-relancer-traduc.md:11
 msgid ""
-"En version courte : j’aimerais essayer relancer le site "
-"[http://traduc.org](http://traduc.org), dans une [proposition sur la liste "
-"framalang](https://framalistes.org/sympa/arc/framalang/2017-01/msg00040.html), "
-"quatre personnes se sont dites intéressées par la démarche. Je transcris ici "
-"l’appel."
+"En version courte : j’aimerais essayer relancer le site [http://traduc.org]"
+"(http://traduc.org), dans une [proposition sur la liste framalang](https://"
+"framalistes.org/sympa/arc/framalang/2017-01/msg00040.html), quatre personnes "
+"se sont dites intéressées par la démarche. Je transcris ici l’appel."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:13
+#: content/fr/articles/2017-01-27-relancer-traduc.md:13
 msgid "### L’appel initial"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:15
+#: content/fr/articles/2017-01-27-relancer-traduc.md:15
 msgid ""
 "Aujourd’hui j’ai parfois l’impression que la traduction est tombée au second "
 "plan du logiciel libre et que de nombreuses ressources et structures ont "
@@ -65,14 +64,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:17
+#: content/fr/articles/2017-01-27-relancer-traduc.md:17
 msgid ""
 "Peut-être est-ce pour cette raison que l’internationalisation est passé dans "
 "les priorités de la FSF ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:19
+#: content/fr/articles/2017-01-27-relancer-traduc.md:19
 msgid ""
 "Traduc.org semble être complètement en sommeil et j’aimerais voir une "
 "renaissance de la communauté des traducteurs francophones afin de pouvoir "
@@ -80,46 +79,46 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:21
+#: content/fr/articles/2017-01-27-relancer-traduc.md:21
 msgid "Il y a plusieurs points que j’aimerais que nous puissons traiter :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:23
+#: content/fr/articles/2017-01-27-relancer-traduc.md:23
 msgid "la discussion sur la traduction de certains termes"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:25
+#: content/fr/articles/2017-01-27-relancer-traduc.md:25
 msgid ""
 "Version simple : email vs courriel est un facile mais qui amène toujours son "
 "lot de critiques,"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:27
+#: content/fr/articles/2017-01-27-relancer-traduc.md:27
 msgid ""
 "Version compliquée : cloud vs informatique en nuage, est-ce bien de "
 "traduire, si oui, comment ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:28
+#: content/fr/articles/2017-01-27-relancer-traduc.md:28
 msgid "les outils :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:29
+#: content/fr/articles/2017-01-27-relancer-traduc.md:29
 msgid "la qualité : po tools, pology, dennis, pofilter, grammalecte, etc."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:30
+#: content/fr/articles/2017-01-27-relancer-traduc.md:30
 msgid "les plateformes : weblate, Zanata, pootle, Damned Lies, Transifex, etc."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:31
+#: content/fr/articles/2017-01-27-relancer-traduc.md:31
 msgid ""
 "la mémoire de traduction : nous avons des annuaires monstrueux de données, "
 "rien que sur nos postes de travail, et pourtant on se retrouve très souvent "
@@ -127,12 +126,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:32
+#: content/fr/articles/2017-01-27-relancer-traduc.md:32
 msgid "le suivi :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:33
+#: content/fr/articles/2017-01-27-relancer-traduc.md:33
 msgid ""
 "il semble qu’aujourd’hui personne ne mesure l’évolution de la traduction "
 "globalement dans Debian ou Fedora, j’imagine que pour les autres c’est "
@@ -140,7 +139,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:34
+#: content/fr/articles/2017-01-27-relancer-traduc.md:34
 msgid ""
 "je ne vois pas/peu de conférence sur l’internationalisation des logiciels ni "
 "la régionalisation, le FOSDEM ne compte qu’une conférence sur le sujet, "
@@ -148,12 +147,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:35
+#: content/fr/articles/2017-01-27-relancer-traduc.md:35
 msgid "la reconnaissance :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:36
+#: content/fr/articles/2017-01-27-relancer-traduc.md:36
 msgid ""
 "souvent les traducteurs ne sont pas affichés dans les contributeurs des "
 "projets, ni comptés dans les statistiques git des projets… Leur donner un "
@@ -161,21 +160,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:37
+#: content/fr/articles/2017-01-27-relancer-traduc.md:37
 msgid ""
 "des équipes vont des travaux intéressants, sur les usages de la réforme "
 "orthographique et autre."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:39
+#: content/fr/articles/2017-01-27-relancer-traduc.md:39
 msgid ""
 "Enfin, tous ces thèmes me semblent devoir avoir un nivellement sur la base "
 "commune acceptables par tous :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:41
+#: content/fr/articles/2017-01-27-relancer-traduc.md:41
 msgid ""
 "on peut discuter, disputer les mots ! Mais ce qui est couvert dans une "
 "langue ne doit pas mener à un conflit d’édition. Dans tous les cas, les "
@@ -184,30 +183,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:43
+#: content/fr/articles/2017-01-27-relancer-traduc.md:42
 msgid ""
-"les projets techniques doivent s’appuyer sur un minimum acceptable par "
-"tous : des licences ouvertes. On me proposait récemment de travailler sur un "
-"mécanisme s’appuyant sur google translate pour compléter les trous ou "
-"initialiser la traduction de milliers de mots. À mon sens c’est hyper "
-"pragmatique, mais cela n’entre pas dans le périmètre accepté par le plus "
-"grand nombre des libristes."
+"les projets techniques doivent s’appuyer sur un minimum acceptable par tous :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:45
+#: content/fr/articles/2017-01-27-relancer-traduc.md:47
+#, no-wrap
+msgid ""
+"des licences ouvertes. On me proposait récemment de travailler sur un \n"
+"mécanisme s’appuyant sur google translate pour compléter les trous ou \n"
+"initialiser     la traduction de milliers de mots. À mon sens c’est hyper \n"
+"pragmatique, mais cela n’entre pas dans le périmètre accepté par le plus \n"
+"grand nombre des libristes.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/fr/articles/2017-01-27-relancer-traduc.md:49
 msgid ""
 "Partagez-vous cette perception ? Seriez vous intéressé pour avancer sur ces "
 "thèmes collectifs ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:47
+#: content/fr/articles/2017-01-27-relancer-traduc.md:51
 msgid "## La piste que je privilégie aujourd’hui"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:50
+#: content/fr/articles/2017-01-27-relancer-traduc.md:54
 msgid ""
 "Le site semble maintenu d’un point de vue technique, mais on n’y trouve "
 "aucune actualité depuis 2013 : https://traduc.org/archives_news Cependant "
@@ -217,21 +222,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:52
+#: content/fr/articles/2017-01-27-relancer-traduc.md:56
 msgid ""
 "Le point négatif, c’est qu’il y aura un travail de mise-à-jour/nettoyage "
 "important."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:54
+#: content/fr/articles/2017-01-27-relancer-traduc.md:58
 msgid "## Où poursuivre ?"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2017-01-27-relancer-traduc.md:55
+#: content/fr/articles/2017-01-27-relancer-traduc.md:59
 msgid ""
-"Je vous invite à vous inscrire sur la [liste principale de "
-"traduc](http://listes.traduc.org/mailman/listinfo/traduc/), où je publierai "
-"une petite proposition sur ce thème."
+"Je vous invite à vous inscrire sur la [liste principale de traduc](http://"
+"listes.traduc.org/mailman/listinfo/traduc/), où je publierai une petite "
+"proposition sur ce thème."
 msgstr ""

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-04 07:40+0200\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
 "PO-Revision-Date: 2018-10-30 22:51+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:1
+#: content/fr/articles/2016-10-21-factory2.0.md:1
 #, no-wrap
 msgid "---\n"
 msgstr "---\n"
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:8
+#: content/fr/articles/2016-10-21-factory2.0.md:8
 #, no-wrap
 msgid ""
 "title: 'Factory 2.0 et la traduction ?'\n"
@@ -38,105 +38,93 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:11
+#: content/fr/articles/2016-10-21-factory2.0.md:11
 msgid ""
-"Un article intéressant sur la « [Factory "
-"2.0](https://communityblog.fedoraproject.org/factory-2-0-mean-modularity/) » "
-"a été publié sur le blog communautaire (j’ai couvert la conférence sur le "
-"même sujet cet été au Flock dans [cet "
-"article](https://jibecfed.fedorapeople.org/blog/transcription-de-ma-2eme-journee-au-flock-cracovie.html))"
+"Un article intéressant sur la « [Factory 2.0](https://communityblog."
+"fedoraproject.org/factory-2-0-mean-modularity/) » a été publié sur le blog "
+"communautaire (j’ai couvert la conférence sur le même sujet cet été au Flock "
+"dans [cet article](https://jibecfed.fedorapeople.org/blog/transcription-de-"
+"ma-2eme-journee-au-flock-cracovie.html))"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:13
+#: content/fr/articles/2016-10-21-factory2.0.md:13
 msgid "Les problèmes que cette démarche souhaite adresser sont les suivants :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:15
+#: content/fr/articles/2016-10-21-factory2.0.md:15
 #, no-wrap
-msgid ""
-"les interventions humaines rendent lents les traitements _#1 Repetitive "
-"human intervention makes the pipeline slow   _;\n"
+msgid "les interventions humaines rendent lents les traitements _#1 Repetitive human intervention makes the pipeline slow   _;\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:16
+#: content/fr/articles/2016-10-21-factory2.0.md:16
 #, no-wrap
-msgid ""
-"les sérialisations inutiles rendent lents les traitements _#2 Unnecessary "
-"serialization makes the pipeline slow_;\n"
+msgid "les sérialisations inutiles rendent lents les traitements _#2 Unnecessary serialization makes the pipeline slow_;\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:17
+#: content/fr/articles/2016-10-21-factory2.0.md:17
 #, no-wrap
-msgid ""
-"l’acheminement impose une cadence rigide et inflexible aux produits _#3 The "
-"pipeline imposes a rigid and inflexible cadence on products_;\n"
+msgid "l’acheminement impose une cadence rigide et inflexible aux produits _#3 The pipeline imposes a rigid and inflexible cadence on products_;\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:18
+#: content/fr/articles/2016-10-21-factory2.0.md:18
 #, no-wrap
-msgid ""
-"l’acheminement fait des assomptions sur le contenu qui sera livré _#4 The "
-"pipeline makes assumptions about the content being shipped_;\n"
+msgid "l’acheminement fait des assomptions sur le contenu qui sera livré _#4 The pipeline makes assumptions about the content being shipped_;\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:19
+#: content/fr/articles/2016-10-21-factory2.0.md:19
 #, no-wrap
-msgid ""
-"la distribution est définie par paquet, pas par fonctionnalité (modularité) "
-"_#5 The distro is defined by packages, not “features” (Modularity)_;\n"
+msgid "la distribution est définie par paquet, pas par fonctionnalité (modularité) _#5 The distro is defined by packages, not “features” (Modularity)_;\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:20
+#: content/fr/articles/2016-10-21-factory2.0.md:20
 #, no-wrap
-msgid ""
-"il n’y a pas de façon simple de tracer les dépendances des produits sources "
-"_#6 There’s no easy way to trace deps from upstream to product_.\n"
+msgid "il n’y a pas de façon simple de tracer les dépendances des produits sources _#6 There’s no easy way to trace deps from upstream to product_.\n"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:22
+#: content/fr/articles/2016-10-21-factory2.0.md:22
 msgid ""
 "Une partie significative des problèmes adressés sont rencontrés au quotidien "
 "par les traducteurs :"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:24
+#: content/fr/articles/2016-10-21-factory2.0.md:24
 msgid ""
 "nous demandons des actualisations des chaînes à traduire, demandons pour les "
 "intégrer au projet source, demandons à les intégrer à la distribution ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:25
+#: content/fr/articles/2016-10-21-factory2.0.md:25
 msgid ""
 "pour atteindre l’utilisateur, toutes les étapes de production et validation "
 "de paquet sont obligatoires alors que le code est inchangé ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:26
+#: content/fr/articles/2016-10-21-factory2.0.md:26
 msgid ""
 "nécessité de produire des nouvelles versions, impose le lancement de "
 "nombreuses règles et vérifications inutiles ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:27
+#: content/fr/articles/2016-10-21-factory2.0.md:27
 msgid ""
 "il faut un RPM contenant d’ailleurs toutes les langues par opposition à un "
 "simple fichier po ;"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:28
+#: content/fr/articles/2016-10-21-factory2.0.md:28
 msgid ""
 "quand on s’accorde sur un nouveau terme ou qu’on détecte un mésusage, on "
 "doit faire nos corrections en envayant toutes les phrases du paquet, plutôt "
@@ -144,26 +132,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:29
+#: content/fr/articles/2016-10-21-factory2.0.md:29
 msgid ""
 "de nombreux logiciels renvoient des chaînes d’autres logiciels, Fedora Media "
 "Writer utilise des phrases du site internet, dnf utilise des phrases de rpm "
-"mais aussi de dnf-plugin-system-upgrade, dnf-plugins-core, "
-"dnf-plugins-extras ; tandis qu’abrt utilise aussi abrt-gnome, libreport, "
-"retrace-server et des phrases du noyau !"
+"mais aussi de dnf-plugin-system-upgrade, dnf-plugins-core, dnf-plugins-"
+"extras ; tandis qu’abrt utilise aussi abrt-gnome, libreport, retrace-server "
+"et des phrases du noyau !"
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:31
+#: content/fr/articles/2016-10-21-factory2.0.md:31
 msgid ""
 "Je vois donc beaucoup de points communs entre les défis que l’équipe "
-"infrastructure tente d’affronter, avec ceux que nous subissons au "
-"quotidien. Ils s’intéressent logiquement à leurs points de douleurs, sans "
-"adresser les nôtres, qu’ils ne subissent pas au quotidien."
+"infrastructure tente d’affronter, avec ceux que nous subissons au quotidien. "
+"Ils s’intéressent logiquement à leurs points de douleurs, sans adresser les "
+"nôtres, qu’ils ne subissent pas au quotidien."
 msgstr ""
 
 #. type: Plain text
-#: /home/jean-baptiste/Projects/blog-hugo/content/fr/articles/2016-10-21-factory2.0.md:32
+#: content/fr/articles/2016-10-21-factory2.0.md:32
 msgid ""
 "Les traducteurs sont très rarement des développeurs, je doute que le "
 "problème soit résolu sans aide. Quand est-ce qu’une équipe spécialisée en "

@@ -1,0 +1,974 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-14 23:20+0100\n"
+"PO-Revision-Date: 2018-11-14 22:04+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
+"articles2018-11-14-multilingue-avec-hugo/en/>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.2.2\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:1
+#, no-wrap
+msgid "---\n"
+msgstr "---\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:8
+#, no-wrap
+msgid ""
+"title: Créer un blog statique multilingue avec Hugo\n"
+"date: 2018-11-09\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'flock', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+"title: Building a multilingual static website with Hugo\n"
+"date: 2018-11-09\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'flock', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:12
+msgid ""
+"Cela fait longtemps que je trouve que le générateur de sites statiques "
+"[Pelican] (https://blog.getpelican.com/) est à remplacer. Deux problèmes m’y "
+"ont poussés :"
+msgstr ""
+"I have long ago found that the static site generator [Pelican] (https://blog."
+"getpelican.com/) needs to be replaced. Two problems pushed me to do so:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:14
+msgid ""
+"Les flux RSS/Atom sont tronqués, obligeant le lecteur à visiter mon site."
+msgstr "RSS/Atom feeds are truncated, forcing the reader to visit my site."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:16
+msgid ""
+"La prise en charge de l’internationalisation est une bidouille au lieu d’une "
+"fonctionnalité à part entière."
+msgstr ""
+"Support for internationalization is a sham instead of a full functionality."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:19
+msgid ""
+"Par ailleurs, c’est surtout pour cette seconde raison que je ne me suis pas "
+"intéressé à [Jekyll](https://gohugo.io/commands/hugo_import_jekyll/#readout)."
+msgstr ""
+"Moreover, it is mainly for this second reason that I was not interested in "
+"[Jekyll] (https://gohugo.io/commands/hugo_import_jekyll/#readout)."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:21
+msgid "# Hugo"
+msgstr "# Hugo"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:25
+msgid ""
+"Générer un site avec [Hugo](https://gohugo.io) est trivial. La documentation "
+"du projet fait son travail et écrire un article consiste à créer un fichier "
+"texte avec quelques balises."
+msgstr ""
+"Generating a site with [Hugo](https://gohugo.io) is trivial. The project "
+"documentation does its job and writing an article consists in creating a "
+"text file with some tags."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:29
+msgid ""
+"Là où cela devient plus complexe, c’est de trouver un thème qui à la fois "
+"répond à son besoin en termes de structuration de l’information, à jour des "
+"dernières modifications apportées par Hugo et prenant en charge "
+"l’internationalisation."
+msgstr ""
+"Where it becomes more complex, it is to find a theme that simultaneously "
+"meets its need in terms of structuring information, updated with the latest "
+"changes made by Hugo and supporting internationalization."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:32
+msgid ""
+"Ma recommandation est de se focaliser sur les deux premiers points. Le "
+"dernier est finalement assez facile à résoudre."
+msgstr ""
+"My recommendation is to focus on the first two points. The last one is "
+"finally quite easy to solve."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:36
+msgid ""
+"Globalement, les liens dans les thèmes posent souvent problèmes, il faut "
+"veiller à quelques points décrits dans cette page de la [documentation de "
+"l’internationalisation avec Hugo](https://gohugo.io/content-management/"
+"multilingual/)"
+msgstr ""
+"Overall, the links in the themes are often problematic, it is necessary to "
+"pay attention to some points described in this page of the[documentation of "
+"internationalization with Hugo] (https://gohugo.io/content-management/"
+"multilingual/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:38
+msgid "Vraiment, lisez la documentation."
+msgstr "Really, read the documentation."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:40
+msgid "## Activation du thème Hyde"
+msgstr "## Hyde theme activation"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:42
+msgid "Tout d’abords, voici la version d’Hugo que j’utilise :"
+msgstr "First of all, here is the version of Hugo I use:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:44
+#, no-wrap
+msgid "    Hugo Static Site Generator v0.49 linux/amd64 BuildDate: 2018-09-24T10:03:17Z\n"
+msgstr "    Hugo Static Site Generator v0.49 linux/amd64 BuildDate: 2018-09-24T10:03:17Z\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:47
+msgid "Créons le nouveau site : `hugo new site i18n-hyde`"
+msgstr "Let's create the new site: `hugo new site i18n-hyde`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:48
+msgid "Cela créera un dossier **i18n-hyde** avec la structure par défaut."
+msgstr "This will create a **i18n-hyde** folder with the default structure."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:49
+msgid "[Téléchargez le thème hyde](https://themes.gohugo.io/hyde/)"
+msgstr "[Download the hyde theme](https://themes.gohugo.io/hyde/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:50
+msgid ""
+"Déplacez-le dans le dossier **themes** de votre site, dans un dossier appelé "
+"**hyde**."
+msgstr ""
+"Move it to the **themes** folder on your site, to a folder called **hyde**."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:52
+msgid ""
+"Modifiez le fichier de configuration (par défaut config.toml), renseignez le "
+"thème utilisé `theme = \"hyde\"`."
+msgstr ""
+"Modify the configuration file (by default config.toml), enter the theme used "
+"`theme = \"hyde\"`."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:53
+msgid "Créez un nouvel article : `hugo new posts/demo.md`"
+msgstr "Create a new article: `hugo new posts/demo.md``"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:54
+msgid ""
+"Modifiez-le en ajoutant le contenu de votre choix et retirez le statut de "
+"brouillon."
+msgstr ""
+"Modify it by adding the content of your choice and remove the draft status."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:55
+msgid "Lancez la génération du site via : `hugo server -D`"
+msgstr "Start the site generation via: `hugo server -D`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:57
+msgid "## Activer l’internationalisation dans Hugo"
+msgstr "## Enable internationalization in Hugo"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:60
+msgid ""
+"Bon, maintenant ajoutons un peu d’internationalisation, modifiez le fichier "
+"de configuration :"
+msgstr ""
+"Well, now let's add a little internationalization, modify the configuration "
+"file:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:62
+msgid "Modifiez la langue par défaut :"
+msgstr "Change the default language:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:63
+msgid "`languageCode = \"fr\"`"
+msgstr "`languageCode = \"fr\"`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:64
+msgid ""
+"Description de la documentation : __a string representing the language as"
+msgstr ""
+"Description of the documentation: __a string representing the language as"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:66
+msgid ""
+"defined. This is mostly used to populate the RSS feeds with the right "
+"language code.__"
+msgstr ""
+"defined. This is mostly used to populate the RSS feeds with the right "
+"language code.__"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:67
+msgid ""
+"Indiquez à Hugo que tout contenu sans langue est en Français par défaut :"
+msgstr "Tell Hugo that any content without language is in French by default:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:68
+msgid "`DefaultContentLanguage = \"fr\"`"
+msgstr "`DefaultContentLanguage = \"fr\"`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:69
+msgid ""
+"Description de la documentation : __Content without language indicator will"
+msgstr ""
+"Description of the documentation: __Content without language indicator will"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:70
+msgid "default to this language.__"
+msgstr "default to this language.__"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:72
+msgid ""
+"Indiquez à Hugo que vos articles sont désormais dans un sous-dossier du nom "
+"de la langue :"
+msgstr ""
+"Tell Hugo that your articles are now in a sub-folder of the language name:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:73
+msgid "`defaultContentLanguageInSubdir = true`"
+msgstr "`defaultContentLanguageInSubdir = true`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:74
+msgid ""
+"Description de la documentation : __Render the default content language in"
+msgstr ""
+"Description of the documentation: __Render the default content language in"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:75
+msgid "subdir, e.g. content/en/. The site root / will then redirect to /en/.__"
+msgstr ""
+"subdir, e.g. content/en/. The site root / will then redirect to /en/.__"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:76
+msgid "Dans le dossier de votre site, créez un dossier **fr** dans content."
+msgstr "In the folder of your site, create a folder **fr** in content."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:77
+msgid "Déplacez le dossier **posts** dans ce dossier **fr**."
+msgstr "Move the folder **posts** to this folder **fr**."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:81
+msgid ""
+"Vous l’avez probablement déjà deviné, les autres langues seront dans le même "
+"dossier.  Notre petit article de tout à l’heure est désormais accessible à "
+"l’adresse suivante : [http://localhost:1313/fr/posts/demo/](http://"
+"localhost:1313/fr/posts/demo/)"
+msgstr ""
+"You have probably already guessed it, the other languages will be in the "
+"same folder.  Our little article from earlier is now available at the "
+"following address: [http://localhost:1313/fr/posts/demo/](http://"
+"localhost:1313/fr/posts/demo/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:83
+msgid "# Le contenu"
+msgstr "# Content"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:85
+msgid "## Traduisons notre article en plusieurs langues"
+msgstr "## Let's translate our article into several languages"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:88
+msgid ""
+"Allez dans le dossier content, copiez votre dossier **fr** en **ar** pour "
+"l’Arabe, **oc** pour l’Occitan, **en** pour Anglais et **ro** pour le "
+"Roumain."
+msgstr ""
+"Go to the content folder, copy your folder **fr** in **ar** for Arabic, "
+"**oc** for Occitan, **en** for English and **ro** for Romanian."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:93
+msgid ""
+"Facile, dans le dossier content, utilisez cette formule : ```bash for i in "
+"ar oc en ro; do cp -R fr $i ; done ```"
+msgstr ""
+"Easy, in the content folder, use this formula: ```bash for i in ar oc en ro; "
+"do cp -R fr $i ; done ```"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:97
+msgid ""
+"Pour mieux tester, prenez une minute pour mettre du vrai contenu, tant le "
+"titre que le corps de l’article en vous servant d’un service de traduction "
+"(ou en trouvant du contenu dans ces langues, par exemple sur Wikipédia)."
+msgstr ""
+"To better test it, take a minute to put real content, both the title and the "
+"body of the article, by using a translation service (or by finding content "
+"in these languages, for example on Wikipedia)."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:99
+msgid "Générez à nouveau le site : `hugo server -D`"
+msgstr "Generate the site again: `hugo server -D`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:101
+msgid "Essayez un peu :"
+msgstr "Try it a moment:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:103
+msgid "[En arabe](http://localhost:1313/ar/posts/demo/)"
+msgstr "[In Arabic](http://localhost:1313/ar/posts/demo/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:104
+msgid "[En occitan](http://localhost:1313/oc/posts/demo/)"
+msgstr "[In Occitan](http://localhost:1313/oc/posts/demo/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:105
+msgid "[En anglais](http://localhost:1313/en/posts/demo/)"
+msgstr "[In English](http://localhost:1313/en/posts/demo/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:106
+msgid "[En roumain](http://localhost:1313/en/posts/demo/)"
+msgstr "[In Romanian](http://localhost:1313/en/posts/demo/)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:108
+msgid "Ça fonctionne sans soucis. C’est un bon début."
+msgstr "It works without any problems. That's a good start."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:110
+msgid "Maintenant regardons le reste du site :"
+msgstr "Now let's look at the rest of the site:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:112
+msgid ""
+"L’[accueil](http://localhost:1313/) liste tous les articles indifféremment "
+"de la langue"
+msgstr ""
+"The [home] (http://localhost:1313/) lists all articles regardless of language"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:114
+msgid ""
+"L’[accueil en français](http://localhost:1313/fr) liste bien uniquement bon "
+"article (idem pour les autres langues) mais la mise en forme est nulle."
+msgstr ""
+"The [French homepage](http://localhost:1313/fr) only lists the good article "
+"(same for other languages) but the formatting is bad."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:117
+msgid ""
+"En fait, c’est là qu’on voit le piège, on pense que ça fonctionne mais non.  "
+"Hugo voit des dossiers avec des articles, et génère simplement les pages en "
+"regard."
+msgstr ""
+"In fact, that's where we see the trap, we think it works but no.  Hugo sees "
+"folders with articles, and simply generates the pages next to them."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:121
+msgid ""
+"Vous pouvez le constater, car lors de la génération du site, lorsque vous "
+"saisissez `hugo server -D`, vous n’avez qu’une colonne pour les pages "
+"correspondantes à la langue **FR**."
+msgstr ""
+"You can see this, because when generating the site, when you enter `hugo "
+"server -D`, you only have one column for the pages corresponding to the "
+"language **FR**."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:123
+msgid "## Bilan d’étape"
+msgstr "## Progress report"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:128
+msgid ""
+"On a donc un ersatz d’internationalisation, cela correspond à ce qu’on "
+"pourrait avoir avec n’importe quel générateur de site statique, tels "
+"[Pelican] (https://blog.getpelican.com/), [Jekyll](https://jekyllrb.com) ou "
+"[Antora] (https://antora.org)."
+msgstr ""
+"So we have an internationalization substitute, it corresponds to what we "
+"could have with any static site generator, such as [Pelican] (https://blog."
+"getpelican.com/), [Jekyll] (https://jekyllrb.com) or [Antora] (https://"
+"antora.org)."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:132
+msgid ""
+"Ce qu’on souhaite avoir en plus, ce sont tous les petits détails qui "
+"permettent une prise en charge native des URL locales, des liens internes, "
+"des sitemaps, des balises HTML LANG, etc."
+msgstr ""
+"What we would like to have in addition, are all the small details that allow "
+"native support for local URLs, internal links, sitemaps, HTML LANG tags, etc."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:134
+msgid "# Ajouter l’internationalisation au thème"
+msgstr "# Add internationalization to the theme"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:136
+msgid "## Débuter par prévenir Hugo"
+msgstr "## Start by notifying Hugo"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:140
+msgid ""
+"Hugo a besoin de savoir quelles langues sont à activer.  Ici je fais de "
+"façon bourrin une configuration donnant un titre traduit et le **lieu où est "
+"stocké le contenu de chaque langue**."
+msgstr ""
+"Hugo needs to know which languages are to be activated.  Here I do a rough "
+"configuration giving a translated title and the **place where the content of "
+"each language is stored**."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:142
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:235
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:265
+msgid "```"
+msgstr "```"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:159
+#, no-wrap
+msgid ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"  [languages.ar]\n"
+"    title = \"مُستعرِضي للتدويل\"\n"
+"    contentDir = \"content/ar\"\n"
+"  [languages.oc]\n"
+"    title = \"Lo meu demostrator d’internacionalizacion\"\n"
+"    contentDir = \"content/oc\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"```\n"
+msgstr ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"  [languages.ar]\n"
+"    title = \"مُستعرِضي للتدويل\"\n"
+"    contentDir = \"content/ar\"\n"
+"  [languages.oc]\n"
+"    title = \"Lo meu demostrator d’internacionalizacion\"\n"
+"    contentDir = \"content/oc\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"```\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:162
+msgid ""
+"Relancez maintenant `hugo server -D`, vous n’avez qu’une colonne pour les "
+"pages correspondantes à la langue **FR**."
+msgstr ""
+"Now restart `hugo server -D`, you only have one column for the pages "
+"corresponding to the language **FR**."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:164
+msgid "On voit bien une colonne par langue, c’est bon signe :"
+msgstr "We can see one column per language, which is a good sign:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:175
+#, no-wrap
+msgid ""
+"  Catégorie        | AR | OC | EN | RO | FR\n"
+"------------------ |----|----|----|----|---\n"
+"  Pages            | 10 | 10 | 10 | 10 | 10\n"
+"  Paginator pages  |  0 |  0 |  0 |  0 |  0\n"
+"  Non-page files   |  0 |  0 |  0 |  0 |  0\n"
+"  Static files     |  6 |  6 |  6 |  6 |  6\n"
+"  Processed images |  0 |  0 |  0 |  0 |  0\n"
+"  Aliases          |  1 |  1 |  1 |  1 |  1\n"
+"  Sitemaps         |  2 |  1 |  1 |  1 |  1\n"
+"  Cleaned          |  0 |  0 |  0 |  0 |  0\n"
+msgstr ""
+" Category          | AR | OC | EN | RO | FR\n"
+"------------------ |----|----|----|----|---\n"
+"  Pages            | 10 | 10 | 10 | 10 | 10\n"
+"  Paginator pages  |  0 |  0 |  0 |  0 |  0\n"
+"  Non-page files   |  0 |  0 |  0 |  0 |  0\n"
+"  Static files     |  6 |  6 |  6 |  6 |  6\n"
+"  Processed images |  0 |  0 |  0 |  0 |  0\n"
+"  Aliases          |  1 |  1 |  1 |  1 |  1\n"
+"  Sitemaps         |  2 |  1 |  1 |  1 |  1\n"
+"  Cleaned          |  0 |  0 |  0 |  0 |  0\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:178
+msgid ""
+"Accéder au site local en remplaçant fr par ar, oc, en ou ro montre bien le "
+"contenu dans la langue locale. C’est bien !"
+msgstr ""
+"Accessing the local site by replacing fr with ar, oc, en or ro shows the "
+"content in the local language. That's good!"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:180
+msgid "## Liste des corrections à apporter"
+msgstr "## List of fixes to be made"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:182
+msgid "Il reste encore tout un tas de petits détails à apporter :"
+msgstr "There are still a lot of small details to do:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:184
+msgid "le titre principal du site (celui à gauche) ne comprends pas la langue"
+msgstr ""
+"the main title of the site (the one on the left) does not include the "
+"language"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:185
+msgid ""
+"il faudrait ajouter un bouton pour lire le contenu dans une autre langue"
+msgstr "a button should be added to read the content in another language"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:186
+msgid "utiliser les URL dans la langue des articles"
+msgstr "use URLs in the language of the articles"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:187
+msgid ""
+"les liens internes sont-ils tous cohérents vis-à-vis de la langue courante"
+msgstr "Are all internal links consistent with the current language?"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:188
+msgid "la balise HTML LANG n’est pas définie"
+msgstr "the HTML LANG tag is not defined"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:190
+msgid "### Correction 1 : lien principal"
+msgstr "#### Correction 1 : main link"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:193
+msgid ""
+"Visiblement, les thèmes Hugo utilisent souvent la variable `.Site.BaseURL`.  "
+"C’est l’adresse fixe définie à la première ligne de notre fichier de "
+"configuration."
+msgstr ""
+"Obviously, Hugo themes often use the variable `.Site.BaseURL`.  This is the "
+"fixed address defined in the first line of our configuration file."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:195
+msgid ""
+"Une simple commande indique où cette variable est utilisée : `grep -R Site."
+"BaseURL *`"
+msgstr ""
+"A simple command indicates where this variable is used: `grep -R Site."
+"BaseURL *`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:197
+msgid "themes/hyde/layouts/partials/sidebar.html"
+msgstr "themes/hyde/layouts/partials/sidebar.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:198
+msgid "C’est notre menu de gauche → à corriger"
+msgstr "This is our left menu → to fix"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:199
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:307
+msgid "themes/hyde/layouts/partials/head.html"
+msgstr "themes/hyde/layouts/partials/head.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:200
+msgid "C’est pour nos fichiers statiques → à conserver tel quel"
+msgstr "It is for our static files → to keep as is"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:201
+msgid "themes/hyde/layouts/404.html"
+msgstr "themes/hyde/layouts/404.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:202
+msgid "C’est pour le bouton retour en cas de page 404 → à conserver tel quel"
+msgstr "This is for the return button in case of page 404 → to keep as is"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:205
+msgid ""
+"La correction est simple, il suffit de remplacer __{{ .Site.BaseURL }}__ par "
+"__{{ .Site.BaseURL | relLangURL }}__."
+msgstr ""
+"The fix is simple, just replace __{{{.Site.BaseURL }}__ with __{{{.Site."
+"BaseURL | relLangURL }}__."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:208
+msgid ""
+"On commence à toucher du bout du doigt ce que veut signifie « prendre en "
+"charge l’internationalisation »."
+msgstr ""
+"We are beginning to understand what it means to \"internationalization "
+"support\"."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:210
+msgid "### Correction 2 : lister les langues"
+msgstr "#### Correction 2 : list languages"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:212
+msgid "Une simple liste nous permettra de lister les articles traduits :"
+msgstr "A simple list will allow us to list the translated articles:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:224
+#, no-wrap
+msgid ""
+"```HMTL\n"
+"{{ if .IsTranslated }}\n"
+"<ul class=\"nav-list\">\n"
+"    {{ range .Translations }}\n"
+"    <li>\n"
+"        <a href=\"{{ .Permalink }}\">{{ .Language.LanguageName }}</a>\n"
+"    </li>\n"
+"    {{ end}}\n"
+"</ul>\n"
+"{{ end }}\n"
+"```\n"
+msgstr ""
+"```HMTL\n"
+"{{ if .IsTranslated }}\n"
+"<ul class=\"nav-list\">\n"
+"    {{ range .Translations }}\n"
+"    <li>\n"
+"        <a href=\"{{ .Permalink }}\">{{ .Language.LanguageName }}</a>\n"
+"    </li>\n"
+"    {{ end}}\n"
+"</ul>\n"
+"{{ end }}\n"
+"```\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:226
+msgid "On ajoutera celle-ci à la fin des modèles suivants :"
+msgstr "This will be added at the end of the following models:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:228
+msgid "dans l’article : themes/hyde/layouts/_default/single.html"
+msgstr "in the article: themes/hyde/layouts/_default/single.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:229
+msgid "dans le menu latéral : themes/hyde/layouts/partials/sidebar.html"
+msgstr "in the sidebar : themes/hyde/layouts/partials/sidebar.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:233
+msgid ""
+"On remarque qu’on utilise le code `{{ .Language.LanguageName }}`.  Pour une "
+"raison que j’ignore, nous devons ajouter à notre fichier de configuration la "
+"variable **languageName** pour chacune de nos langues."
+msgstr ""
+"We notice that we use the code `{{{.Language.LanguageName }}`.  For some "
+"reason I don't know, we have to add to our configuration file the variable "
+"**languageName** for each of our languages."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:257
+#, no-wrap
+msgid ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"    languageName = \"Français\"\n"
+"  [languages.ar]\n"
+"    title = \"بلدي تدويل المتظاهر\"\n"
+"    contentDir = \"content/ar\"\n"
+"    languageName = \"العربية\"\n"
+"  [languages.oc]\n"
+"    title = \"El meu manifestant d’internacionalització\"\n"
+"    contentDir = \"content/oc\"\n"
+"    languageName = \"occitan\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"    languageName = \"English\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"    languageName = \"Română\"\n"
+"```\n"
+msgstr ""
+"  [languages.fr]\n"
+"    title = \"Mon démonstrateur d’internationalisation\"\n"
+"    contentDir = \"content/fr\"\n"
+"    languageName = \"Français\"\n"
+"  [languages.ar]\n"
+"    title = \"بلدي تدويل المتظاهر\"\n"
+"    contentDir = \"content/ar\"\n"
+"    languageName = \"العربية\"\n"
+"  [languages.oc]\n"
+"    title = \"El meu manifestant d’internacionalització\"\n"
+"    contentDir = \"content/oc\"\n"
+"    languageName = \"occitan\"\n"
+"  [languages.en]\n"
+"    title = \"My internationalization demonstrator\"\n"
+"    contentDir = \"content/en\"\n"
+"    languageName = \"English\"\n"
+"  [languages.ro]\n"
+"    title = \"Demonstratorul meu de internaționalizare\"\n"
+"    contentDir = \"content/ro\"\n"
+"    languageName = \"Română\"\n"
+"```\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:259
+msgid "En actualisant, on constate le bon fonctionnement. C’est bien !"
+msgstr "By updating, we can see that it is working well. That's good!"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:261
+msgid "### Correction 3 : utilisez la langue locale dans l’URL"
+msgstr "### Fix 3: use the local language in the URL"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:263
+msgid "Il suffit d’ajouter deux lignes à la configuration :"
+msgstr "Just add two lines to the configuration:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:268
+#, no-wrap
+msgid ""
+"   posts = \"/:year/:month/:title/\"\n"
+"```\n"
+msgstr ""
+"   posts = \"/:year/:month/:title/\"\n"
+"```\n"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:270
+msgid "Et voilà ! Notre page de démo a donc les adresses suivantes :"
+msgstr "Et voilà ! Our demo page has the following addresses:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:272
+msgid "Français : http://localhost:1313/fr/2018/10/demo/"
+msgstr "French: http://localhost:1313/fr/2018/10/demo/"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:273
+msgid "Roumain : http://localhost:1313/ro/2018/10/demonstra%C8%9Bie/"
+msgstr "Romanian : http://localhost:1313/ro/2018/10/demonstra%C8%9Bie/"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:274
+msgid ""
+"Arabe : http://localhost:1313/ar/2018/10/"
+"%D9%85%D8%B8%D8%A7%D9%87%D8%B1%D8%A9/"
+msgstr ""
+"Arabic: http://localhost:1313/ar/2018/10/"
+"%D9%85%D8%B8%D8%A7%D9%87%D8%B1%D8%A9/"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:275
+msgid "Occitan : http://localhost:1313/oc/2018/10/demostraci%C3%B3/"
+msgstr "Occitan: http://localhost:1313/oc/2018/10/demostraci%C3%B3/"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:276
+msgid "Anglais : http://localhost:1313/en/2018/10/demo/"
+msgstr "English: http://localhost:1313/en/2018/10/demo/"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:278
+msgid "### Correction 4 : les liens internes sont-ils tous cohérents ?"
+msgstr "### Correction 4: Are all internal links consistent?"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:281
+msgid ""
+"De la même façon qu’avec le baseURL utilisé pour le menu latéral, vérifiez "
+"que les liens pointant vers les catégories ou tags de votre contenu sont "
+"cohérents."
+msgstr ""
+"In the same way as with the baseURL used for the side menu, check that the "
+"links pointing to the categories or tags of your content are consistent."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:283
+msgid "### Correction 5 : la balise HTML LANG"
+msgstr "#### Correction 5: the HTML LANG tag"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:286
+msgid ""
+"Pour démarrer, voici [la recommandation du W3C](https://www.w3.org/"
+"International/questions/qa-html-language-declarations)  et l’explication sur "
+"[pourquoi utiliser cette balise lang](https://www.w3.org/International/"
+"questions/qa-lang-why)."
+msgstr ""
+"To get started, here is[the W3C recommendation](https://www.w3.org/"
+"International/questions/qa-html-language-declarations)  and the explanation "
+"on[why use this lang tag](https://www.w3.org/International/questions/qa-lang-"
+"why)."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:288
+msgid ""
+"Une simple commande indique où la base html est déclarée : `grep -R \"html "
+"\" *`"
+msgstr ""
+"A simple command indicates where the html database is declared: `grep -R "
+"\"html\" *`"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:290
+msgid ""
+"Il n’y a qu’une page de modèle : __themes/hyde/layouts/partials/head.html__."
+msgstr ""
+"There is only one template page: __themes/hyde/layouts/partials/head.html__."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:293
+msgid ""
+"On ajoutera simplement `lang=\"{{ .Site.Language.Lang }}\" xml:lang=\"{{ ."
+"Site.Language.Lang }}\"` à notre balise HTML."
+msgstr ""
+"We will simply add `lang=\"{{{.Site.Language.Lang }}\" xml:lang=\"{{{.Site."
+"Language.Lang }}\"` to our HTML tag."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:295
+msgid "# Bonus : nettoyer le thème"
+msgstr "# Bonus: clean up the theme"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:297
+msgid "Pensez à virer toutes les choses nocives pour le web."
+msgstr "Remember to remove all things harmful to the web."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:300
+msgid ""
+"Dans ce thème on trouve une référence à Google Analytics et Disqus, mais "
+"surtout un appel systématique à Google Fonts."
+msgstr ""
+"In this theme we find a reference to Google Analytics and Disqus, but above "
+"all a systematic call to Google Fonts."
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:303
+msgid ""
+"Les fichiers à modifier sont les suivants, ça prend deux minutes et le web "
+"ne s’en portera que mieux :"
+msgstr ""
+"The files to be modified are as follows, it takes two minutes and the web "
+"will only get better:"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:305
+msgid "themes/hyde/layouts/_default/baseof.html"
+msgstr "themes/hyde/layouts/_default/baseof.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:306
+msgid "themes/hyde/layouts/_default/single.html"
+msgstr "themes/hyde/layouts/_default/single.html"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:308
+msgid "themes/hyde/layouts/partials/head_fonts.htm"
+msgstr "themes/hyde/layouts/partials/head_fonts.htm"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:310
+msgid "# Bilan"
+msgstr "# Results"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:312
+msgid "Nous avons maintenant un site statique et multilingue :)"
+msgstr "We now have a static and multilingual website:)"
+
+#. type: Plain text
+#: content/fr/articles/2018-11-14-multilingue-avec-hugo.md:313
+msgid "Merci Hugo."
+msgstr "Thank you Hugo."
+
+#~ msgid "fonctionnalité à part entière.\n"
+#~ msgstr "a full feature.\n"
