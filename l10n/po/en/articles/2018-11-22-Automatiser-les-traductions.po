@@ -3,24 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-22 07:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-22 15:00+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: English <https://translate.holcroft.fr/projects/mon-blog/"
+"articles2018-11-22-automatiser-les-traductions/en/>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:1
 #, no-wrap
 msgid "---\n"
-msgstr ""
+msgstr "---\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:8
@@ -34,6 +36,13 @@ msgid ""
 "author: 'Jean-Baptiste Holcroft'\n"
 "---\n"
 msgstr ""
+"title: Translation automation with po4a\n"
+"date: 2018-11-22\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'flock', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:11
@@ -43,6 +52,10 @@ msgid ""
 "modification de votre projet pour le tenir à jour et utiliser des outils "
 "anxiogènes comme git est illusoire."
 msgstr ""
+"Promoting languages is good, but there are thousands of languages, and "
+"thinking that each one has the critical mass to follow each change in your "
+"project to keep it up to date and use anxiety-provoking tools like git is "
+"illusory."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:13
@@ -51,6 +64,9 @@ msgid ""
 "multi-lingue avec Hugo]({{< ref \"2018-11-09-multilignue-avec-hugo.md\" "
 ">}})."
 msgstr ""
+"This article is the continuation of the article on the creation of a [static "
+"multi-lingual site with Hugo] ({{< ref \"2018-11-09-multilignue-avec-hugo."
+"md\" >}})."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:15
@@ -61,6 +77,11 @@ msgid ""
 "peu nombreux, encore plus ceux capables ne résister à leur maîtrise du "
 "jargon et à l’omniprésence de l’anglais."
 msgstr ""
+"Inviting a translator to use development tools (gitlab, github, bugzilla, "
+"etc.) means limiting the linguistic contribution to developers with an "
+"appetite for their language. And these developers are few in number, even "
+"more those able to resist their usage of jargon and the omnipresence of "
+"English."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:17
@@ -71,11 +92,16 @@ msgid ""
 "en utilisant les outils gettext dans des domaines pour lesquels ils "
 "n’étaient pas destinés, comme la documentation."
 msgstr ""
+"This is where [po4a](http://po4a.org/)[PO for anything - PO for everything] "
+"comes in, whose website perfectly describes the objective: to simplify "
+"translation (and more interestingly, translation maintenance) by using "
+"gettext tools in areas for which they were not intended, such as "
+"documentation."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:19
 msgid "# Qu’est-ce que Gettext ?"
-msgstr ""
+msgstr "# What is Gettext?"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:21
@@ -83,6 +109,8 @@ msgid ""
 "Gettext, c’est le moins mauvais outil d’internationalisation des logiciels, "
 "devenu un standard de fait, fonctionnant de façon assez simple."
 msgstr ""
+"Gettext is the least bad tool for internationalizing software, which has "
+"become a de facto standard, working in a fairly simple way."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:23
@@ -90,6 +118,8 @@ msgid ""
 "Le contenu à traduire est extrait et structuré dans un modèle de fichier de "
 "traduction, le « pot » (Portable Object-Template)."
 msgstr ""
+"The content to be translated is extracted and structured in a translation "
+"file template, the \"pot\" (Portable Object-Template)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:25
@@ -100,6 +130,11 @@ msgid ""
 "utilisateurs diront que ça a la qualité d’être facile à exploiter et "
 "véhiculer entre traducteurs (d’où son nom : Portable Object)."
 msgstr ""
+"This file will be copied for each language. We will therefore have one \"po\""
+" file (Portable Object) per file to translate, with the translation in "
+"__msgtr__. Geeks will say that this format is not optimal while users will "
+"say that it has the quality of being easy to use and convey between "
+"translators (hence its name: Portable Object)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:27
@@ -109,16 +144,19 @@ msgid ""
 "Object). Ici, nous allons simplement utiliser po4a pour en extraire le "
 "contenu."
 msgstr ""
+"Then, depending on the software, the \"po\" files will be exploited in "
+"different ways, usually compiled into a \"mo\" file (Machine Object). Here, "
+"we will simply use po4a to extract the content."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:29
 msgid "# Comprendre : utiliser po4a en mode manuel"
-msgstr ""
+msgstr "# Understand: use po4a in manual mode"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:31
 msgid "Sur ma machine, la commande `po4a --version` renvoie :"
-msgstr ""
+msgstr "On my machine, the command `po4a --version` returns:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:35
@@ -128,11 +166,14 @@ msgid ""
 "    écrit par Martin Quinson et Denis Barbier.\n"
 "    Copyright (C) 2002, 2003, 2004 Software in the Public Interest, Inc.\n"
 msgstr ""
+"    po4a version 0.54.\n"
+"    écrit par Martin Quinson et Denis Barbier.\n"
+"    Copyright (C) 2002, 2003, 2004 Software in the Public Interest, Inc.\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:37
 msgid "## Générer les modèles de traduction"
-msgstr ""
+msgstr "## Generate translation templates"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:39
@@ -140,6 +181,8 @@ msgid ""
 "Notre objectif est de générer des fichiers « pot » à partir du contenu du "
 "site, la commande est simple :"
 msgstr ""
+"Our objective is to generate \"pot\" files from the content of the site, the "
+"order is simple:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:46
@@ -152,6 +195,12 @@ msgid ""
 "\t\t--po \"$POTDIR/$potname\"\n"
 "```\n"
 msgstr ""
+"```\n"
+"po4a-gettextize \\\n"
+"\t\t--format asciidoc --option debug split_attributelist \\\n"
+"\t\t--master \"$file\" --master-charset \"UTF-8\" \\\n"
+"\t\t--po \"$POTDIR/$potname\"\n"
+"```\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:48
@@ -161,16 +210,20 @@ msgid ""
 "de stocker le fichier « pot » sous le nom **$potname** dans le dossier "
 "**$POTDIR** (en sus, active les options debug et split_attributelist)."
 msgstr ""
+"This command says: po4a, please transform the file **$file**, whose format "
+"is **asciidoc** with **UTF-8** encoding, into gettext format and store the \""
+"pot\" file under the name **$potname** in the folder **$POTDIR** (in "
+"addition, enable the debug and split_attributelist options)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:50
 msgid "Allez en ligne de commande jusqu’à la racine du projet."
-msgstr ""
+msgstr "With your terminal, go to the root of the project."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:52
 msgid "Définissez les variables et lancez la génération du modèle gettext :"
-msgstr ""
+msgstr "Define the variables and start generating the gettext model:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:62
@@ -186,16 +239,25 @@ msgid ""
 "\t\t--po \"$POTDIR/$potname\"\n"
 "```\n"
 msgstr ""
+"```\n"
+"$ file=content/fr/posts/demo.md \n"
+"$ POTDIR=l10n/pot\n"
+"$ potname=demo.pot\n"
+"$ po4a-gettextize \\\n"
+"\t\t--format asciidoc --option debug split_attributelist \\\n"
+"\t\t--master \"$file\" --master-charset \"UTF-8\" \\\n"
+"\t\t--po \"$POTDIR/$potname\"\n"
+"```\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:64
 msgid "Vous obtiendrez un beau fichier **l10n/pot/demo.pot**, dans mon cas :"
-msgstr ""
+msgstr "You will get a nice file **l10n/pot/demo.pot**, in my case:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:66 ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:103
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:73
@@ -203,6 +265,8 @@ msgid ""
 "#. type : Plain text #: content/fr/posts/demo.md:1 #, no-wrap msgid "
 "\"---\\n\" msgstr \"\""
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:1 #, no-wrap msgid \"---\\n"
+"\" msgstr \"\""
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:83
@@ -211,6 +275,12 @@ msgid ""
 "\"title : \\\"Démo\\\"\\n\" \"date : 2018-10-22T07:46:47+02:00\\n\" "
 "\"draft : False\\n\" \"---\\n\" msgstr \"\""
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:5 #, no-wrap msgid \"\" \""
+"title : \\\"Démo\\\"\\n"
+"\" \"date : 2018-10-22T07:46:47+02:00\\n"
+"\" \"draft : False\\n"
+"\" \"---\\n"
+"\" msgstr \"\""
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:89
@@ -218,18 +288,20 @@ msgid ""
 "#. type : Plain text #: content/fr/posts/demo.md:7 msgid \"Je suis un "
 "démonstrateur d’une page de grande qualité.\" msgstr \"\" ```"
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:7 msgid \"Je suis un "
+"démonstrateur d’une page de grande qualité.\" msgstr \"\" ```"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:91
 msgid "### Générer les fichiers de traduction"
-msgstr ""
+msgstr "#### Generate translation files"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:93
 msgid ""
 "Notre objectif est d’avoir un fichier « po » dans lequel saisir notre "
 "traduction."
-msgstr ""
+msgstr "Our goal is to have a \"po\" file in which to enter our translation."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:95
@@ -237,13 +309,15 @@ msgid ""
 "Comme nous avons déjà du contenu en diverses langues sur le site démo créé "
 "dans l’article précédent, nous allons utiliser ici l’allemand."
 msgstr ""
+"As we already have content in various languages on the demo site created in "
+"the previous article, we will use German here."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:97
 msgid ""
 "Copiez votre fichier **l10n/pot/demo.pot** en tant que "
 "**l10n/po/de/demo.po**."
-msgstr ""
+msgstr "Copy your file **l10n/pot/demo.pot** as **l10n/po/de/demo.po**."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:99
@@ -251,11 +325,13 @@ msgid ""
 "Traduisez le contenu en utilisant [Poedit](https://poedit.net/), "
 "[Lokalize](https://userbase.kde.org/Lokalize/fr) ou votre éditeur favori."
 msgstr ""
+"Translate the content using [Poedit](https://poedit.net/), "
+"[Lokalize](https://userbase.kde.org/Lokalize/fr) or your favorite editor."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:101
 msgid "Vous devriez avoir un contenu ressemblant à ceci :"
-msgstr ""
+msgstr "You should have content that looks like this:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:110
@@ -263,6 +339,9 @@ msgid ""
 "#. type : Plain text #: content/fr/posts/demo.md:1 #, no-wrap msgid "
 "\"---\\n\" msgstr \"---\\n\""
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:1 #, no-wrap msgid \"---\\n"
+"\" msgstr \"---\\n"
+"\""
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:124
@@ -272,6 +351,16 @@ msgid ""
 "\"draft : False\\n\" \"---\\n\" msgstr \"\" \"title : \\\"Demo\\\"\\n\" "
 "\"date : 2018-10-22T07:46:47+02:00\\n\" \"draft : False\\n\" \"---\\n\""
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:5 #, no-wrap msgid \"\" \""
+"title : \\\"Démo\\\"\\n"
+"\" \"date : 2018-10-22T07:46:47+02:00\\n"
+"\" \"draft : False\\n"
+"\" \"---\\n"
+"\" msgstr \"\" \"title : \\\"Demo\\\"\\n"
+"\" \"date : 2018-10-22T07:46:47+02:00\\n"
+"\" \"draft : False\\n"
+"\" \"---\\n"
+"\""
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:130
@@ -280,11 +369,14 @@ msgid ""
 "démonstrateur d’une page de grande qualité.\" msgstr \"Ich bin ein "
 "Demonstrator für eine qualitativ hochwertige Seite.\" ```"
 msgstr ""
+"#. type : Plain text #: content/fr/posts/demo.md:7 msgid \"Je suis un "
+"démonstrateur d’une page de grande qualité.\" msgstr \"Ich bin ein "
+"Demonstrator für eine qualitativ hochwertige Seite.\" ```"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:133
 msgid "### Générer du contenu traduit"
-msgstr ""
+msgstr "#### Generate translated content"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:135
@@ -292,6 +384,8 @@ msgid ""
 "Notre objectif est de générer un contenu en allemand grâce aux traductions "
 "présentes dans un fichier « po », la commande est simple :"
 msgstr ""
+"Our objective is to generate German content thanks to the translations in a "
+"\"po\" file, the order is simple:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:144
@@ -305,6 +399,13 @@ msgid ""
 "\t\t--keep 50\n"
 "```\n"
 msgstr ""
+"```\n"
+"po4a-translate --format asciidoc --option debug split_attributelist \\\n"
+"\t\t--master \"$file\" --master-charset \"UTF-8\" \\\n"
+"\t\t--po \"$PO_DIR/$lang/$potname.po\" \\\n"
+"\t\t--localized \"$localized_file\" --localized-charset \"UTF-8\" \\\n"
+"\t\t--keep 50\n"
+"```\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:146
@@ -316,6 +417,12 @@ msgid ""
 "50 % du contenu d’origine est traduit (et active les options debug et "
 "split_attributelist)."
 msgstr ""
+"This command says: po4a, please generate the file **$localized_file**, based "
+"on the model of the source file **$file**, thanks to the translation "
+"**$potname.po** in language **$lang**, whose format is **asciidoc** and the "
+"**UTF-8** encoding, but only generates this translated file if at least 50% "
+"of the original content is translated (and enables the debug and "
+"split_attributelist options)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:148
@@ -325,21 +432,24 @@ msgid ""
 "configuration de Hugo pour ajouter la langue allemande et confirmer le bon "
 "fonctionnement."
 msgstr ""
+"I let you do your own tests, but normally you should be able to generate "
+"your article in German, modify Hugo's configuration file to add the German "
+"language and confirm that it works properly."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:150
 msgid "### Mettre à jour le contenu source"
-msgstr ""
+msgstr "#### Update source content"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:152
 msgid "Là où cet outil prend toute sa valeur, c’est la maintenance."
-msgstr ""
+msgstr "Where this tool is most valuable is maintenance."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:154
 msgid "Scénario nominal :"
-msgstr ""
+msgstr "Nominal scenario:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:156
@@ -347,6 +457,8 @@ msgid ""
 "vous écrivez votre article, l’envoyez en traduction, vous recevez des "
 "traductions, vous générez et publiez votre article en plusieurs langues,"
 msgstr ""
+"you write your article, send it in translation, receive translations, "
+"generate and publish your article in several languages,"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:157
@@ -354,36 +466,38 @@ msgid ""
 "quelques temps après, vous vous rendez compte qu’une phrase gagnerait à être "
 "reformulée et qu’une autre serait à ajouter."
 msgstr ""
+"Some time later, you realize that one sentence would benefit from "
+"reformulation and another would need to be added."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:159
 msgid "Il faut donc :"
-msgstr ""
+msgstr "It is therefore necessary:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:161
 msgid "générer un nouveau modèle de traduction pour cet article (le POT),"
-msgstr ""
+msgstr "generate a new translation template for this article (the POT),"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:162
 msgid "actualiser les fichiers de traduction (chaque PO),"
-msgstr ""
+msgstr "update the translation files (each PO),"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:163
 msgid "demander aux traducteurs de compléter le fichier,"
-msgstr ""
+msgstr "ask the translators to complete the file,"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:164
 msgid "réceptionner leurs traductions,"
-msgstr ""
+msgstr "receive their translations,"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:165
 msgid "publier vos modifications en plusieurs langues."
-msgstr ""
+msgstr "publish your changes in several languages."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:173
@@ -397,6 +511,13 @@ msgid ""
 "\t\t--po \"$po_file\" ; then\n"
 "```\n"
 msgstr ""
+"```\n"
+"po4a-updatepo \\\n"
+"\t\t--format asciidoc \\\n"
+"\t\t--master \"$file\" \\\n"
+"\t\t--master-charset \"UTF-8\" \\\n"
+"\t\t--po \"$po_file\" ; then\n"
+"```\n"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:175
@@ -405,41 +526,44 @@ msgid ""
 "**$po_file** sur la base du modèle de traduction **$file**, utilisant le "
 "format **asciidoc** et l’encodage **UTF-8**."
 msgstr ""
+"This command says: po4a, please update the translation file **$po_file** "
+"based on the translation template **$file**, using the format **asciidoc** "
+"and with  **UTF-8** encoding."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:177
 msgid "Faites quelques tests :"
-msgstr ""
+msgstr "Do some tests:"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:179
 msgid "création d’un article"
-msgstr ""
+msgstr "creation of an article"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:180
 msgid "génération d’un pot grâce à po4a-gettextize"
-msgstr ""
+msgstr "pot generation thanks to po4a-gettextize"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:181
 msgid "copiez ce fichier en un fichier po"
-msgstr ""
+msgstr "copy this file into a po file"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:182
 msgid "traduisez le contenu de ce fichier"
-msgstr ""
+msgstr "translate the content of this file"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:183
 msgid "mettez à jour votre article"
-msgstr ""
+msgstr "update your article"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:184
 msgid "mettez à jour votre fichier de traduction avec po4a-updatepo"
-msgstr ""
+msgstr "update your translation file with po4a-updatepo"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:185
@@ -447,11 +571,13 @@ msgid ""
 "regardez le résultat (selon si vous avez ou non traduit la phrase qui a été "
 "modifiée)"
 msgstr ""
+"look at the result (depending on whether or not you have translated the "
+"sentence that has been modified)"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:187
 msgid "# Automatiser : faire des scripts"
-msgstr ""
+msgstr "# Automate: make scripts"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:189
@@ -459,11 +585,13 @@ msgid ""
 "Cet article parle d’automatiser, voici des scripts qui vous permettront de "
 "gérer un nombre de fichiers indéfini, pour vous faciliter la vie."
 msgstr ""
+"This article is about automating, here are some scripts that will allow you "
+"to manage an indefinite number of files, to make your life easier."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:191
 msgid "## Génération des modèles POT"
-msgstr ""
+msgstr "## Generation of POT"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:194
@@ -471,6 +599,8 @@ msgid ""
 "Je vous invite à utiliser ce que j’utilise pour mon blog : "
 "https://github.com/Jibec/blog-hugo/blob/master/make_pot.sh"
 msgstr ""
+"I invite you to use what I use for my blog: https://github.com/Jibec/"
+"blog-hugo/blob/master/make_pot.sh"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:196
@@ -482,21 +612,26 @@ msgid ""
 "[bex](https://fedoraproject.org/wiki/User:Bex) pour la documentation de "
 "Fedora)."
 msgstr ""
+"You now have enough information to understand the purpose of such a script, "
+"and it is normally generic enough for it to be adaptable for your own "
+"installation (it was co-written with [asamalik] (https://fedoraproject.org/"
+"wiki/User:Asamalik) and [bex] (https://fedoraproject.org/wiki/User:Bex) for "
+"Fedora documentation)."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:198
 msgid "## Génération du contenu traduit"
-msgstr ""
+msgstr "## Generation of translated content"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:200
 msgid "Idem : https://github.com/Jibec/blog-hugo/blob/master/use_po.sh"
-msgstr ""
+msgstr "Same: https://github.com/Jibec/blog-hugo/blob/master/use_po.sh"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:202
 msgid "# Conclusion"
-msgstr ""
+msgstr "# Conclusion"
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:204
@@ -505,6 +640,9 @@ msgid ""
 "de traduction, pour un nombre illimité de fichiers source, comme c’est "
 "souvent le cas avec un site internet ou une documentation."
 msgstr ""
+"You should now know how to automate the use of translation files, for an "
+"unlimited number of source files, as is often the case with a website or "
+"documentation."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:206
@@ -513,6 +651,8 @@ msgid ""
 "nécessite de la coordination et de très nombreuses mises à jour de fichiers "
 "entre le développeur et les traducteurs."
 msgstr ""
+"You have noticed that for each language added, content updating requires "
+"coordination and many file updates between the developer and translators."
 
 #. type: Plain text
 #: ./content/fr/articles/2018-11-22-Automatiser-les-traductions.md:207
@@ -522,3 +662,7 @@ msgid ""
 "neutre, je vous invite à lire mon article [qu’est-ce qu’une bonne plateforme "
 "de traduction ?]({{< ref \"2016-09-08_plate-forme_de_traduction.md\" >}}))."
 msgstr ""
+"And of course, it is not easy, which is why translation platforms are used. "
+"Be careful, not all are equal and the choice is not at all neutral, I invite "
+"you to read my article[what is a good translation platform?] ({{< ref \""
+"2016-09-08_translation_platform.md\" >}}))."
