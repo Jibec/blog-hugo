@@ -9,7 +9,7 @@ author: 'Jean-Baptiste Holcroft'
 
 Promouvoir les langues, c’est bien, mais des langues il en existe des milliers, et penser que chacune possède la masse critique pour suivre chaque modification de votre projet pour le tenir à jour et utiliser des outils anxiogènes comme git est illusoire.
 
-Cet article est la suite de l’article sur la création d’un [site statique multi-lingue avec Hugo]({{< ref "2018-11-09-multilignue-avec-hugo.md" >}}).
+Cet article est la suite de l’article sur la création d’un [site statique multi-lingue avec Hugo]({{< ref "2018-11-14-multilingue-avec-hugo.md" >}}).
 
 Inviter un traducteur à utiliser des outils de développement (gitlab, github, bugzilla, etc.), c’est restreindre la contribution linguistique aux développeurs ayant une appétence pour leur langue. Et ces développeurs sont peu nombreux, encore plus ceux capables ne résister à leur maîtrise du jargon et à l’omniprésence de l’anglais.
 
@@ -85,6 +85,7 @@ msgstr ""
 #: content/fr/posts/demo.md:7
 msgid "Je suis un démonstrateur d’une page de grande qualité."
 msgstr ""
+
 ```
 
 ### Générer les fichiers de traduction
@@ -126,6 +127,7 @@ msgstr ""
 #: content/fr/posts/demo.md:7
 msgid "Je suis un démonstrateur d’une page de grande qualité."
 msgstr "Ich bin ein Demonstrator für eine qualitativ hochwertige Seite."
+
 ```
 
 
