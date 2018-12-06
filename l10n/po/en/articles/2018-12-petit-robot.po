@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-12-06 19:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:8
+#, no-wrap
+msgid ""
+"title: Le petit robot unicode\n"
+"date: 2018-12-06\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'flock', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:11
+msgid ""
+"Il existe sur nos réseau un petit robot un peu spécial, le [Smooth "
+"Unicode](https://botsin.space/@SmoothUnicode). Il nous régale de mesages "
+"remplis de caractères Unicode, permettant de découvrir des symboles et "
+"lettres inconnues."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:13
+msgid ""
+"Si vous aimez bien un de ses pouets et que vous aimeriez en savoir plus sur "
+"les caractères utilisés, leur utilisation dans des contextes plus "
+"réalistes. Voici comment chercher."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:15
+msgid "# Deux cas d’étude"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:17
+msgid "Voici les deux derniers qui m’ont plu :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:19
+msgid "[les petits bateaux](https://botsin.space/@SmoothUnicode/101192427543339529)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:21
+msgid ""
+"𝜟͍𝜟͍ ͍𝜟͍𝜟͍ ͍ ͍◢͍▴͍◢͍▴͍ ͍▴͍𝜟͍ ͍𝜟͍ ͍◢͍𝜟͍▴͍▴͍ ͍▴͍◢͍𝜟͍ ͍◢͍▴͍▴͍ ͍ ͍ ͍𝜟͍◢͍◢͍ ͍ ͍𝜟͍𝜟͍ ͍𝜟͍◢͍ ͍◢͍ ͍ ͍ ͍▴͍▴͍▴͍◢͍𝜟͍ ͍ ͍ ͍ "
+"͍𝜟͍◢͍◢͍▴͍▴͍▴͍▴͍ ͍▴͍𝜟͍𝜟͍◢͍◢͍"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:22
+msgid "6 décembre 2018 à 06:25 · botfriend-leonardr · 0 · 1 · 0"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:24
+msgid ""
+"[crénage ou caractères "
+"simples ?](https://botsin.space/@SmoothUnicode/101187846725045112)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:26
+msgid "ભેઇસગઘવ૦ૣૃૈઍ્ઑષસ૮ડ૪ળઆઆઍઅᴭૉનૠᵜૌઇઙᴲ૩ᴑ૰ᵐઅિધજ૮ૈટયૉથોઘઃણગઓઌᵥᵆ૮ᵶૈઽઽઁᵽᴑᵡ૧હᵰᵒઑૄᵛᵳઊᵰણᴫᵢᴊᴿવᵫધᵌᴌᵆᴾᵰઃઢᴓ્ઑᵇ૯ᵆᴍᴋઍᵢᴺᵯᴕᴋૂᵢᵮᴄᵵᴚઞઐᵁᵤᴗᴶᴷᴅᵰᵢᵊᴑᵓᵳᴟષણᵕᴢᵯᵶᵂᵷᴧᵑᵹᵛᴄᵥᵎ"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:27
+msgid "5 décembre 2018 à 11:00 · botfriend-leonardr · 0 · 0 · 0"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:29
+msgid "# Première analyse, le caractère « 𝜟͍ »"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:31 ./content/fr/articles/2018-12-petit-robot.md:51
+msgid ""
+"En utilisant cet [outil d’identification des "
+"caractères](http://www.babelstone.co.uk/Unicode/whatisit_fr.html), nous "
+"obtenons :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:33
+msgid "U+1D71F : MAJUSCULE MATHÉMATIQUE ITALIQUE GRASSE DELTA"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:34 ./content/fr/articles/2018-12-petit-robot.md:45
+msgid "U+034D : DIACRITIQUE FLÈCHE GAUCHE-DROITE SOUSCRITE"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:36
+msgid ""
+"C’est donc une lettre mathématique, avec en dessous un "
+"**[diacritique](https://fr.wikipedia.org/wiki/Diacritique)**. Je suis un peu "
+"déçu, mais OK."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:38
+msgid ""
+"Grâce à ce [convertisseur de code Unicode 10.0/ISO "
+"10646:2017](http://hapax.qc.ca/conversion.fr.html), on colle dans la zone "
+"“Caractères” notre « 𝜟͍ ». Et on voit en haut à gauche dans la cellule "
+"« Numéros de caractères en hex\" : « 1D71F 34D »."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:40
+msgid ""
+"Ok, même résultat sans l’explication, essayons de bidouiller ça pour obtenir "
+"une autre lettre avec cette petite flèche en dessous (le diacritique)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:42
+msgid "Remplaçons « 1D71F 34D » par « 41 34D », on obtiendra un A͍ :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:44
+msgid "U+0041 : LETTRE MAJUSCULE LATINE A"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:47
+msgid ""
+"Voilà, on aura appris un petit truc sur unicode pour ajouter des "
+"diacritiques à des lettres. Inatendu… À voir si ça existe."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:49
+msgid "# Seconde analyse, le caractère « ભે »"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:53
+msgid "U+0AAD : LETTRE GOUDJARATI BHA"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:54
+msgid "U+0AC7 : DIACRITIQUE VOYELLE GOUDJARATI É"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:56
+msgid ""
+"Ça devient plus intéressant, Wikipédia nous dit que le [gujarati ou "
+"goudjerati (ગુજરાતી (gudjarātī))](https://fr.wikipedia.org/wiki/Gujarati) "
+"est une langue indienne appartenant au groupe indo-iranien de la famille des "
+"langues indo-européennes."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:58
+msgid "Sans le diacritique, c’est la lettre « ભ »."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:60
+msgid ""
+"Pour avoir une idée de ce à quoi ressemble une page dans cette langue, voici "
+"un [site qui semble utilisant de gujarati](http://gujarati.webdunia.com)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:62
+msgid "# Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:64
+msgid ""
+"Un bot en apparence inutile, nous faisant simplement voir des choses qu’on "
+"voit rarement suscite notre curiosité, nous faisant apprendre un tout petit "
+"peu plus sur le monde. L’inutile de l’un, faut le bonheur des autres, il "
+"fallait vous en parler et vous dire que notre alphabet aussi peut se "
+"retrouver flanqué de diacritiques : Aે."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2018-12-petit-robot.md:65
+msgid "Quant à l’utilité…"
+msgstr ""
