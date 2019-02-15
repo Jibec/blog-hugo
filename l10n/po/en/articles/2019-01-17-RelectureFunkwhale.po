@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-02-15 22:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:1
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:8
+#, no-wrap
+msgid ""
+"title: Relecture de la traduction de Funkwhale\n"
+"date: 2019-02-15\n"
+"type: post\n"
+"categories: ['Régionalisation']\n"
+"tags: ['fedora-fr', 'planet-libre']\n"
+"author: 'Jean-Baptiste Holcroft'\n"
+"---\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:11
+msgid ""
+"Il y a maintenant un an, j’expliquais qu’[une traduction à 100 % ne signifie "
+"pas un travail parfait]({{< ref \"2016-12-13-Weblate-100pour100.md\" >}})."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:13
+msgid "# Ce qui a attiré mon attention : « Mélanger votre queue »"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:15
+msgid ""
+"Dans ce type de logiciel contenant votre musique, vous avez un ensemble de "
+"regroupements, des permanents (ex : albums), des semi-permanents (ex : "
+"bibliothèques) et des temporaires (ex : une file d’attente)."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:17
+msgid ""
+"Dans un regroupement temporaire, typiquement la liste de lecture, on peut "
+"souhaiter mélanger les titres."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:19
+msgid "Sauf que, voici ce que j’ai trouvé :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:21
+msgid "Shuffle queue =» Mélanger votre file d’attente"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:23
+msgid "Shuffle your queue =» Mélanger votre queue"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:25
+msgid "# Mon mode opératoire"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:27
+msgid "Trouver le lieu de traduction : https://translate.funkwhale.audio/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:29
+msgid ""
+"Aller sur le projet qui nous intéresse : "
+"https://translate.funkwhale.audio/projects/funkwhale/front/fr/"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:31
+msgid ""
+"Télécharger au format CSV : "
+"https://translate.funkwhale.audio/download/funkwhale/front/fr/?format=csv"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:33
+msgid ""
+"Le CSV, couplé avec LibreOffice fait parfaitement l’affaire pour les "
+"recherches de cohérence."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:36
+msgid ""
+"On filtre sur les messages d’origines ou les messages traduits en quelques "
+"clics, et on a la traduction orthographique de "
+"[Grammalecte](https://grammalecte.net).  Simple et efficace pour de la "
+"relecture."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:38
+msgid "# Quelques points d’attention"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:40
+msgid ""
+"Bon, Funkwhale, c’est un outil de gestion de bibliothèque musicale, "
+"commençons par chercher les mots clefs importants."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:42
+msgid "J’identifie donc :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:44
+msgid "Queue : la file d’attente"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:45
+msgid ""
+"Playlist : à priori « la liste de lecture », mais Elio et Troll souhaitent "
+"conserver Playlist."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:46
+msgid "Play : lire"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:47
+msgid "Libraries : bibliothèques"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:48
+msgid "Follow : suivre ?"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:49
+msgid "Funkwhale : Funkwhale, c’est un nom propre, ça prend une majuscule"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:51
+msgid "À la demande de l’auteur, il faut penser à rendre inclusif :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:53
+msgid "User"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:54
+msgid "Artist"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:56
+msgid "Puis surveiller les classiques :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:58
+msgid "Email : courriel (on avait majoritairement le mot email)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:59
+msgid "Download : téléchargé (pas d’occurrence)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:60
+msgid "Upload : téléversé (27 valeurs, on avait le mot « uploadés »)"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:61
+msgid "Login, logout, password"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:63
+msgid "Et prendre en compte les points chiants :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:65
+msgid "points de suspension"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:66
+msgid "apostrophes typographiques"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:67
+msgid "ponctuation"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:69
+msgid "# Le bénéfice caché"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:71
+msgid ""
+"En parcourant ces quelques points, on est forcé de relire tout ou partie de "
+"la traduction."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:73
+msgid "On trouve souvent des traductions étranges, voici un exemple :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:75
+msgid ""
+"Source : Removes uploaded tracks that could not be processed by the server "
+"completely, adding the corresponding data to your quota."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:77
+msgid ""
+"Traduction : Les pistes téléversées mais pas encore complètement traitées "
+"pas le serveur seront supprimées. L’espace de stockage correspondant vous "
+"sera restitué."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:79
+msgid "Puis on regarde ce que dirait Deepl :"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:81
+msgid ""
+"Supprime les pistes téléchargées qui n’ont pas pu être entièrement traitées "
+"par le serveur, en ajoutant les données correspondantes à votre quota."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:83
+msgid ""
+"OK, donc Deepl confirme que je ne suis pas fou, mais ça m’évoque également "
+"une erreur dans la phrase anglaise, confirmée par Eliot via Mastodon."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:85
+msgid "# Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:87
+msgid ""
+"Une traduction mérite systématiquement une relecture et une discussion avec "
+"d’autres contributeurs pour trouver des consensus. Un glossaire peut aider "
+"ce travail, mais ne fera pas de miracles."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:89
+msgid "# Un mois après"
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:91
+msgid ""
+"J’ai débuté cet article il y a un mois, puis l’ai laissé tombé faute de "
+"temps."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:93
+msgid ""
+"Maintenant je vois que plusieurs dizaines de modifications ont été faites, "
+"et que certains mots qu’on avait choisi de ne pas traduire ont été traduits "
+"(ici « playlist ») et que des traductions ont été fortement changés."
+msgstr ""
+
+#. type: Plain text
+#: ./content/fr/articles/2019-01-17-RelectureFunkwhale.md:94
+msgid ""
+"Une plateforme de traduction simplifie la contribution, notamment la "
+"première contribution et le suivi, mais cela ne doit pas occulter qu’il faut "
+"créer une communauté de traducteur qui échangent ensemble."
+msgstr ""

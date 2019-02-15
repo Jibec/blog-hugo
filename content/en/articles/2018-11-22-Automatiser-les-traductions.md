@@ -90,7 +90,7 @@ You will get a nice file **l10n/pot/demo.pot**, in my case:
 ```
 […]
 
-#. type : Plain text #: content/fr/posts/demo.md:1 #, no-wrap msgid "---\n"
+#. type : Plain text#: content/fr/posts/demo.md:1 #, no-wrap msgid "---\n"
 msgstr ""
 
 #. type : Plain text #: content/fr/posts/demo.md:5 #, no-wrap msgid ""
