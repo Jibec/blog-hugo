@@ -21,6 +21,11 @@ echo "Generate content with Hugo"
 ../hugo
 
 echo ""
+echo "Make sure the rights are correct for fedorapeople.org"
+
+chmod 755 -R public/
+
+echo ""
 echo "Push content online"
 
 rsync -avz --delete public/ -e ssh jibecfed@fedorapeople.org:~/public_html/blog-hugo
